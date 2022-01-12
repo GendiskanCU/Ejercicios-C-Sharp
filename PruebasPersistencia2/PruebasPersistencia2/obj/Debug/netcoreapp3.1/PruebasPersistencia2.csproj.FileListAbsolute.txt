@@ -1,0 +1,14 @@
+D:\DATOS\Desktop\Pers\CSharp\PruebasPersistencia2\PruebasPersistencia2\bin\Debug\netcoreapp3.1\PruebasPersistencia2.exe
+D:\DATOS\Desktop\Pers\CSharp\PruebasPersistencia2\PruebasPersistencia2\bin\Debug\netcoreapp3.1\PruebasPersistencia2.deps.json
+D:\DATOS\Desktop\Pers\CSharp\PruebasPersistencia2\PruebasPersistencia2\bin\Debug\netcoreapp3.1\PruebasPersistencia2.runtimeconfig.json
+D:\DATOS\Desktop\Pers\CSharp\PruebasPersistencia2\PruebasPersistencia2\bin\Debug\netcoreapp3.1\PruebasPersistencia2.runtimeconfig.dev.json
+D:\DATOS\Desktop\Pers\CSharp\PruebasPersistencia2\PruebasPersistencia2\bin\Debug\netcoreapp3.1\PruebasPersistencia2.dll
+D:\DATOS\Desktop\Pers\CSharp\PruebasPersistencia2\PruebasPersistencia2\bin\Debug\netcoreapp3.1\PruebasPersistencia2.pdb
+D:\DATOS\Desktop\Pers\CSharp\PruebasPersistencia2\PruebasPersistencia2\obj\Debug\netcoreapp3.1\PruebasPersistencia2.csproj.AssemblyReference.cache
+D:\DATOS\Desktop\Pers\CSharp\PruebasPersistencia2\PruebasPersistencia2\obj\Debug\netcoreapp3.1\PruebasPersistencia2.GeneratedMSBuildEditorConfig.editorconfig
+D:\DATOS\Desktop\Pers\CSharp\PruebasPersistencia2\PruebasPersistencia2\obj\Debug\netcoreapp3.1\PruebasPersistencia2.AssemblyInfoInputs.cache
+D:\DATOS\Desktop\Pers\CSharp\PruebasPersistencia2\PruebasPersistencia2\obj\Debug\netcoreapp3.1\PruebasPersistencia2.AssemblyInfo.cs
+D:\DATOS\Desktop\Pers\CSharp\PruebasPersistencia2\PruebasPersistencia2\obj\Debug\netcoreapp3.1\PruebasPersistencia2.csproj.CoreCompileInputs.cache
+D:\DATOS\Desktop\Pers\CSharp\PruebasPersistencia2\PruebasPersistencia2\obj\Debug\netcoreapp3.1\PruebasPersistencia2.dll
+D:\DATOS\Desktop\Pers\CSharp\PruebasPersistencia2\PruebasPersistencia2\obj\Debug\netcoreapp3.1\PruebasPersistencia2.pdb
+D:\DATOS\Desktop\Pers\CSharp\PruebasPersistencia2\PruebasPersistencia2\obj\Debug\netcoreapp3.1\PruebasPersistencia2.genruntimeconfig.cache

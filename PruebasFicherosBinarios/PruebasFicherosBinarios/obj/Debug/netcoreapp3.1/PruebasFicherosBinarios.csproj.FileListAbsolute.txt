@@ -1,0 +1,14 @@
+D:\DATOS\Desktop\Pers\CSharp\PruebasFicherosBinarios\PruebasFicherosBinarios\bin\Debug\netcoreapp3.1\PruebasFicherosBinarios.exe
+D:\DATOS\Desktop\Pers\CSharp\PruebasFicherosBinarios\PruebasFicherosBinarios\bin\Debug\netcoreapp3.1\PruebasFicherosBinarios.deps.json
+D:\DATOS\Desktop\Pers\CSharp\PruebasFicherosBinarios\PruebasFicherosBinarios\bin\Debug\netcoreapp3.1\PruebasFicherosBinarios.runtimeconfig.json
+D:\DATOS\Desktop\Pers\CSharp\PruebasFicherosBinarios\PruebasFicherosBinarios\bin\Debug\netcoreapp3.1\PruebasFicherosBinarios.runtimeconfig.dev.json
+D:\DATOS\Desktop\Pers\CSharp\PruebasFicherosBinarios\PruebasFicherosBinarios\bin\Debug\netcoreapp3.1\PruebasFicherosBinarios.dll
+D:\DATOS\Desktop\Pers\CSharp\PruebasFicherosBinarios\PruebasFicherosBinarios\bin\Debug\netcoreapp3.1\PruebasFicherosBinarios.pdb
+D:\DATOS\Desktop\Pers\CSharp\PruebasFicherosBinarios\PruebasFicherosBinarios\obj\Debug\netcoreapp3.1\PruebasFicherosBinarios.csproj.AssemblyReference.cache
+D:\DATOS\Desktop\Pers\CSharp\PruebasFicherosBinarios\PruebasFicherosBinarios\obj\Debug\netcoreapp3.1\PruebasFicherosBinarios.GeneratedMSBuildEditorConfig.editorconfig
+D:\DATOS\Desktop\Pers\CSharp\PruebasFicherosBinarios\PruebasFicherosBinarios\obj\Debug\netcoreapp3.1\PruebasFicherosBinarios.AssemblyInfoInputs.cache
+D:\DATOS\Desktop\Pers\CSharp\PruebasFicherosBinarios\PruebasFicherosBinarios\obj\Debug\netcoreapp3.1\PruebasFicherosBinarios.AssemblyInfo.cs
+D:\DATOS\Desktop\Pers\CSharp\PruebasFicherosBinarios\PruebasFicherosBinarios\obj\Debug\netcoreapp3.1\PruebasFicherosBinarios.csproj.CoreCompileInputs.cache
+D:\DATOS\Desktop\Pers\CSharp\PruebasFicherosBinarios\PruebasFicherosBinarios\obj\Debug\netcoreapp3.1\PruebasFicherosBinarios.dll
+D:\DATOS\Desktop\Pers\CSharp\PruebasFicherosBinarios\PruebasFicherosBinarios\obj\Debug\netcoreapp3.1\PruebasFicherosBinarios.pdb
+D:\DATOS\Desktop\Pers\CSharp\PruebasFicherosBinarios\PruebasFicherosBinarios\obj\Debug\netcoreapp3.1\PruebasFicherosBinarios.genruntimeconfig.cache

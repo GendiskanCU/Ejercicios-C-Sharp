@@ -1,0 +1,8 @@
+D:\DATOS\Desktop\Pers\CSharp\EjerciciosPilas\EjerciciosPilas\bin\Debug\EjerciciosPilas.exe.config
+D:\DATOS\Desktop\Pers\CSharp\EjerciciosPilas\EjerciciosPilas\bin\Debug\EjerciciosPilas.exe
+D:\DATOS\Desktop\Pers\CSharp\EjerciciosPilas\EjerciciosPilas\bin\Debug\EjerciciosPilas.pdb
+D:\DATOS\Desktop\Pers\CSharp\EjerciciosPilas\EjerciciosPilas\obj\Debug\EjerciciosPilas.csproj.AssemblyReference.cache
+D:\DATOS\Desktop\Pers\CSharp\EjerciciosPilas\EjerciciosPilas\obj\Debug\EjerciciosPilas.csproj.SuggestedBindingRedirects.cache
+D:\DATOS\Desktop\Pers\CSharp\EjerciciosPilas\EjerciciosPilas\obj\Debug\EjerciciosPilas.csproj.CoreCompileInputs.cache
+D:\DATOS\Desktop\Pers\CSharp\EjerciciosPilas\EjerciciosPilas\obj\Debug\EjerciciosPilas.exe
+D:\DATOS\Desktop\Pers\CSharp\EjerciciosPilas\EjerciciosPilas\obj\Debug\EjerciciosPilas.pdb

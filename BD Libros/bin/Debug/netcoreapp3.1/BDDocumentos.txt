@@ -1,0 +1,12 @@
+L&109&0&Título libro 0&Autor libro 0&Estantería I
+A&Periódico 1&1&Artículo 1&Autor artículo 1&Estantería II
+L&111&2&Título libro 2&Autor libro 2&Estantería I
+A&Periódico 3&3&Artículo 3&Autor artículo 3&Estantería II
+L&113&4&Título libro 4&Autor libro 4&Estantería I
+A&Periódico 5&5&Artículo 5&Autor artículo 5&Estantería II
+L&115&6&Título libro 6&Autor libro 6&Estantería I
+A&Periódico 7&7&Artículo 7&Autor artículo 7&Estantería II
+L&117&8&Título libro 8&Autor libro 8&Estantería I
+A&Periódico 9&9&Artículo 9&Autor artículo 9&Estantería II
+A&Diario Tal&10&El calentamiento global&Francisca Jiménez&II
+L&653&11&Programación orientada a objetos con C Sharp&Julia Pérez&III

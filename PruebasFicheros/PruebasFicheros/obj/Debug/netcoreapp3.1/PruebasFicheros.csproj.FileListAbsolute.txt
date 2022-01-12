@@ -1,0 +1,14 @@
+D:\DATOS\Desktop\Pers\CSharp\PruebasFicheros\PruebasFicheros\bin\Debug\netcoreapp3.1\PruebasFicheros.exe
+D:\DATOS\Desktop\Pers\CSharp\PruebasFicheros\PruebasFicheros\bin\Debug\netcoreapp3.1\PruebasFicheros.deps.json
+D:\DATOS\Desktop\Pers\CSharp\PruebasFicheros\PruebasFicheros\bin\Debug\netcoreapp3.1\PruebasFicheros.runtimeconfig.json
+D:\DATOS\Desktop\Pers\CSharp\PruebasFicheros\PruebasFicheros\bin\Debug\netcoreapp3.1\PruebasFicheros.runtimeconfig.dev.json
+D:\DATOS\Desktop\Pers\CSharp\PruebasFicheros\PruebasFicheros\bin\Debug\netcoreapp3.1\PruebasFicheros.dll
+D:\DATOS\Desktop\Pers\CSharp\PruebasFicheros\PruebasFicheros\bin\Debug\netcoreapp3.1\PruebasFicheros.pdb
+D:\DATOS\Desktop\Pers\CSharp\PruebasFicheros\PruebasFicheros\obj\Debug\netcoreapp3.1\PruebasFicheros.csproj.AssemblyReference.cache
+D:\DATOS\Desktop\Pers\CSharp\PruebasFicheros\PruebasFicheros\obj\Debug\netcoreapp3.1\PruebasFicheros.GeneratedMSBuildEditorConfig.editorconfig
+D:\DATOS\Desktop\Pers\CSharp\PruebasFicheros\PruebasFicheros\obj\Debug\netcoreapp3.1\PruebasFicheros.AssemblyInfoInputs.cache
+D:\DATOS\Desktop\Pers\CSharp\PruebasFicheros\PruebasFicheros\obj\Debug\netcoreapp3.1\PruebasFicheros.AssemblyInfo.cs
+D:\DATOS\Desktop\Pers\CSharp\PruebasFicheros\PruebasFicheros\obj\Debug\netcoreapp3.1\PruebasFicheros.csproj.CoreCompileInputs.cache
+D:\DATOS\Desktop\Pers\CSharp\PruebasFicheros\PruebasFicheros\obj\Debug\netcoreapp3.1\PruebasFicheros.dll
+D:\DATOS\Desktop\Pers\CSharp\PruebasFicheros\PruebasFicheros\obj\Debug\netcoreapp3.1\PruebasFicheros.pdb
+D:\DATOS\Desktop\Pers\CSharp\PruebasFicheros\PruebasFicheros\obj\Debug\netcoreapp3.1\PruebasFicheros.genruntimeconfig.cache

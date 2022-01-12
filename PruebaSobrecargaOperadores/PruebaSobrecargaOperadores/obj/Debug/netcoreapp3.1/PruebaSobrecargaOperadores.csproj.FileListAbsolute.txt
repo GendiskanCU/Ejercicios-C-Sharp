@@ -1,0 +1,14 @@
+D:\DATOS\Downloads\PruebaSobrecargaOperadores\PruebaSobrecargaOperadores\bin\Debug\netcoreapp3.1\PruebaSobrecargaOperadores.exe
+D:\DATOS\Downloads\PruebaSobrecargaOperadores\PruebaSobrecargaOperadores\bin\Debug\netcoreapp3.1\PruebaSobrecargaOperadores.deps.json
+D:\DATOS\Downloads\PruebaSobrecargaOperadores\PruebaSobrecargaOperadores\bin\Debug\netcoreapp3.1\PruebaSobrecargaOperadores.runtimeconfig.json
+D:\DATOS\Downloads\PruebaSobrecargaOperadores\PruebaSobrecargaOperadores\bin\Debug\netcoreapp3.1\PruebaSobrecargaOperadores.runtimeconfig.dev.json
+D:\DATOS\Downloads\PruebaSobrecargaOperadores\PruebaSobrecargaOperadores\bin\Debug\netcoreapp3.1\PruebaSobrecargaOperadores.dll
+D:\DATOS\Downloads\PruebaSobrecargaOperadores\PruebaSobrecargaOperadores\bin\Debug\netcoreapp3.1\PruebaSobrecargaOperadores.pdb
+D:\DATOS\Downloads\PruebaSobrecargaOperadores\PruebaSobrecargaOperadores\obj\Debug\netcoreapp3.1\PruebaSobrecargaOperadores.csproj.AssemblyReference.cache
+D:\DATOS\Downloads\PruebaSobrecargaOperadores\PruebaSobrecargaOperadores\obj\Debug\netcoreapp3.1\PruebaSobrecargaOperadores.GeneratedMSBuildEditorConfig.editorconfig
+D:\DATOS\Downloads\PruebaSobrecargaOperadores\PruebaSobrecargaOperadores\obj\Debug\netcoreapp3.1\PruebaSobrecargaOperadores.AssemblyInfoInputs.cache
+D:\DATOS\Downloads\PruebaSobrecargaOperadores\PruebaSobrecargaOperadores\obj\Debug\netcoreapp3.1\PruebaSobrecargaOperadores.AssemblyInfo.cs
+D:\DATOS\Downloads\PruebaSobrecargaOperadores\PruebaSobrecargaOperadores\obj\Debug\netcoreapp3.1\PruebaSobrecargaOperadores.csproj.CoreCompileInputs.cache
+D:\DATOS\Downloads\PruebaSobrecargaOperadores\PruebaSobrecargaOperadores\obj\Debug\netcoreapp3.1\PruebaSobrecargaOperadores.dll
+D:\DATOS\Downloads\PruebaSobrecargaOperadores\PruebaSobrecargaOperadores\obj\Debug\netcoreapp3.1\PruebaSobrecargaOperadores.pdb
+D:\DATOS\Downloads\PruebaSobrecargaOperadores\PruebaSobrecargaOperadores\obj\Debug\netcoreapp3.1\PruebaSobrecargaOperadores.genruntimeconfig.cache

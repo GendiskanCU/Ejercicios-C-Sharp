@@ -1,0 +1,14 @@
+D:\DATOS\Desktop\Pers\CSharp\PruebasVarias\PruebasVarias\bin\Debug\netcoreapp3.1\PruebasVarias.exe
+D:\DATOS\Desktop\Pers\CSharp\PruebasVarias\PruebasVarias\bin\Debug\netcoreapp3.1\PruebasVarias.deps.json
+D:\DATOS\Desktop\Pers\CSharp\PruebasVarias\PruebasVarias\bin\Debug\netcoreapp3.1\PruebasVarias.runtimeconfig.json
+D:\DATOS\Desktop\Pers\CSharp\PruebasVarias\PruebasVarias\bin\Debug\netcoreapp3.1\PruebasVarias.runtimeconfig.dev.json
+D:\DATOS\Desktop\Pers\CSharp\PruebasVarias\PruebasVarias\bin\Debug\netcoreapp3.1\PruebasVarias.dll
+D:\DATOS\Desktop\Pers\CSharp\PruebasVarias\PruebasVarias\bin\Debug\netcoreapp3.1\PruebasVarias.pdb
+D:\DATOS\Desktop\Pers\CSharp\PruebasVarias\PruebasVarias\obj\Debug\netcoreapp3.1\PruebasVarias.csproj.AssemblyReference.cache
+D:\DATOS\Desktop\Pers\CSharp\PruebasVarias\PruebasVarias\obj\Debug\netcoreapp3.1\PruebasVarias.GeneratedMSBuildEditorConfig.editorconfig
+D:\DATOS\Desktop\Pers\CSharp\PruebasVarias\PruebasVarias\obj\Debug\netcoreapp3.1\PruebasVarias.AssemblyInfoInputs.cache
+D:\DATOS\Desktop\Pers\CSharp\PruebasVarias\PruebasVarias\obj\Debug\netcoreapp3.1\PruebasVarias.AssemblyInfo.cs
+D:\DATOS\Desktop\Pers\CSharp\PruebasVarias\PruebasVarias\obj\Debug\netcoreapp3.1\PruebasVarias.csproj.CoreCompileInputs.cache
+D:\DATOS\Desktop\Pers\CSharp\PruebasVarias\PruebasVarias\obj\Debug\netcoreapp3.1\PruebasVarias.dll
+D:\DATOS\Desktop\Pers\CSharp\PruebasVarias\PruebasVarias\obj\Debug\netcoreapp3.1\PruebasVarias.pdb
+D:\DATOS\Desktop\Pers\CSharp\PruebasVarias\PruebasVarias\obj\Debug\netcoreapp3.1\PruebasVarias.genruntimeconfig.cache

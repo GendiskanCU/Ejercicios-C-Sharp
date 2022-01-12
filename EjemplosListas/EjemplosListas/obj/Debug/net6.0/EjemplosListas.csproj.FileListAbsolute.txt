@@ -1,0 +1,15 @@
+D:\DATOS\Desktop\Pers\CSharp\EjemplosListas\EjemplosListas\obj\Debug\net6.0\EjemplosListas.csproj.AssemblyReference.cache
+D:\DATOS\Desktop\Pers\CSharp\EjemplosListas\EjemplosListas\obj\Debug\net6.0\EjemplosListas.GeneratedMSBuildEditorConfig.editorconfig
+D:\DATOS\Desktop\Pers\CSharp\EjemplosListas\EjemplosListas\obj\Debug\net6.0\EjemplosListas.AssemblyInfoInputs.cache
+D:\DATOS\Desktop\Pers\CSharp\EjemplosListas\EjemplosListas\obj\Debug\net6.0\EjemplosListas.AssemblyInfo.cs
+D:\DATOS\Desktop\Pers\CSharp\EjemplosListas\EjemplosListas\obj\Debug\net6.0\EjemplosListas.csproj.CoreCompileInputs.cache
+D:\DATOS\Desktop\Pers\CSharp\EjemplosListas\EjemplosListas\bin\Debug\net6.0\EjemplosListas.exe
+D:\DATOS\Desktop\Pers\CSharp\EjemplosListas\EjemplosListas\bin\Debug\net6.0\EjemplosListas.deps.json
+D:\DATOS\Desktop\Pers\CSharp\EjemplosListas\EjemplosListas\bin\Debug\net6.0\EjemplosListas.runtimeconfig.json
+D:\DATOS\Desktop\Pers\CSharp\EjemplosListas\EjemplosListas\bin\Debug\net6.0\EjemplosListas.dll
+D:\DATOS\Desktop\Pers\CSharp\EjemplosListas\EjemplosListas\bin\Debug\net6.0\ref\EjemplosListas.dll
+D:\DATOS\Desktop\Pers\CSharp\EjemplosListas\EjemplosListas\bin\Debug\net6.0\EjemplosListas.pdb
+D:\DATOS\Desktop\Pers\CSharp\EjemplosListas\EjemplosListas\obj\Debug\net6.0\EjemplosListas.dll
+D:\DATOS\Desktop\Pers\CSharp\EjemplosListas\EjemplosListas\obj\Debug\net6.0\ref\EjemplosListas.dll
+D:\DATOS\Desktop\Pers\CSharp\EjemplosListas\EjemplosListas\obj\Debug\net6.0\EjemplosListas.pdb
+D:\DATOS\Desktop\Pers\CSharp\EjemplosListas\EjemplosListas\obj\Debug\net6.0\EjemplosListas.genruntimeconfig.cache

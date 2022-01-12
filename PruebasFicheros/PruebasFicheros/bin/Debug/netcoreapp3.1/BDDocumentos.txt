@@ -1,0 +1,10 @@
+0 - Título libro 0 - Autor libro 0 - Estantería I - 109
+1 - Artículo 1 - Autor artículo 1 - Estantería II - Periódico 1
+2 - Título libro 2 - Autor libro 2 - Estantería I - 111
+3 - Artículo 3 - Autor artículo 3 - Estantería II - Periódico 3
+4 - Título libro 4 - Autor libro 4 - Estantería I - 113
+5 - Artículo 5 - Autor artículo 5 - Estantería II - Periódico 5
+6 - Título libro 6 - Autor libro 6 - Estantería I - 115
+7 - Artículo 7 - Autor artículo 7 - Estantería II - Periódico 7
+8 - Título libro 8 - Autor libro 8 - Estantería I - 117
+9 - Artículo 9 - Autor artículo 9 - Estantería II - Periódico 9

@@ -1,0 +1,9 @@
+D:\DATOS\Desktop\Pers\CSharp\EjercicioSQLite\EjercicioSQLite\bin\Debug\EjercicioSQLite.exe.config
+D:\DATOS\Desktop\Pers\CSharp\EjercicioSQLite\EjercicioSQLite\bin\Debug\EjercicioSQLite.exe
+D:\DATOS\Desktop\Pers\CSharp\EjercicioSQLite\EjercicioSQLite\bin\Debug\EjercicioSQLite.pdb
+D:\DATOS\Desktop\Pers\CSharp\EjercicioSQLite\EjercicioSQLite\obj\Debug\EjercicioSQLite.csproj.AssemblyReference.cache
+D:\DATOS\Desktop\Pers\CSharp\EjercicioSQLite\EjercicioSQLite\obj\Debug\EjercicioSQLite.csproj.CoreCompileInputs.cache
+D:\DATOS\Desktop\Pers\CSharp\EjercicioSQLite\EjercicioSQLite\obj\Debug\EjercicioSQLite.exe
+D:\DATOS\Desktop\Pers\CSharp\EjercicioSQLite\EjercicioSQLite\obj\Debug\EjercicioSQLite.pdb
+D:\DATOS\Desktop\Pers\CSharp\EjercicioSQLite\EjercicioSQLite\obj\Debug\EjercicioSQLite.csproj.CopyComplete
+D:\DATOS\Desktop\Pers\CSharp\EjercicioSQLite\EjercicioSQLite\obj\Debug\EjercicioSQLite.csproj.SuggestedBindingRedirects.cache

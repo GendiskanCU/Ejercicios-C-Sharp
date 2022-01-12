@@ -1,0 +1,14 @@
+D:\DATOS\Desktop\Pers\CSharp\PruebasXML\Pruebas\Pruebas\bin\Debug\netcoreapp3.1\Pruebas.exe
+D:\DATOS\Desktop\Pers\CSharp\PruebasXML\Pruebas\Pruebas\bin\Debug\netcoreapp3.1\Pruebas.deps.json
+D:\DATOS\Desktop\Pers\CSharp\PruebasXML\Pruebas\Pruebas\bin\Debug\netcoreapp3.1\Pruebas.runtimeconfig.json
+D:\DATOS\Desktop\Pers\CSharp\PruebasXML\Pruebas\Pruebas\bin\Debug\netcoreapp3.1\Pruebas.runtimeconfig.dev.json
+D:\DATOS\Desktop\Pers\CSharp\PruebasXML\Pruebas\Pruebas\bin\Debug\netcoreapp3.1\Pruebas.dll
+D:\DATOS\Desktop\Pers\CSharp\PruebasXML\Pruebas\Pruebas\bin\Debug\netcoreapp3.1\Pruebas.pdb
+D:\DATOS\Desktop\Pers\CSharp\PruebasXML\Pruebas\Pruebas\obj\Debug\netcoreapp3.1\Pruebas.csproj.AssemblyReference.cache
+D:\DATOS\Desktop\Pers\CSharp\PruebasXML\Pruebas\Pruebas\obj\Debug\netcoreapp3.1\Pruebas.GeneratedMSBuildEditorConfig.editorconfig
+D:\DATOS\Desktop\Pers\CSharp\PruebasXML\Pruebas\Pruebas\obj\Debug\netcoreapp3.1\Pruebas.AssemblyInfoInputs.cache
+D:\DATOS\Desktop\Pers\CSharp\PruebasXML\Pruebas\Pruebas\obj\Debug\netcoreapp3.1\Pruebas.AssemblyInfo.cs
+D:\DATOS\Desktop\Pers\CSharp\PruebasXML\Pruebas\Pruebas\obj\Debug\netcoreapp3.1\Pruebas.csproj.CoreCompileInputs.cache
+D:\DATOS\Desktop\Pers\CSharp\PruebasXML\Pruebas\Pruebas\obj\Debug\netcoreapp3.1\Pruebas.dll
+D:\DATOS\Desktop\Pers\CSharp\PruebasXML\Pruebas\Pruebas\obj\Debug\netcoreapp3.1\Pruebas.pdb
+D:\DATOS\Desktop\Pers\CSharp\PruebasXML\Pruebas\Pruebas\obj\Debug\netcoreapp3.1\Pruebas.genruntimeconfig.cache

@@ -1,0 +1,14 @@
+c:\users\asus\documents\visual studio 2013\Projects\CsharpSqlite\CsharpSqlite\bin\Debug\CsharpSqlite.exe.config
+c:\users\asus\documents\visual studio 2013\Projects\CsharpSqlite\CsharpSqlite\obj\Debug\CsharpSqlite.csprojResolveAssemblyReference.cache
+c:\users\asus\documents\visual studio 2013\Projects\CsharpSqlite\CsharpSqlite\bin\Debug\CsharpSqlite.exe
+c:\users\asus\documents\visual studio 2013\Projects\CsharpSqlite\CsharpSqlite\bin\Debug\CsharpSqlite.pdb
+c:\users\asus\documents\visual studio 2013\Projects\CsharpSqlite\CsharpSqlite\obj\Debug\CsharpSqlite.exe
+c:\users\asus\documents\visual studio 2013\Projects\CsharpSqlite\CsharpSqlite\obj\Debug\CsharpSqlite.pdb
+D:\DATOS\Desktop\Pers\CSharp\CsharpSqlite\CsharpSqlite\bin\Debug\CsharpSqlite.exe.config
+D:\DATOS\Desktop\Pers\CSharp\CsharpSqlite\CsharpSqlite\bin\Debug\CsharpSqlite.exe
+D:\DATOS\Desktop\Pers\CSharp\CsharpSqlite\CsharpSqlite\bin\Debug\CsharpSqlite.pdb
+D:\DATOS\Desktop\Pers\CSharp\CsharpSqlite\CsharpSqlite\obj\Debug\CsharpSqlite.csproj.AssemblyReference.cache
+D:\DATOS\Desktop\Pers\CSharp\CsharpSqlite\CsharpSqlite\obj\Debug\CsharpSqlite.csproj.CoreCompileInputs.cache
+D:\DATOS\Desktop\Pers\CSharp\CsharpSqlite\CsharpSqlite\obj\Debug\CsharpSqlite.csproj.CopyComplete
+D:\DATOS\Desktop\Pers\CSharp\CsharpSqlite\CsharpSqlite\obj\Debug\CsharpSqlite.exe
+D:\DATOS\Desktop\Pers\CSharp\CsharpSqlite\CsharpSqlite\obj\Debug\CsharpSqlite.pdb

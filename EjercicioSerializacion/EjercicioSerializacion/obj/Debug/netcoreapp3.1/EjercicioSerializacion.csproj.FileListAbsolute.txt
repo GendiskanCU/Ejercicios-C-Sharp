@@ -1,0 +1,14 @@
+D:\DATOS\Desktop\Pers\CSharp\EjercicioSerializacion\EjercicioSerializacion\bin\Debug\netcoreapp3.1\EjercicioSerializacion.exe
+D:\DATOS\Desktop\Pers\CSharp\EjercicioSerializacion\EjercicioSerializacion\bin\Debug\netcoreapp3.1\EjercicioSerializacion.deps.json
+D:\DATOS\Desktop\Pers\CSharp\EjercicioSerializacion\EjercicioSerializacion\bin\Debug\netcoreapp3.1\EjercicioSerializacion.runtimeconfig.json
+D:\DATOS\Desktop\Pers\CSharp\EjercicioSerializacion\EjercicioSerializacion\bin\Debug\netcoreapp3.1\EjercicioSerializacion.runtimeconfig.dev.json
+D:\DATOS\Desktop\Pers\CSharp\EjercicioSerializacion\EjercicioSerializacion\bin\Debug\netcoreapp3.1\EjercicioSerializacion.dll
+D:\DATOS\Desktop\Pers\CSharp\EjercicioSerializacion\EjercicioSerializacion\bin\Debug\netcoreapp3.1\EjercicioSerializacion.pdb
+D:\DATOS\Desktop\Pers\CSharp\EjercicioSerializacion\EjercicioSerializacion\obj\Debug\netcoreapp3.1\EjercicioSerializacion.csproj.AssemblyReference.cache
+D:\DATOS\Desktop\Pers\CSharp\EjercicioSerializacion\EjercicioSerializacion\obj\Debug\netcoreapp3.1\EjercicioSerializacion.GeneratedMSBuildEditorConfig.editorconfig
+D:\DATOS\Desktop\Pers\CSharp\EjercicioSerializacion\EjercicioSerializacion\obj\Debug\netcoreapp3.1\EjercicioSerializacion.AssemblyInfoInputs.cache
+D:\DATOS\Desktop\Pers\CSharp\EjercicioSerializacion\EjercicioSerializacion\obj\Debug\netcoreapp3.1\EjercicioSerializacion.AssemblyInfo.cs
+D:\DATOS\Desktop\Pers\CSharp\EjercicioSerializacion\EjercicioSerializacion\obj\Debug\netcoreapp3.1\EjercicioSerializacion.csproj.CoreCompileInputs.cache
+D:\DATOS\Desktop\Pers\CSharp\EjercicioSerializacion\EjercicioSerializacion\obj\Debug\netcoreapp3.1\EjercicioSerializacion.dll
+D:\DATOS\Desktop\Pers\CSharp\EjercicioSerializacion\EjercicioSerializacion\obj\Debug\netcoreapp3.1\EjercicioSerializacion.pdb
+D:\DATOS\Desktop\Pers\CSharp\EjercicioSerializacion\EjercicioSerializacion\obj\Debug\netcoreapp3.1\EjercicioSerializacion.genruntimeconfig.cache

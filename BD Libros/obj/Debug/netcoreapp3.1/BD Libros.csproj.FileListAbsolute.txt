@@ -1,0 +1,42 @@
+E:\C Sharp\Ejercicios\BDLibros\BD Libros\bin\Debug\netcoreapp3.1\BD Libros.exe
+E:\C Sharp\Ejercicios\BDLibros\BD Libros\bin\Debug\netcoreapp3.1\BD Libros.deps.json
+E:\C Sharp\Ejercicios\BDLibros\BD Libros\bin\Debug\netcoreapp3.1\BD Libros.runtimeconfig.json
+E:\C Sharp\Ejercicios\BDLibros\BD Libros\bin\Debug\netcoreapp3.1\BD Libros.runtimeconfig.dev.json
+E:\C Sharp\Ejercicios\BDLibros\BD Libros\bin\Debug\netcoreapp3.1\BD Libros.dll
+E:\C Sharp\Ejercicios\BDLibros\BD Libros\bin\Debug\netcoreapp3.1\BD Libros.pdb
+E:\C Sharp\Ejercicios\BDLibros\BD Libros\obj\Debug\netcoreapp3.1\BD Libros.GeneratedMSBuildEditorConfig.editorconfig
+E:\C Sharp\Ejercicios\BDLibros\BD Libros\obj\Debug\netcoreapp3.1\BD Libros.AssemblyInfoInputs.cache
+E:\C Sharp\Ejercicios\BDLibros\BD Libros\obj\Debug\netcoreapp3.1\BD Libros.AssemblyInfo.cs
+E:\C Sharp\Ejercicios\BDLibros\BD Libros\obj\Debug\netcoreapp3.1\BD Libros.csproj.CoreCompileInputs.cache
+E:\C Sharp\Ejercicios\BDLibros\BD Libros\obj\Debug\netcoreapp3.1\BD Libros.dll
+E:\C Sharp\Ejercicios\BDLibros\BD Libros\obj\Debug\netcoreapp3.1\BD Libros.pdb
+E:\C Sharp\Ejercicios\BDLibros\BD Libros\obj\Debug\netcoreapp3.1\BD Libros.genruntimeconfig.cache
+E:\C Sharp\Ejercicios\BDLibros\BD Libros\obj\Debug\netcoreapp3.1\BD Libros.csproj.AssemblyReference.cache
+D:\DATOS\Downloads\BD Libros\bin\Debug\netcoreapp3.1\BD Libros.exe
+D:\DATOS\Downloads\BD Libros\bin\Debug\netcoreapp3.1\BD Libros.deps.json
+D:\DATOS\Downloads\BD Libros\bin\Debug\netcoreapp3.1\BD Libros.runtimeconfig.json
+D:\DATOS\Downloads\BD Libros\bin\Debug\netcoreapp3.1\BD Libros.runtimeconfig.dev.json
+D:\DATOS\Downloads\BD Libros\bin\Debug\netcoreapp3.1\BD Libros.dll
+D:\DATOS\Downloads\BD Libros\bin\Debug\netcoreapp3.1\BD Libros.pdb
+D:\DATOS\Downloads\BD Libros\obj\Debug\netcoreapp3.1\BD Libros.csproj.AssemblyReference.cache
+D:\DATOS\Downloads\BD Libros\obj\Debug\netcoreapp3.1\BD Libros.GeneratedMSBuildEditorConfig.editorconfig
+D:\DATOS\Downloads\BD Libros\obj\Debug\netcoreapp3.1\BD Libros.AssemblyInfoInputs.cache
+D:\DATOS\Downloads\BD Libros\obj\Debug\netcoreapp3.1\BD Libros.AssemblyInfo.cs
+D:\DATOS\Downloads\BD Libros\obj\Debug\netcoreapp3.1\BD Libros.csproj.CoreCompileInputs.cache
+D:\DATOS\Downloads\BD Libros\obj\Debug\netcoreapp3.1\BD Libros.dll
+D:\DATOS\Downloads\BD Libros\obj\Debug\netcoreapp3.1\BD Libros.pdb
+D:\DATOS\Downloads\BD Libros\obj\Debug\netcoreapp3.1\BD Libros.genruntimeconfig.cache
+D:\DATOS\Desktop\Pers\CSharp\BD Libros\bin\Debug\netcoreapp3.1\BD Libros.exe
+D:\DATOS\Desktop\Pers\CSharp\BD Libros\bin\Debug\netcoreapp3.1\BD Libros.deps.json
+D:\DATOS\Desktop\Pers\CSharp\BD Libros\bin\Debug\netcoreapp3.1\BD Libros.runtimeconfig.json
+D:\DATOS\Desktop\Pers\CSharp\BD Libros\bin\Debug\netcoreapp3.1\BD Libros.runtimeconfig.dev.json
+D:\DATOS\Desktop\Pers\CSharp\BD Libros\bin\Debug\netcoreapp3.1\BD Libros.dll
+D:\DATOS\Desktop\Pers\CSharp\BD Libros\bin\Debug\netcoreapp3.1\BD Libros.pdb
+D:\DATOS\Desktop\Pers\CSharp\BD Libros\obj\Debug\netcoreapp3.1\BD Libros.csproj.AssemblyReference.cache
+D:\DATOS\Desktop\Pers\CSharp\BD Libros\obj\Debug\netcoreapp3.1\BD Libros.GeneratedMSBuildEditorConfig.editorconfig
+D:\DATOS\Desktop\Pers\CSharp\BD Libros\obj\Debug\netcoreapp3.1\BD Libros.AssemblyInfoInputs.cache
+D:\DATOS\Desktop\Pers\CSharp\BD Libros\obj\Debug\netcoreapp3.1\BD Libros.AssemblyInfo.cs
+D:\DATOS\Desktop\Pers\CSharp\BD Libros\obj\Debug\netcoreapp3.1\BD Libros.csproj.CoreCompileInputs.cache
+D:\DATOS\Desktop\Pers\CSharp\BD Libros\obj\Debug\netcoreapp3.1\BD Libros.dll
+D:\DATOS\Desktop\Pers\CSharp\BD Libros\obj\Debug\netcoreapp3.1\BD Libros.pdb
+D:\DATOS\Desktop\Pers\CSharp\BD Libros\obj\Debug\netcoreapp3.1\BD Libros.genruntimeconfig.cache

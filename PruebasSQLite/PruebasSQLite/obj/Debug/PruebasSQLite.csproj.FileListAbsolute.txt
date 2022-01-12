@@ -1,0 +1,8 @@
+D:\DATOS\Desktop\Pers\CSharp\PruebasSQLite\PruebasSQLite\obj\Debug\PruebasSQLite.csproj.AssemblyReference.cache
+D:\DATOS\Desktop\Pers\CSharp\PruebasSQLite\PruebasSQLite\obj\Debug\PruebasSQLite.csproj.CoreCompileInputs.cache
+D:\DATOS\Desktop\Pers\CSharp\PruebasSQLite\PruebasSQLite\bin\Debug\PruebasSQLite.exe.config
+D:\DATOS\Desktop\Pers\CSharp\PruebasSQLite\PruebasSQLite\bin\Debug\PruebasSQLite.exe
+D:\DATOS\Desktop\Pers\CSharp\PruebasSQLite\PruebasSQLite\bin\Debug\PruebasSQLite.pdb
+D:\DATOS\Desktop\Pers\CSharp\PruebasSQLite\PruebasSQLite\obj\Debug\PruebasSQLite.csproj.CopyComplete
+D:\DATOS\Desktop\Pers\CSharp\PruebasSQLite\PruebasSQLite\obj\Debug\PruebasSQLite.exe
+D:\DATOS\Desktop\Pers\CSharp\PruebasSQLite\PruebasSQLite\obj\Debug\PruebasSQLite.pdb

@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31829.152
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PruebasFicherosBinarios", "PruebasFicherosBinarios\PruebasFicherosBinarios.csproj", "{7F5E7E8D-7E7E-4568-BD9F-18BAFC474562}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7F5E7E8D-7E7E-4568-BD9F-18BAFC474562}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F5E7E8D-7E7E-4568-BD9F-18BAFC474562}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F5E7E8D-7E7E-4568-BD9F-18BAFC474562}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F5E7E8D-7E7E-4568-BD9F-18BAFC474562}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {563C4A69-FE93-48E8-A18F-FA6E4391601B}
+	EndGlobalSection
+EndGlobal

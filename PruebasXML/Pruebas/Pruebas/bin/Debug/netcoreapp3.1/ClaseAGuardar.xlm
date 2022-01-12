@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<ClaseAGuardar xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <datos>
+    <miniDato>
+      <dato>0</dato>
+    </miniDato>
+    <miniDato>
+      <dato>8888</dato>
+    </miniDato>
+    <miniDato>
+      <dato>4</dato>
+    </miniDato>
+    <miniDato>
+      <dato>6</dato>
+    </miniDato>
+    <miniDato>
+      <dato>8</dato>
+    </miniDato>
+    <miniDato>
+      <dato>10</dato>
+    </miniDato>
+    <miniDato>
+      <dato>12</dato>
+    </miniDato>
+    <miniDato>
+      <dato>14</dato>
+    </miniDato>
+    <miniDato>
+      <dato>16</dato>
+    </miniDato>
+    <miniDato>
+      <dato>18</dato>
+    </miniDato>
+  </datos>
+  <frase>Esto es una prueba</frase>
+</ClaseAGuardar>

@@ -1,0 +1,15 @@
+D:\DATOS\Desktop\Pers\CSharp\EjerciciosArrayList\EjerciciosArrayList\bin\Debug\net6.0\EjerciciosArrayList.exe
+D:\DATOS\Desktop\Pers\CSharp\EjerciciosArrayList\EjerciciosArrayList\bin\Debug\net6.0\EjerciciosArrayList.deps.json
+D:\DATOS\Desktop\Pers\CSharp\EjerciciosArrayList\EjerciciosArrayList\bin\Debug\net6.0\EjerciciosArrayList.runtimeconfig.json
+D:\DATOS\Desktop\Pers\CSharp\EjerciciosArrayList\EjerciciosArrayList\bin\Debug\net6.0\EjerciciosArrayList.dll
+D:\DATOS\Desktop\Pers\CSharp\EjerciciosArrayList\EjerciciosArrayList\bin\Debug\net6.0\ref\EjerciciosArrayList.dll
+D:\DATOS\Desktop\Pers\CSharp\EjerciciosArrayList\EjerciciosArrayList\bin\Debug\net6.0\EjerciciosArrayList.pdb
+D:\DATOS\Desktop\Pers\CSharp\EjerciciosArrayList\EjerciciosArrayList\obj\Debug\net6.0\EjerciciosArrayList.csproj.AssemblyReference.cache
+D:\DATOS\Desktop\Pers\CSharp\EjerciciosArrayList\EjerciciosArrayList\obj\Debug\net6.0\EjerciciosArrayList.GeneratedMSBuildEditorConfig.editorconfig
+D:\DATOS\Desktop\Pers\CSharp\EjerciciosArrayList\EjerciciosArrayList\obj\Debug\net6.0\EjerciciosArrayList.AssemblyInfoInputs.cache
+D:\DATOS\Desktop\Pers\CSharp\EjerciciosArrayList\EjerciciosArrayList\obj\Debug\net6.0\EjerciciosArrayList.AssemblyInfo.cs
+D:\DATOS\Desktop\Pers\CSharp\EjerciciosArrayList\EjerciciosArrayList\obj\Debug\net6.0\EjerciciosArrayList.csproj.CoreCompileInputs.cache
+D:\DATOS\Desktop\Pers\CSharp\EjerciciosArrayList\EjerciciosArrayList\obj\Debug\net6.0\EjerciciosArrayList.dll
+D:\DATOS\Desktop\Pers\CSharp\EjerciciosArrayList\EjerciciosArrayList\obj\Debug\net6.0\ref\EjerciciosArrayList.dll
+D:\DATOS\Desktop\Pers\CSharp\EjerciciosArrayList\EjerciciosArrayList\obj\Debug\net6.0\EjerciciosArrayList.pdb
+D:\DATOS\Desktop\Pers\CSharp\EjerciciosArrayList\EjerciciosArrayList\obj\Debug\net6.0\EjerciciosArrayList.genruntimeconfig.cache

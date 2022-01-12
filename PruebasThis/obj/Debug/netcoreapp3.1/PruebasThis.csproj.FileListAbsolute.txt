@@ -1,0 +1,14 @@
+D:\DATOS\Downloads\PruebasThis\obj\Debug\netcoreapp3.1\PruebasThis.csproj.AssemblyReference.cache
+D:\DATOS\Downloads\PruebasThis\obj\Debug\netcoreapp3.1\PruebasThis.GeneratedMSBuildEditorConfig.editorconfig
+D:\DATOS\Downloads\PruebasThis\obj\Debug\netcoreapp3.1\PruebasThis.AssemblyInfoInputs.cache
+D:\DATOS\Downloads\PruebasThis\obj\Debug\netcoreapp3.1\PruebasThis.AssemblyInfo.cs
+D:\DATOS\Downloads\PruebasThis\obj\Debug\netcoreapp3.1\PruebasThis.csproj.CoreCompileInputs.cache
+D:\DATOS\Downloads\PruebasThis\bin\Debug\netcoreapp3.1\PruebasThis.exe
+D:\DATOS\Downloads\PruebasThis\bin\Debug\netcoreapp3.1\PruebasThis.deps.json
+D:\DATOS\Downloads\PruebasThis\bin\Debug\netcoreapp3.1\PruebasThis.runtimeconfig.json
+D:\DATOS\Downloads\PruebasThis\bin\Debug\netcoreapp3.1\PruebasThis.runtimeconfig.dev.json
+D:\DATOS\Downloads\PruebasThis\bin\Debug\netcoreapp3.1\PruebasThis.dll
+D:\DATOS\Downloads\PruebasThis\bin\Debug\netcoreapp3.1\PruebasThis.pdb
+D:\DATOS\Downloads\PruebasThis\obj\Debug\netcoreapp3.1\PruebasThis.dll
+D:\DATOS\Downloads\PruebasThis\obj\Debug\netcoreapp3.1\PruebasThis.pdb
+D:\DATOS\Downloads\PruebasThis\obj\Debug\netcoreapp3.1\PruebasThis.genruntimeconfig.cache

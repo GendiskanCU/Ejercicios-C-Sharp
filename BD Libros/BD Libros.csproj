@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>BD_Libros</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="BDLibros.cs" />
+    <Compile Remove="Class1.cs" />
+  </ItemGroup>
+
+</Project>

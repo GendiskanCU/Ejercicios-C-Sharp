@@ -1,0 +1,5 @@
+D:\DATOS\Desktop\Pers\CSharp\SerializaciónXML\SerializaciónXML\obj\Debug\netcoreapp3.1\SerializaciónXML.csproj.AssemblyReference.cache
+D:\DATOS\Desktop\Pers\CSharp\SerializaciónXML\SerializaciónXML\obj\Debug\netcoreapp3.1\SerializaciónXML.GeneratedMSBuildEditorConfig.editorconfig
+D:\DATOS\Desktop\Pers\CSharp\SerializaciónXML\SerializaciónXML\obj\Debug\netcoreapp3.1\SerializaciónXML.AssemblyInfoInputs.cache
+D:\DATOS\Desktop\Pers\CSharp\SerializaciónXML\SerializaciónXML\obj\Debug\netcoreapp3.1\SerializaciónXML.AssemblyInfo.cs
+D:\DATOS\Desktop\Pers\CSharp\SerializaciónXML\SerializaciónXML\obj\Debug\netcoreapp3.1\SerializaciónXML.csproj.CoreCompileInputs.cache

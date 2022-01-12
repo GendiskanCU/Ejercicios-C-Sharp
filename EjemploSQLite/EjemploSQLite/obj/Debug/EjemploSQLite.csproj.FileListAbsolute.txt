@@ -1,0 +1,9 @@
+D:\DATOS\Desktop\Pers\CSharp\EjemploSQLite\EjemploSQLite\bin\Debug\EjemploSQLite.exe.config
+D:\DATOS\Desktop\Pers\CSharp\EjemploSQLite\EjemploSQLite\bin\Debug\EjemploSQLite.exe
+D:\DATOS\Desktop\Pers\CSharp\EjemploSQLite\EjemploSQLite\bin\Debug\EjemploSQLite.pdb
+D:\DATOS\Desktop\Pers\CSharp\EjemploSQLite\EjemploSQLite\obj\Debug\EjemploSQLite.csproj.AssemblyReference.cache
+D:\DATOS\Desktop\Pers\CSharp\EjemploSQLite\EjemploSQLite\obj\Debug\EjemploSQLite.csproj.SuggestedBindingRedirects.cache
+D:\DATOS\Desktop\Pers\CSharp\EjemploSQLite\EjemploSQLite\obj\Debug\EjemploSQLite.csproj.CoreCompileInputs.cache
+D:\DATOS\Desktop\Pers\CSharp\EjemploSQLite\EjemploSQLite\obj\Debug\EjemploSQLite.csproj.CopyComplete
+D:\DATOS\Desktop\Pers\CSharp\EjemploSQLite\EjemploSQLite\obj\Debug\EjemploSQLite.exe
+D:\DATOS\Desktop\Pers\CSharp\EjemploSQLite\EjemploSQLite\obj\Debug\EjemploSQLite.pdb
