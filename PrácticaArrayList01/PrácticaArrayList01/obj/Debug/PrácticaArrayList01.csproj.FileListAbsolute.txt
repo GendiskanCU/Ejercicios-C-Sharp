@@ -1,0 +1,8 @@
+D:\DATOS\Desktop\Pers\CSharp\Ejercicios C#\Ejercicios-C-Sharp\PrácticaArrayList01\PrácticaArrayList01\bin\Debug\PrácticaArrayList01.exe.config
+D:\DATOS\Desktop\Pers\CSharp\Ejercicios C#\Ejercicios-C-Sharp\PrácticaArrayList01\PrácticaArrayList01\bin\Debug\PrácticaArrayList01.exe
+D:\DATOS\Desktop\Pers\CSharp\Ejercicios C#\Ejercicios-C-Sharp\PrácticaArrayList01\PrácticaArrayList01\bin\Debug\PrácticaArrayList01.pdb
+D:\DATOS\Desktop\Pers\CSharp\Ejercicios C#\Ejercicios-C-Sharp\PrácticaArrayList01\PrácticaArrayList01\obj\Debug\PrácticaArrayList01.csproj.AssemblyReference.cache
+D:\DATOS\Desktop\Pers\CSharp\Ejercicios C#\Ejercicios-C-Sharp\PrácticaArrayList01\PrácticaArrayList01\obj\Debug\PrácticaArrayList01.csproj.SuggestedBindingRedirects.cache
+D:\DATOS\Desktop\Pers\CSharp\Ejercicios C#\Ejercicios-C-Sharp\PrácticaArrayList01\PrácticaArrayList01\obj\Debug\PrácticaArrayList01.csproj.CoreCompileInputs.cache
+D:\DATOS\Desktop\Pers\CSharp\Ejercicios C#\Ejercicios-C-Sharp\PrácticaArrayList01\PrácticaArrayList01\obj\Debug\PrácticaArrayList01.exe
+D:\DATOS\Desktop\Pers\CSharp\Ejercicios C#\Ejercicios-C-Sharp\PrácticaArrayList01\PrácticaArrayList01\obj\Debug\PrácticaArrayList01.pdb
