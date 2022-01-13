@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "OfcyzeQSktIelVzKP3d6rnbcKRKR1TkfYvbSx6RGvz3FA/1/zeRAOSInFcQTx4MkE64ZOagUSm+rh7vrBPycIw==",
+  "dgSpecHash": "nyXEXj7CoFsD/zqJ0FM9CiUuXEcHuK0yL/lwB+V2Yo/IO67c4nwPVdbnCabqpiZFM14UV1sZPyzgajFQfEV4sA==",
   "success": true,
-  "projectFilePath": "D:\\DATOS\\Desktop\\Pers\\CSharp\\SerializaciónXML\\SerializaciónXML\\SerializaciónXML.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "D:\\DATOS\\Desktop\\Pers\\CSharp\\Ejercicios C#\\Ejercicios-C-Sharp\\SerializaciónXML\\SerializaciónXML\\SerializaciónXML.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\USUARIO 01\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.21\\microsoft.netcore.app.host.win-x64.3.1.21.nupkg.sha512",
+    "C:\\Users\\USUARIO 01\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
+    "C:\\Users\\USUARIO 01\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\USUARIO 01\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512"
+  ],
   "logs": []
 }
