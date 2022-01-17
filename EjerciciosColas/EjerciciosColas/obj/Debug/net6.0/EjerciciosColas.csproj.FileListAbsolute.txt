@@ -13,3 +13,18 @@ D:\DATOS\Desktop\Pers\CSharp\EjerciciosColas\EjerciciosColas\obj\Debug\net6.0\Ej
 D:\DATOS\Desktop\Pers\CSharp\EjerciciosColas\EjerciciosColas\obj\Debug\net6.0\ref\EjerciciosColas.dll
 D:\DATOS\Desktop\Pers\CSharp\EjerciciosColas\EjerciciosColas\obj\Debug\net6.0\EjerciciosColas.pdb
 D:\DATOS\Desktop\Pers\CSharp\EjerciciosColas\EjerciciosColas\obj\Debug\net6.0\EjerciciosColas.genruntimeconfig.cache
+D:\DATOS\Desktop\Pers\CSharp\Ejercicios C#\Ejercicios-C-Sharp\EjerciciosColas\EjerciciosColas\bin\Debug\net6.0\EjerciciosColas.exe
+D:\DATOS\Desktop\Pers\CSharp\Ejercicios C#\Ejercicios-C-Sharp\EjerciciosColas\EjerciciosColas\bin\Debug\net6.0\EjerciciosColas.deps.json
+D:\DATOS\Desktop\Pers\CSharp\Ejercicios C#\Ejercicios-C-Sharp\EjerciciosColas\EjerciciosColas\bin\Debug\net6.0\EjerciciosColas.runtimeconfig.json
+D:\DATOS\Desktop\Pers\CSharp\Ejercicios C#\Ejercicios-C-Sharp\EjerciciosColas\EjerciciosColas\bin\Debug\net6.0\EjerciciosColas.dll
+D:\DATOS\Desktop\Pers\CSharp\Ejercicios C#\Ejercicios-C-Sharp\EjerciciosColas\EjerciciosColas\bin\Debug\net6.0\ref\EjerciciosColas.dll
+D:\DATOS\Desktop\Pers\CSharp\Ejercicios C#\Ejercicios-C-Sharp\EjerciciosColas\EjerciciosColas\bin\Debug\net6.0\EjerciciosColas.pdb
+D:\DATOS\Desktop\Pers\CSharp\Ejercicios C#\Ejercicios-C-Sharp\EjerciciosColas\EjerciciosColas\obj\Debug\net6.0\EjerciciosColas.csproj.AssemblyReference.cache
+D:\DATOS\Desktop\Pers\CSharp\Ejercicios C#\Ejercicios-C-Sharp\EjerciciosColas\EjerciciosColas\obj\Debug\net6.0\EjerciciosColas.GeneratedMSBuildEditorConfig.editorconfig
+D:\DATOS\Desktop\Pers\CSharp\Ejercicios C#\Ejercicios-C-Sharp\EjerciciosColas\EjerciciosColas\obj\Debug\net6.0\EjerciciosColas.AssemblyInfoInputs.cache
+D:\DATOS\Desktop\Pers\CSharp\Ejercicios C#\Ejercicios-C-Sharp\EjerciciosColas\EjerciciosColas\obj\Debug\net6.0\EjerciciosColas.AssemblyInfo.cs
+D:\DATOS\Desktop\Pers\CSharp\Ejercicios C#\Ejercicios-C-Sharp\EjerciciosColas\EjerciciosColas\obj\Debug\net6.0\EjerciciosColas.csproj.CoreCompileInputs.cache
+D:\DATOS\Desktop\Pers\CSharp\Ejercicios C#\Ejercicios-C-Sharp\EjerciciosColas\EjerciciosColas\obj\Debug\net6.0\EjerciciosColas.dll
+D:\DATOS\Desktop\Pers\CSharp\Ejercicios C#\Ejercicios-C-Sharp\EjerciciosColas\EjerciciosColas\obj\Debug\net6.0\ref\EjerciciosColas.dll
+D:\DATOS\Desktop\Pers\CSharp\Ejercicios C#\Ejercicios-C-Sharp\EjerciciosColas\EjerciciosColas\obj\Debug\net6.0\EjerciciosColas.pdb
+D:\DATOS\Desktop\Pers\CSharp\Ejercicios C#\Ejercicios-C-Sharp\EjerciciosColas\EjerciciosColas\obj\Debug\net6.0\EjerciciosColas.genruntimeconfig.cache

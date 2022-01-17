@@ -9,6 +9,7 @@
 
   <ItemGroup>
     <Compile Remove="Ej_11_3_1.cs" />
+    <Compile Remove="Ej_11_3_2.cs" />
     <Compile Remove="Program.cs" />
   </ItemGroup>
 

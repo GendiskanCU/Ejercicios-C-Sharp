@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\DATOS\\Desktop\\Pers\\CSharp\\EjerciciosColas\\EjerciciosColas\\EjerciciosColas.csproj": {}
+    "D:\\DATOS\\Desktop\\Pers\\CSharp\\Ejercicios C#\\Ejercicios-C-Sharp\\EjerciciosColas\\EjerciciosColas\\EjerciciosColas.csproj": {}
   },
   "projects": {
-    "D:\\DATOS\\Desktop\\Pers\\CSharp\\EjerciciosColas\\EjerciciosColas\\EjerciciosColas.csproj": {
+    "D:\\DATOS\\Desktop\\Pers\\CSharp\\Ejercicios C#\\Ejercicios-C-Sharp\\EjerciciosColas\\EjerciciosColas\\EjerciciosColas.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\DATOS\\Desktop\\Pers\\CSharp\\EjerciciosColas\\EjerciciosColas\\EjerciciosColas.csproj",
+        "projectUniqueName": "D:\\DATOS\\Desktop\\Pers\\CSharp\\Ejercicios C#\\Ejercicios-C-Sharp\\EjerciciosColas\\EjerciciosColas\\EjerciciosColas.csproj",
         "projectName": "EjerciciosColas",
-        "projectPath": "D:\\DATOS\\Desktop\\Pers\\CSharp\\EjerciciosColas\\EjerciciosColas\\EjerciciosColas.csproj",
+        "projectPath": "D:\\DATOS\\Desktop\\Pers\\CSharp\\Ejercicios C#\\Ejercicios-C-Sharp\\EjerciciosColas\\EjerciciosColas\\EjerciciosColas.csproj",
         "packagesPath": "C:\\Users\\USUARIO 01\\.nuget\\packages\\",
-        "outputPath": "D:\\DATOS\\Desktop\\Pers\\CSharp\\EjerciciosColas\\EjerciciosColas\\obj\\",
+        "outputPath": "D:\\DATOS\\Desktop\\Pers\\CSharp\\Ejercicios C#\\Ejercicios-C-Sharp\\EjerciciosColas\\EjerciciosColas\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -58,7 +58,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }
