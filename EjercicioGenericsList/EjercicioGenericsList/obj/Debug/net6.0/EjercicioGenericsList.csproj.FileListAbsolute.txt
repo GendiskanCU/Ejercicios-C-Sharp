@@ -1,0 +1,15 @@
+D:\DATOS\Desktop\Pers\CSharp\Ejercicios C#\Ejercicios-C-Sharp\EjercicioGenericsList\EjercicioGenericsList\bin\Debug\net6.0\EjercicioGenericsList.exe
+D:\DATOS\Desktop\Pers\CSharp\Ejercicios C#\Ejercicios-C-Sharp\EjercicioGenericsList\EjercicioGenericsList\bin\Debug\net6.0\EjercicioGenericsList.deps.json
+D:\DATOS\Desktop\Pers\CSharp\Ejercicios C#\Ejercicios-C-Sharp\EjercicioGenericsList\EjercicioGenericsList\bin\Debug\net6.0\EjercicioGenericsList.runtimeconfig.json
+D:\DATOS\Desktop\Pers\CSharp\Ejercicios C#\Ejercicios-C-Sharp\EjercicioGenericsList\EjercicioGenericsList\bin\Debug\net6.0\EjercicioGenericsList.dll
+D:\DATOS\Desktop\Pers\CSharp\Ejercicios C#\Ejercicios-C-Sharp\EjercicioGenericsList\EjercicioGenericsList\bin\Debug\net6.0\ref\EjercicioGenericsList.dll
+D:\DATOS\Desktop\Pers\CSharp\Ejercicios C#\Ejercicios-C-Sharp\EjercicioGenericsList\EjercicioGenericsList\bin\Debug\net6.0\EjercicioGenericsList.pdb
+D:\DATOS\Desktop\Pers\CSharp\Ejercicios C#\Ejercicios-C-Sharp\EjercicioGenericsList\EjercicioGenericsList\obj\Debug\net6.0\EjercicioGenericsList.csproj.AssemblyReference.cache
+D:\DATOS\Desktop\Pers\CSharp\Ejercicios C#\Ejercicios-C-Sharp\EjercicioGenericsList\EjercicioGenericsList\obj\Debug\net6.0\EjercicioGenericsList.GeneratedMSBuildEditorConfig.editorconfig
+D:\DATOS\Desktop\Pers\CSharp\Ejercicios C#\Ejercicios-C-Sharp\EjercicioGenericsList\EjercicioGenericsList\obj\Debug\net6.0\EjercicioGenericsList.AssemblyInfoInputs.cache
+D:\DATOS\Desktop\Pers\CSharp\Ejercicios C#\Ejercicios-C-Sharp\EjercicioGenericsList\EjercicioGenericsList\obj\Debug\net6.0\EjercicioGenericsList.AssemblyInfo.cs
+D:\DATOS\Desktop\Pers\CSharp\Ejercicios C#\Ejercicios-C-Sharp\EjercicioGenericsList\EjercicioGenericsList\obj\Debug\net6.0\EjercicioGenericsList.csproj.CoreCompileInputs.cache
+D:\DATOS\Desktop\Pers\CSharp\Ejercicios C#\Ejercicios-C-Sharp\EjercicioGenericsList\EjercicioGenericsList\obj\Debug\net6.0\EjercicioGenericsList.dll
+D:\DATOS\Desktop\Pers\CSharp\Ejercicios C#\Ejercicios-C-Sharp\EjercicioGenericsList\EjercicioGenericsList\obj\Debug\net6.0\ref\EjercicioGenericsList.dll
+D:\DATOS\Desktop\Pers\CSharp\Ejercicios C#\Ejercicios-C-Sharp\EjercicioGenericsList\EjercicioGenericsList\obj\Debug\net6.0\EjercicioGenericsList.pdb
+D:\DATOS\Desktop\Pers\CSharp\Ejercicios C#\Ejercicios-C-Sharp\EjercicioGenericsList\EjercicioGenericsList\obj\Debug\net6.0\EjercicioGenericsList.genruntimeconfig.cache
