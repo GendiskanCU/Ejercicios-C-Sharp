@@ -1,0 +1,15 @@
+D:\DATOS\Desktop\Pers\CSharp\Ejercicios C#\Ejercicios-C-Sharp\Ejemplo de generics List\Ejemplo de generics List\bin\Debug\net6.0\Ejemplo de generics List.exe
+D:\DATOS\Desktop\Pers\CSharp\Ejercicios C#\Ejercicios-C-Sharp\Ejemplo de generics List\Ejemplo de generics List\bin\Debug\net6.0\Ejemplo de generics List.deps.json
+D:\DATOS\Desktop\Pers\CSharp\Ejercicios C#\Ejercicios-C-Sharp\Ejemplo de generics List\Ejemplo de generics List\bin\Debug\net6.0\Ejemplo de generics List.runtimeconfig.json
+D:\DATOS\Desktop\Pers\CSharp\Ejercicios C#\Ejercicios-C-Sharp\Ejemplo de generics List\Ejemplo de generics List\bin\Debug\net6.0\Ejemplo de generics List.dll
+D:\DATOS\Desktop\Pers\CSharp\Ejercicios C#\Ejercicios-C-Sharp\Ejemplo de generics List\Ejemplo de generics List\bin\Debug\net6.0\ref\Ejemplo de generics List.dll
+D:\DATOS\Desktop\Pers\CSharp\Ejercicios C#\Ejercicios-C-Sharp\Ejemplo de generics List\Ejemplo de generics List\bin\Debug\net6.0\Ejemplo de generics List.pdb
+D:\DATOS\Desktop\Pers\CSharp\Ejercicios C#\Ejercicios-C-Sharp\Ejemplo de generics List\Ejemplo de generics List\obj\Debug\net6.0\Ejemplo de generics List.csproj.AssemblyReference.cache
+D:\DATOS\Desktop\Pers\CSharp\Ejercicios C#\Ejercicios-C-Sharp\Ejemplo de generics List\Ejemplo de generics List\obj\Debug\net6.0\Ejemplo de generics List.GeneratedMSBuildEditorConfig.editorconfig
+D:\DATOS\Desktop\Pers\CSharp\Ejercicios C#\Ejercicios-C-Sharp\Ejemplo de generics List\Ejemplo de generics List\obj\Debug\net6.0\Ejemplo de generics List.AssemblyInfoInputs.cache
+D:\DATOS\Desktop\Pers\CSharp\Ejercicios C#\Ejercicios-C-Sharp\Ejemplo de generics List\Ejemplo de generics List\obj\Debug\net6.0\Ejemplo de generics List.AssemblyInfo.cs
+D:\DATOS\Desktop\Pers\CSharp\Ejercicios C#\Ejercicios-C-Sharp\Ejemplo de generics List\Ejemplo de generics List\obj\Debug\net6.0\Ejemplo de generics List.csproj.CoreCompileInputs.cache
+D:\DATOS\Desktop\Pers\CSharp\Ejercicios C#\Ejercicios-C-Sharp\Ejemplo de generics List\Ejemplo de generics List\obj\Debug\net6.0\Ejemplo de generics List.dll
+D:\DATOS\Desktop\Pers\CSharp\Ejercicios C#\Ejercicios-C-Sharp\Ejemplo de generics List\Ejemplo de generics List\obj\Debug\net6.0\ref\Ejemplo de generics List.dll
+D:\DATOS\Desktop\Pers\CSharp\Ejercicios C#\Ejercicios-C-Sharp\Ejemplo de generics List\Ejemplo de generics List\obj\Debug\net6.0\Ejemplo de generics List.pdb
+D:\DATOS\Desktop\Pers\CSharp\Ejercicios C#\Ejercicios-C-Sharp\Ejemplo de generics List\Ejemplo de generics List\obj\Debug\net6.0\Ejemplo de generics List.genruntimeconfig.cache
