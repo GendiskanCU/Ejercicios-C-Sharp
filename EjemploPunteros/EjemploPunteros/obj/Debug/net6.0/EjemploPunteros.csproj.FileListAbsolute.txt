@@ -1,0 +1,15 @@
+D:\DATOS\Desktop\Pers\CSharp\Ejercicios C#\Ejercicios-C-Sharp\EjemploPunteros\EjemploPunteros\obj\Debug\net6.0\EjemploPunteros.csproj.AssemblyReference.cache
+D:\DATOS\Desktop\Pers\CSharp\Ejercicios C#\Ejercicios-C-Sharp\EjemploPunteros\EjemploPunteros\obj\Debug\net6.0\EjemploPunteros.GeneratedMSBuildEditorConfig.editorconfig
+D:\DATOS\Desktop\Pers\CSharp\Ejercicios C#\Ejercicios-C-Sharp\EjemploPunteros\EjemploPunteros\obj\Debug\net6.0\EjemploPunteros.AssemblyInfoInputs.cache
+D:\DATOS\Desktop\Pers\CSharp\Ejercicios C#\Ejercicios-C-Sharp\EjemploPunteros\EjemploPunteros\obj\Debug\net6.0\EjemploPunteros.AssemblyInfo.cs
+D:\DATOS\Desktop\Pers\CSharp\Ejercicios C#\Ejercicios-C-Sharp\EjemploPunteros\EjemploPunteros\obj\Debug\net6.0\EjemploPunteros.csproj.CoreCompileInputs.cache
+D:\DATOS\Desktop\Pers\CSharp\Ejercicios C#\Ejercicios-C-Sharp\EjemploPunteros\EjemploPunteros\bin\Debug\net6.0\EjemploPunteros.exe
+D:\DATOS\Desktop\Pers\CSharp\Ejercicios C#\Ejercicios-C-Sharp\EjemploPunteros\EjemploPunteros\bin\Debug\net6.0\EjemploPunteros.deps.json
+D:\DATOS\Desktop\Pers\CSharp\Ejercicios C#\Ejercicios-C-Sharp\EjemploPunteros\EjemploPunteros\bin\Debug\net6.0\EjemploPunteros.runtimeconfig.json
+D:\DATOS\Desktop\Pers\CSharp\Ejercicios C#\Ejercicios-C-Sharp\EjemploPunteros\EjemploPunteros\bin\Debug\net6.0\EjemploPunteros.dll
+D:\DATOS\Desktop\Pers\CSharp\Ejercicios C#\Ejercicios-C-Sharp\EjemploPunteros\EjemploPunteros\bin\Debug\net6.0\ref\EjemploPunteros.dll
+D:\DATOS\Desktop\Pers\CSharp\Ejercicios C#\Ejercicios-C-Sharp\EjemploPunteros\EjemploPunteros\bin\Debug\net6.0\EjemploPunteros.pdb
+D:\DATOS\Desktop\Pers\CSharp\Ejercicios C#\Ejercicios-C-Sharp\EjemploPunteros\EjemploPunteros\obj\Debug\net6.0\EjemploPunteros.dll
+D:\DATOS\Desktop\Pers\CSharp\Ejercicios C#\Ejercicios-C-Sharp\EjemploPunteros\EjemploPunteros\obj\Debug\net6.0\ref\EjemploPunteros.dll
+D:\DATOS\Desktop\Pers\CSharp\Ejercicios C#\Ejercicios-C-Sharp\EjemploPunteros\EjemploPunteros\obj\Debug\net6.0\EjemploPunteros.pdb
+D:\DATOS\Desktop\Pers\CSharp\Ejercicios C#\Ejercicios-C-Sharp\EjemploPunteros\EjemploPunteros\obj\Debug\net6.0\EjemploPunteros.genruntimeconfig.cache

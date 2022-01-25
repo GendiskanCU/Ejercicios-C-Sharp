@@ -1,0 +1,15 @@
+D:\DATOS\Desktop\Pers\CSharp\Ejercicios C#\Ejercicios-C-Sharp\EjerciciosPunteros\EjerciciosPunteros\bin\Debug\net6.0\EjerciciosPunteros.exe
+D:\DATOS\Desktop\Pers\CSharp\Ejercicios C#\Ejercicios-C-Sharp\EjerciciosPunteros\EjerciciosPunteros\bin\Debug\net6.0\EjerciciosPunteros.deps.json
+D:\DATOS\Desktop\Pers\CSharp\Ejercicios C#\Ejercicios-C-Sharp\EjerciciosPunteros\EjerciciosPunteros\bin\Debug\net6.0\EjerciciosPunteros.runtimeconfig.json
+D:\DATOS\Desktop\Pers\CSharp\Ejercicios C#\Ejercicios-C-Sharp\EjerciciosPunteros\EjerciciosPunteros\bin\Debug\net6.0\EjerciciosPunteros.dll
+D:\DATOS\Desktop\Pers\CSharp\Ejercicios C#\Ejercicios-C-Sharp\EjerciciosPunteros\EjerciciosPunteros\bin\Debug\net6.0\ref\EjerciciosPunteros.dll
+D:\DATOS\Desktop\Pers\CSharp\Ejercicios C#\Ejercicios-C-Sharp\EjerciciosPunteros\EjerciciosPunteros\bin\Debug\net6.0\EjerciciosPunteros.pdb
+D:\DATOS\Desktop\Pers\CSharp\Ejercicios C#\Ejercicios-C-Sharp\EjerciciosPunteros\EjerciciosPunteros\obj\Debug\net6.0\EjerciciosPunteros.csproj.AssemblyReference.cache
+D:\DATOS\Desktop\Pers\CSharp\Ejercicios C#\Ejercicios-C-Sharp\EjerciciosPunteros\EjerciciosPunteros\obj\Debug\net6.0\EjerciciosPunteros.GeneratedMSBuildEditorConfig.editorconfig
+D:\DATOS\Desktop\Pers\CSharp\Ejercicios C#\Ejercicios-C-Sharp\EjerciciosPunteros\EjerciciosPunteros\obj\Debug\net6.0\EjerciciosPunteros.AssemblyInfoInputs.cache
+D:\DATOS\Desktop\Pers\CSharp\Ejercicios C#\Ejercicios-C-Sharp\EjerciciosPunteros\EjerciciosPunteros\obj\Debug\net6.0\EjerciciosPunteros.AssemblyInfo.cs
+D:\DATOS\Desktop\Pers\CSharp\Ejercicios C#\Ejercicios-C-Sharp\EjerciciosPunteros\EjerciciosPunteros\obj\Debug\net6.0\EjerciciosPunteros.csproj.CoreCompileInputs.cache
+D:\DATOS\Desktop\Pers\CSharp\Ejercicios C#\Ejercicios-C-Sharp\EjerciciosPunteros\EjerciciosPunteros\obj\Debug\net6.0\EjerciciosPunteros.dll
+D:\DATOS\Desktop\Pers\CSharp\Ejercicios C#\Ejercicios-C-Sharp\EjerciciosPunteros\EjerciciosPunteros\obj\Debug\net6.0\ref\EjerciciosPunteros.dll
+D:\DATOS\Desktop\Pers\CSharp\Ejercicios C#\Ejercicios-C-Sharp\EjerciciosPunteros\EjerciciosPunteros\obj\Debug\net6.0\EjerciciosPunteros.pdb
+D:\DATOS\Desktop\Pers\CSharp\Ejercicios C#\Ejercicios-C-Sharp\EjerciciosPunteros\EjerciciosPunteros\obj\Debug\net6.0\EjerciciosPunteros.genruntimeconfig.cache
