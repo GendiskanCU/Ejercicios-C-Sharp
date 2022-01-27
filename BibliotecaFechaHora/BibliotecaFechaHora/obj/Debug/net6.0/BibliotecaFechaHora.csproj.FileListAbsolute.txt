@@ -1,0 +1,15 @@
+D:\DATOS\Desktop\Pers\CSharp\Ejercicios C#\Ejercicios-C-Sharp\BibliotecaFechaHora\BibliotecaFechaHora\bin\Debug\net6.0\BibliotecaFechaHora.exe
+D:\DATOS\Desktop\Pers\CSharp\Ejercicios C#\Ejercicios-C-Sharp\BibliotecaFechaHora\BibliotecaFechaHora\bin\Debug\net6.0\BibliotecaFechaHora.deps.json
+D:\DATOS\Desktop\Pers\CSharp\Ejercicios C#\Ejercicios-C-Sharp\BibliotecaFechaHora\BibliotecaFechaHora\bin\Debug\net6.0\BibliotecaFechaHora.runtimeconfig.json
+D:\DATOS\Desktop\Pers\CSharp\Ejercicios C#\Ejercicios-C-Sharp\BibliotecaFechaHora\BibliotecaFechaHora\bin\Debug\net6.0\BibliotecaFechaHora.dll
+D:\DATOS\Desktop\Pers\CSharp\Ejercicios C#\Ejercicios-C-Sharp\BibliotecaFechaHora\BibliotecaFechaHora\bin\Debug\net6.0\ref\BibliotecaFechaHora.dll
+D:\DATOS\Desktop\Pers\CSharp\Ejercicios C#\Ejercicios-C-Sharp\BibliotecaFechaHora\BibliotecaFechaHora\bin\Debug\net6.0\BibliotecaFechaHora.pdb
+D:\DATOS\Desktop\Pers\CSharp\Ejercicios C#\Ejercicios-C-Sharp\BibliotecaFechaHora\BibliotecaFechaHora\obj\Debug\net6.0\BibliotecaFechaHora.csproj.AssemblyReference.cache
+D:\DATOS\Desktop\Pers\CSharp\Ejercicios C#\Ejercicios-C-Sharp\BibliotecaFechaHora\BibliotecaFechaHora\obj\Debug\net6.0\BibliotecaFechaHora.GeneratedMSBuildEditorConfig.editorconfig
+D:\DATOS\Desktop\Pers\CSharp\Ejercicios C#\Ejercicios-C-Sharp\BibliotecaFechaHora\BibliotecaFechaHora\obj\Debug\net6.0\BibliotecaFechaHora.AssemblyInfoInputs.cache
+D:\DATOS\Desktop\Pers\CSharp\Ejercicios C#\Ejercicios-C-Sharp\BibliotecaFechaHora\BibliotecaFechaHora\obj\Debug\net6.0\BibliotecaFechaHora.AssemblyInfo.cs
+D:\DATOS\Desktop\Pers\CSharp\Ejercicios C#\Ejercicios-C-Sharp\BibliotecaFechaHora\BibliotecaFechaHora\obj\Debug\net6.0\BibliotecaFechaHora.csproj.CoreCompileInputs.cache
+D:\DATOS\Desktop\Pers\CSharp\Ejercicios C#\Ejercicios-C-Sharp\BibliotecaFechaHora\BibliotecaFechaHora\obj\Debug\net6.0\BibliotecaFechaHora.dll
+D:\DATOS\Desktop\Pers\CSharp\Ejercicios C#\Ejercicios-C-Sharp\BibliotecaFechaHora\BibliotecaFechaHora\obj\Debug\net6.0\ref\BibliotecaFechaHora.dll
+D:\DATOS\Desktop\Pers\CSharp\Ejercicios C#\Ejercicios-C-Sharp\BibliotecaFechaHora\BibliotecaFechaHora\obj\Debug\net6.0\BibliotecaFechaHora.pdb
+D:\DATOS\Desktop\Pers\CSharp\Ejercicios C#\Ejercicios-C-Sharp\BibliotecaFechaHora\BibliotecaFechaHora\obj\Debug\net6.0\BibliotecaFechaHora.genruntimeconfig.cache
