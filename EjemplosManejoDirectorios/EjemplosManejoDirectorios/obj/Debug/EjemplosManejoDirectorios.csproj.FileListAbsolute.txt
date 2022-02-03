@@ -1,0 +1,8 @@
+D:\DATOS\Desktop\Pers\CSharp\Ejercicios C#\Ejercicios-C-Sharp\EjemplosManejoDirectorios\EjemplosManejoDirectorios\bin\Debug\EjemplosManejoDirectorios.exe.config
+D:\DATOS\Desktop\Pers\CSharp\Ejercicios C#\Ejercicios-C-Sharp\EjemplosManejoDirectorios\EjemplosManejoDirectorios\bin\Debug\EjemplosManejoDirectorios.exe
+D:\DATOS\Desktop\Pers\CSharp\Ejercicios C#\Ejercicios-C-Sharp\EjemplosManejoDirectorios\EjemplosManejoDirectorios\bin\Debug\EjemplosManejoDirectorios.pdb
+D:\DATOS\Desktop\Pers\CSharp\Ejercicios C#\Ejercicios-C-Sharp\EjemplosManejoDirectorios\EjemplosManejoDirectorios\obj\Debug\EjemplosManejoDirectorios.csproj.AssemblyReference.cache
+D:\DATOS\Desktop\Pers\CSharp\Ejercicios C#\Ejercicios-C-Sharp\EjemplosManejoDirectorios\EjemplosManejoDirectorios\obj\Debug\EjemplosManejoDirectorios.csproj.SuggestedBindingRedirects.cache
+D:\DATOS\Desktop\Pers\CSharp\Ejercicios C#\Ejercicios-C-Sharp\EjemplosManejoDirectorios\EjemplosManejoDirectorios\obj\Debug\EjemplosManejoDirectorios.csproj.CoreCompileInputs.cache
+D:\DATOS\Desktop\Pers\CSharp\Ejercicios C#\Ejercicios-C-Sharp\EjemplosManejoDirectorios\EjemplosManejoDirectorios\obj\Debug\EjemplosManejoDirectorios.exe
+D:\DATOS\Desktop\Pers\CSharp\Ejercicios C#\Ejercicios-C-Sharp\EjemplosManejoDirectorios\EjemplosManejoDirectorios\obj\Debug\EjemplosManejoDirectorios.pdb
