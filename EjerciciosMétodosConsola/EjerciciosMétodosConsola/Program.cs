@@ -48,6 +48,8 @@ public class Pelota
 
     private void DibujaTablero()
     {
+        Console.CursorVisible = false;
+
         for(int i = 0; i <= limiteX; i++)
         {
             Console.SetCursorPosition(i, 0);
@@ -102,6 +104,8 @@ public class Pelota
                 }
             }
         } while (!salir);
+        Console.SetCursorPosition(0, limiteY + 2);
+        Console.Write("Presiona \'ESC\' para salir...                                                  ");
         Mover();
     }
 
@@ -163,24 +167,30 @@ public class Pelota
                 posY += 1;
                 break;
             case (EstadoMovimiento.mueveArriba):
+                Console.ForegroundColor = ConsoleColor.Gray;
                 posY -= 1;
                 break;
             case (EstadoMovimiento.mueveArribaDerecha):
+                Console.ForegroundColor = ConsoleColor.Cyan;
                 posY -= 1;
                 posX += 1;
                 break;
             case (EstadoMovimiento.mueveArribaIzquierda):
+                Console.ForegroundColor = ConsoleColor.DarkBlue;
                 posY -= 1;
                 posX -= 1;
                 break;
             case (EstadoMovimiento.mueveAbajo):
+                Console.ForegroundColor = ConsoleColor.DarkRed;
                 posY += 1;
                 break;
             case (EstadoMovimiento.mueveAbajoDerecha):
+                Console.ForegroundColor = ConsoleColor.DarkCyan;
                 posY += 1;
                 posX += 1;
                 break;
             case (EstadoMovimiento.mueveAbajoIzquierda):
+                Console.ForegroundColor = ConsoleColor.DarkGreen;
                 posY += 1;
                 posX -= 1;
                 break;
@@ -205,19 +215,19 @@ public class Pelota
                     break;
                 case 1:
                     movimiento = EstadoMovimiento.mueveIzquierdaArriba;
-                    //posY -= 1;
+                    posY -= 1;
                     break;
                 case 2:
                     movimiento = EstadoMovimiento.mueveIzquierdaAbajo;
-                    //posY += 1;
+                    posY += 1;
                     break;
                 default:
                     break;
             }
         }
-        if (posX <= limiteX)
+        if (posX <= 0)
         {
-            posX = limiteX + 1;
+            posX = 1;
             Random randomY = new Random();
 
             switch (randomY.Next(0, 3))
@@ -227,11 +237,11 @@ public class Pelota
                     break;
                 case 1:
                     movimiento = EstadoMovimiento.mueveDerechaArriba;
-                    //posY -= 1;
+                    posY -= 1;
                     break;
                 case 2:
                     movimiento = EstadoMovimiento.mueveDerechaAbajo;
-                    //posY += 1;
+                    posY += 1;
                     break;
                 default:
                     break;
@@ -249,19 +259,19 @@ public class Pelota
                     break;
                 case 1:
                     movimiento = EstadoMovimiento.mueveArribaDerecha;
-                    //posX += 1;
+                    posX += 1;
                     break;
                 case 2:
                     movimiento = EstadoMovimiento.mueveArribaIzquierda;
-                    //posX -= 1;
+                    posX -= 1;
                     break;
                 default:
                     break;
             }
         }
-        if (posY <= limiteY)
+        if (posY <= 0)
         {
-            posY = limiteY + 1;
+            posY = 1;
             Random randomY = new Random();
 
             switch (randomY.Next(0, 3))
@@ -271,11 +281,11 @@ public class Pelota
                     break;
                 case 1:
                     movimiento = EstadoMovimiento.mueveAbajoDerecha;
-                    //posX += 1;
+                    posX += 1;
                     break;
                 case 2:
                     movimiento = EstadoMovimiento.mueveAbajoIzquierda;
-                    //posX -= 1;
+                    posX -= 1;
                     break;
                 default:
                     break;
@@ -291,9 +301,6 @@ public class Prueba
     public static void Main()
     {
         Pelota pelota = new Pelota();
-        pelota.ComienzaPartida();
-
-
-        Console.ReadKey();
+        pelota.ComienzaPartida();        
     }    
 }
