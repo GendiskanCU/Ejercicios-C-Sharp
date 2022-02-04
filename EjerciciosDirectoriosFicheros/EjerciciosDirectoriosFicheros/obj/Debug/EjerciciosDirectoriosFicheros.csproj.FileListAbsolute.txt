@@ -1,0 +1,8 @@
+D:\DATOS\Desktop\Pers\CSharp\Ejercicios C#\Ejercicios-C-Sharp\EjerciciosDirectoriosFicheros\EjerciciosDirectoriosFicheros\bin\Debug\EjerciciosDirectoriosFicheros.exe.config
+D:\DATOS\Desktop\Pers\CSharp\Ejercicios C#\Ejercicios-C-Sharp\EjerciciosDirectoriosFicheros\EjerciciosDirectoriosFicheros\bin\Debug\EjerciciosDirectoriosFicheros.exe
+D:\DATOS\Desktop\Pers\CSharp\Ejercicios C#\Ejercicios-C-Sharp\EjerciciosDirectoriosFicheros\EjerciciosDirectoriosFicheros\bin\Debug\EjerciciosDirectoriosFicheros.pdb
+D:\DATOS\Desktop\Pers\CSharp\Ejercicios C#\Ejercicios-C-Sharp\EjerciciosDirectoriosFicheros\EjerciciosDirectoriosFicheros\obj\Debug\EjerciciosDirectoriosFicheros.csproj.AssemblyReference.cache
+D:\DATOS\Desktop\Pers\CSharp\Ejercicios C#\Ejercicios-C-Sharp\EjerciciosDirectoriosFicheros\EjerciciosDirectoriosFicheros\obj\Debug\EjerciciosDirectoriosFicheros.csproj.SuggestedBindingRedirects.cache
+D:\DATOS\Desktop\Pers\CSharp\Ejercicios C#\Ejercicios-C-Sharp\EjerciciosDirectoriosFicheros\EjerciciosDirectoriosFicheros\obj\Debug\EjerciciosDirectoriosFicheros.csproj.CoreCompileInputs.cache
+D:\DATOS\Desktop\Pers\CSharp\Ejercicios C#\Ejercicios-C-Sharp\EjerciciosDirectoriosFicheros\EjerciciosDirectoriosFicheros\obj\Debug\EjerciciosDirectoriosFicheros.exe
+D:\DATOS\Desktop\Pers\CSharp\Ejercicios C#\Ejercicios-C-Sharp\EjerciciosDirectoriosFicheros\EjerciciosDirectoriosFicheros\obj\Debug\EjerciciosDirectoriosFicheros.pdb
