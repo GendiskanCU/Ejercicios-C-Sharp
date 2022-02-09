@@ -1,0 +1,8 @@
+D:\DATOS\Desktop\Pers\CSharp\Ejercicios C#\Ejercicios-C-Sharp\OtrasClasesUtiles\OtrasClasesUtiles\bin\Debug\OtrasClasesUtiles.exe.config
+D:\DATOS\Desktop\Pers\CSharp\Ejercicios C#\Ejercicios-C-Sharp\OtrasClasesUtiles\OtrasClasesUtiles\bin\Debug\OtrasClasesUtiles.exe
+D:\DATOS\Desktop\Pers\CSharp\Ejercicios C#\Ejercicios-C-Sharp\OtrasClasesUtiles\OtrasClasesUtiles\bin\Debug\OtrasClasesUtiles.pdb
+D:\DATOS\Desktop\Pers\CSharp\Ejercicios C#\Ejercicios-C-Sharp\OtrasClasesUtiles\OtrasClasesUtiles\obj\Debug\OtrasClasesUtiles.csproj.AssemblyReference.cache
+D:\DATOS\Desktop\Pers\CSharp\Ejercicios C#\Ejercicios-C-Sharp\OtrasClasesUtiles\OtrasClasesUtiles\obj\Debug\OtrasClasesUtiles.csproj.SuggestedBindingRedirects.cache
+D:\DATOS\Desktop\Pers\CSharp\Ejercicios C#\Ejercicios-C-Sharp\OtrasClasesUtiles\OtrasClasesUtiles\obj\Debug\OtrasClasesUtiles.csproj.CoreCompileInputs.cache
+D:\DATOS\Desktop\Pers\CSharp\Ejercicios C#\Ejercicios-C-Sharp\OtrasClasesUtiles\OtrasClasesUtiles\obj\Debug\OtrasClasesUtiles.exe
+D:\DATOS\Desktop\Pers\CSharp\Ejercicios C#\Ejercicios-C-Sharp\OtrasClasesUtiles\OtrasClasesUtiles\obj\Debug\OtrasClasesUtiles.pdb

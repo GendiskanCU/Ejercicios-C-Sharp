@@ -1,0 +1,8 @@
+D:\DATOS\Desktop\Pers\CSharp\Ejercicios C#\Ejercicios-C-Sharp\EjercicioLlamadaOtraAplicacion\EjercicioLlamadaOtraAplicacion\bin\Debug\EjercicioLlamadaOtraAplicacion.exe.config
+D:\DATOS\Desktop\Pers\CSharp\Ejercicios C#\Ejercicios-C-Sharp\EjercicioLlamadaOtraAplicacion\EjercicioLlamadaOtraAplicacion\bin\Debug\EjercicioLlamadaOtraAplicacion.exe
+D:\DATOS\Desktop\Pers\CSharp\Ejercicios C#\Ejercicios-C-Sharp\EjercicioLlamadaOtraAplicacion\EjercicioLlamadaOtraAplicacion\bin\Debug\EjercicioLlamadaOtraAplicacion.pdb
+D:\DATOS\Desktop\Pers\CSharp\Ejercicios C#\Ejercicios-C-Sharp\EjercicioLlamadaOtraAplicacion\EjercicioLlamadaOtraAplicacion\obj\Debug\EjercicioLlamadaOtraAplicacion.csproj.AssemblyReference.cache
+D:\DATOS\Desktop\Pers\CSharp\Ejercicios C#\Ejercicios-C-Sharp\EjercicioLlamadaOtraAplicacion\EjercicioLlamadaOtraAplicacion\obj\Debug\EjercicioLlamadaOtraAplicacion.csproj.SuggestedBindingRedirects.cache
+D:\DATOS\Desktop\Pers\CSharp\Ejercicios C#\Ejercicios-C-Sharp\EjercicioLlamadaOtraAplicacion\EjercicioLlamadaOtraAplicacion\obj\Debug\EjercicioLlamadaOtraAplicacion.csproj.CoreCompileInputs.cache
+D:\DATOS\Desktop\Pers\CSharp\Ejercicios C#\Ejercicios-C-Sharp\EjercicioLlamadaOtraAplicacion\EjercicioLlamadaOtraAplicacion\obj\Debug\EjercicioLlamadaOtraAplicacion.exe
+D:\DATOS\Desktop\Pers\CSharp\Ejercicios C#\Ejercicios-C-Sharp\EjercicioLlamadaOtraAplicacion\EjercicioLlamadaOtraAplicacion\obj\Debug\EjercicioLlamadaOtraAplicacion.pdb
