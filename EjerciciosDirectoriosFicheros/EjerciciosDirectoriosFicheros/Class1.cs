@@ -21,15 +21,38 @@ public class InfoFichero
         nombreFichero = "";
         longitudFichero = "";
         fechaFichero = "";
+        posX = posY = 0;
     }
 
     public InfoFichero(string nombre, string longitud, string fecha, int x, int y)
     {
+        if(nombre.Length < 20)
+        {            
+            for (int i = nombre.Length; i < 20; i++)
+                nombre = nombre + " ";
+        }
+        else if(nombre.Length > 20)
+        {
+            nombre = nombre.Substring(0, 20);
+        }
+
+        if (longitud.Length < 15)
+        {
+            for (int i = longitud.Length; i < 15; i++)
+                longitud = longitud + " ";
+        }
+        else if (longitud.Length > 20)
+        {
+            longitud = longitud.Substring(0, 20);
+        }
+
+
+
         nombreFichero = nombre;
         longitudFichero= longitud;
         fechaFichero = fecha;
         posX = x;
-        posY = y;
+        posY = y;        
     }
 
     public int GetPosX()
@@ -100,6 +123,10 @@ public class ManejaDirectorio
             posicionY++;
         }
 
+        Console.ForegroundColor = ConsoleColor.White;
+        Console.BackgroundColor = ConsoleColor.Black;
+        Console.Clear();
+
         foreach (InfoFichero fichero in listaFicheros)
         {
             Console.SetCursorPosition(fichero.GetPosX(), fichero.GetPosY());
@@ -107,7 +134,9 @@ public class ManejaDirectorio
                 + "  " + fichero.GetFecha());
         }
 
-        
+
+        posicionY = 0;
+        ActivaRegistro(posicionX, posicionY);
 
         MuevePorDirectorio();
     }
@@ -126,21 +155,27 @@ public class ManejaDirectorio
                 {
                     if(posicionY > 0)
                     {
-                        //TODO: Terminar el movimiento arriba y abajo y mirar si se puede eliminar del método anterior
-                        Console.SetCursorPosition(posicionX, --posicionY);
-                        Console.BackgroundColor = ConsoleColor.Green;
-                        int indiceActual = IndiceFichero(posicionY);
-                        Console.Write(listaFicheros[indiceActual].GetNombre() + "  " + listaFicheros[indiceActual].GetLongitud()
-                                + "  " + listaFicheros[indiceActual].GetFecha());
+                        DesactivaRegistro(posicionX, posicionY);
+                        posicionY--;
+                        ActivaRegistro(posicionX, posicionY);
                     }
                 }
                 if(key.Key == ConsoleKey.DownArrow)
                 {
-
+                    if(posicionY < listaFicheros.Count - 1)
+                    {
+                        DesactivaRegistro(posicionX, posicionY);
+                        posicionY++;
+                        ActivaRegistro(posicionX, posicionY);
+                    }
                 }
             }
 
         } while (!finalizar);
+
+        Console.ForegroundColor = ConsoleColor.White;
+        Console.BackgroundColor = ConsoleColor.Black;
+        Console.Clear();
     }
 
     private int IndiceFichero(int posY)
@@ -154,6 +189,24 @@ public class ManejaDirectorio
         }
 
         return -1;
+    }
+
+    private void ActivaRegistro(int x, int y)
+    {
+        Console.SetCursorPosition(x, y);
+        Console.BackgroundColor = ConsoleColor.Green;
+        int indiceActual = IndiceFichero(y);
+        Console.Write(listaFicheros[indiceActual].GetNombre() + "  " + listaFicheros[indiceActual].GetLongitud()
+                + "  " + listaFicheros[indiceActual].GetFecha());
+    }
+
+    private void DesactivaRegistro(int x, int y)
+    {
+        Console.SetCursorPosition(x, y);
+        Console.BackgroundColor = ConsoleColor.Black;
+        int indiceActual = IndiceFichero(y);
+        Console.Write(listaFicheros[indiceActual].GetNombre() + "  " + listaFicheros[indiceActual].GetLongitud()
+                + "  " + listaFicheros[indiceActual].GetFecha());
     }
 
 }
