@@ -57,6 +57,13 @@ public class TresEnRayaRed
         BorraTablero();
     }
 
+    /// <summary>
+    /// Comienza una nueva partida
+    /// </summary>
+    public void IniciaPartida()
+    {
+        DibujaTablero();
+    }
 
     /// <summary>Deja el tablero de juego en blanco, todas las celdas vacías</summary>
     private void BorraTablero()
@@ -69,13 +76,49 @@ public class TresEnRayaRed
         }
     }
 
+    /// <summary>
+    /// Dibuja el tablero de juego en pantalla al inicio de cada partida
+    /// </summary>
     private void DibujaTablero()
     {
+        Console.Clear();        
         Console.WriteLine("JUEGO DE LAS TRES EN RAYA");
+        Console.WriteLine("=========================\n");
+
+        Console.WriteLine("{0}: {1} vs. {2}: {3}", jugador1.nombre, jugador1.ficha,
+            jugador2.nombre, jugador2.ficha);
+
+        for (int i = 0; i < 3; i++)
+        {
+            Console.WriteLine("=========================");
+            for (int j = 0; j < 3; j++)
+                Console.WriteLine(":       :       :       :");
+        }
         Console.WriteLine("=========================");
 
-        Console.WriteLine("{0}: {1} vs. {2}: {3}")
+    }
+}
 
-        Console.WriteLine("-------")
+
+
+
+
+
+
+//============================================================================================
+//============================================================================================
+public class Juego3Raya
+{
+    public static void Main()
+    {
+        string jug1, jug2;
+        Console.Clear();
+        Console.WriteLine("Juego de las tres en raya. Introduce el nombre de los dos jugadores");
+        
+        TresEnRayaRed juego = new TresEnRayaRed();
+
+        juego.IniciaPartida();
+
+        Console.ReadKey();
     }
 }

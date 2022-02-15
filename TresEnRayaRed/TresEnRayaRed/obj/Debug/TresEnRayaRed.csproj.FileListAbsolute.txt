@@ -1,0 +1,8 @@
+D:\DATOS\Desktop\Pers\CSharp\Ejercicios C#\Ejercicios-C-Sharp\TresEnRayaRed\TresEnRayaRed\bin\Debug\TresEnRayaRed.exe.config
+D:\DATOS\Desktop\Pers\CSharp\Ejercicios C#\Ejercicios-C-Sharp\TresEnRayaRed\TresEnRayaRed\bin\Debug\TresEnRayaRed.exe
+D:\DATOS\Desktop\Pers\CSharp\Ejercicios C#\Ejercicios-C-Sharp\TresEnRayaRed\TresEnRayaRed\bin\Debug\TresEnRayaRed.pdb
+D:\DATOS\Desktop\Pers\CSharp\Ejercicios C#\Ejercicios-C-Sharp\TresEnRayaRed\TresEnRayaRed\obj\Debug\TresEnRayaRed.csproj.AssemblyReference.cache
+D:\DATOS\Desktop\Pers\CSharp\Ejercicios C#\Ejercicios-C-Sharp\TresEnRayaRed\TresEnRayaRed\obj\Debug\TresEnRayaRed.csproj.SuggestedBindingRedirects.cache
+D:\DATOS\Desktop\Pers\CSharp\Ejercicios C#\Ejercicios-C-Sharp\TresEnRayaRed\TresEnRayaRed\obj\Debug\TresEnRayaRed.csproj.CoreCompileInputs.cache
+D:\DATOS\Desktop\Pers\CSharp\Ejercicios C#\Ejercicios-C-Sharp\TresEnRayaRed\TresEnRayaRed\obj\Debug\TresEnRayaRed.exe
+D:\DATOS\Desktop\Pers\CSharp\Ejercicios C#\Ejercicios-C-Sharp\TresEnRayaRed\TresEnRayaRed\obj\Debug\TresEnRayaRed.pdb
