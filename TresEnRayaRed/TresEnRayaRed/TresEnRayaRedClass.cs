@@ -6,28 +6,60 @@ public struct Jugador
     public string nombre;
     public char ficha;
 }
+
+
+//Celdas del tablero de juego
+public class Celda
+{
+    //Posición de la celda en la consola para colocar la ficha
+    int posX, posY;
+    //Estado de la celda: 0 vacía, 1 con ficha Jugador1, 2 con ficha Jugador2
+    int estado;
+
+    public void EstableceEstado(int nuevoEstado)
+    {
+        estado = nuevoEstado;
+    }
+
+    public void EstablecePosicion(int x, int y)
+    {
+        posX = x;
+        posY = y;
+    }
+
+    public int Estado()
+    {
+        return estado;
+    }
+
+    public int PosicionX()
+    {
+        return posX;
+    }
+
+    public int PosicionY()
+    {
+        return posY;
+    }
+
+}
 public class TresEnRayaRed
 {
-    //El tablero de juego de las tres en raya
-    //Cada celda puede tener tres estados: vacía, con ficha del jugador1, con ficha del jugador2
-    enum EstadoCelda
-    {
-        VACIA,
-        JUG_1,
-        JUG_2
-    }
     //Array que representará el tablero de celdas
-    EstadoCelda [,] celdas;    
+    Celda [,] celdas;    
     
     Jugador jugador1, jugador2;
-   
 
+    const int VACIA = 0, FJUG1 = 1, FJUG2 = 2;
 
     //Constructor genérico
     public TresEnRayaRed()
     {
         //El tablero tendrá un tamaño fijo de 3x3
-        celdas = new EstadoCelda[3, 3];
+        celdas = new Celda[3, 3];
+        for(int i = 0; i < 3; i++)
+            for(int j = 0; j < 3; j++)
+                celdas[i, j] = new Celda();
 
         //Se asigna un nombre genérico a los jugadores        
         jugador1.nombre = "Jugador1";
@@ -44,7 +76,10 @@ public class TresEnRayaRed
     public TresEnRayaRed(string Jugador1 = "Jugador1", string Jugador2 = "Jugador2")
     {
         //El tablero tendrá un tamaño fijo de 3x3
-        celdas = new EstadoCelda[3, 3];
+        celdas = new Celda[3, 3];
+        for (int i = 0; i < 3; i++)
+            for (int j = 0; j < 3; j++)
+                celdas[i, j] = new Celda();
 
         //Se asigna el nombre a los jugadores
         jugador1.nombre = Jugador1;
@@ -57,6 +92,7 @@ public class TresEnRayaRed
         BorraTablero();
     }
 
+
     /// <summary>
     /// Comienza una nueva partida
     /// </summary>
@@ -65,6 +101,7 @@ public class TresEnRayaRed
         DibujaTablero();
     }
 
+
     /// <summary>Deja el tablero de juego en blanco, todas las celdas vacías</summary>
     private void BorraTablero()
     {
@@ -72,12 +109,14 @@ public class TresEnRayaRed
         for (int i = 0; i < 3; i++)
         {
             for (int j = 0; j < 3; j++)
-                celdas[i, j] = EstadoCelda.VACIA;
+            {                
+                celdas[i, j].EstableceEstado(VACIA);
+            }
         }
     }
 
     /// <summary>
-    /// Dibuja el tablero de juego en pantalla al inicio de cada partida
+    /// Dibuja el tablero de juego en pantalla al inicio de cada partida y asigna posición de cada celda
     /// </summary>
     private void DibujaTablero()
     {
@@ -95,6 +134,42 @@ public class TresEnRayaRed
                 Console.WriteLine(":       :       :       :");
         }
         Console.WriteLine("=========================");
+
+        //Recorre las celdas asignando la posición en la consola donde irá la ficha
+        int aumentoX;
+        int aumentoY = 6;
+        for (int fila = 0; fila < 3; fila++)
+        {
+            aumentoX = 4;
+            for (int columna = 0; columna < 3; columna++)
+            {
+                celdas[fila, columna].EstablecePosicion(aumentoX, aumentoY);
+                aumentoX += 8;                
+            }            
+            aumentoY += 4;            
+        }        
+
+        /*Console.SetCursorPosition(4, 6);
+        Console.Write("X");
+        Console.SetCursorPosition(12, 6);
+        Console.Write("X");
+        Console.SetCursorPosition(20, 6);
+        Console.Write("X");
+        Console.SetCursorPosition(4, 10);
+        Console.Write("X");
+        Console.SetCursorPosition(12, 10);
+        Console.Write("X");
+        Console.SetCursorPosition(20, 10);
+        Console.Write("X");
+        Console.SetCursorPosition(4, 14);
+        Console.Write("X");
+        Console.SetCursorPosition(12, 14);
+        Console.Write("X");
+        Console.SetCursorPosition(20, 14);
+        Console.Write("X");*/
+
+        Console.SetCursorPosition(0, 18);
+        
 
     }
 }
