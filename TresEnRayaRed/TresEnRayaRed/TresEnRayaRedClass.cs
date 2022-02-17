@@ -135,7 +135,18 @@ public class TresEnRayaRed
         }
         Console.WriteLine("=========================");
 
-        //Recorre las celdas asignando la posición en la consola donde irá la ficha
+        AsignaPosicionFichas();
+       
+        Console.SetCursorPosition(0, 18);
+    }
+
+
+    /// <summary>
+    /// Recorre las celdas asignando la posición en la consola donde irá la ficha
+    /// </summary>
+    private void AsignaPosicionFichas()
+    {
+        
         int aumentoX;
         int aumentoY = 6;
         for (int fila = 0; fila < 3; fila++)
@@ -144,34 +155,46 @@ public class TresEnRayaRed
             for (int columna = 0; columna < 3; columna++)
             {
                 celdas[fila, columna].EstablecePosicion(aumentoX, aumentoY);
-                aumentoX += 8;                
-            }            
-            aumentoY += 4;            
-        }        
-
-        /*Console.SetCursorPosition(4, 6);
-        Console.Write("X");
-        Console.SetCursorPosition(12, 6);
-        Console.Write("X");
-        Console.SetCursorPosition(20, 6);
-        Console.Write("X");
-        Console.SetCursorPosition(4, 10);
-        Console.Write("X");
-        Console.SetCursorPosition(12, 10);
-        Console.Write("X");
-        Console.SetCursorPosition(20, 10);
-        Console.Write("X");
-        Console.SetCursorPosition(4, 14);
-        Console.Write("X");
-        Console.SetCursorPosition(12, 14);
-        Console.Write("X");
-        Console.SetCursorPosition(20, 14);
-        Console.Write("X");*/
-
-        Console.SetCursorPosition(0, 18);
-        
-
+                aumentoX += 8;
+            }
+            aumentoY += 4;
+        }
     }
+
+
+    private int CompruebaVictoria()
+    {
+        //Recorre el tablero por filas
+        for(int fila = 0; fila < 3; fila++)
+        {
+            if(celdas[fila, 0].Estado() != VACIA
+                && celdas[fila, 0].Estado() == celdas[fila, 1].Estado() 
+                && celdas[fila, 0].Estado() == celdas[fila, 2].Estado())
+                return celdas[fila, 0].Estado();
+        }
+
+        //Recorre el tablero por columnas
+        for(int columna = 0; columna < 3;columna++)
+        {
+            if (celdas[0, columna].Estado() != VACIA
+                && celdas[0, columna].Estado() == celdas[1, columna].Estado()
+                && celdas[0, columna].Estado() == celdas[2, columna].Estado())
+                return celdas[0, columna].Estado();
+        }
+
+        //Comprueba las dos diagonales
+        if (celdas[1, 1].Estado() != VACIA
+            && ( (celdas[1, 1].Estado() == celdas[0, 0].Estado()
+            && celdas[1, 1].Estado() == celdas[2, 2].Estado()) 
+            ||  (celdas[1, 1].Estado() == celdas[0, 2].Estado()
+            && celdas[1, 1].Estado() == celdas[2, 0].Estado()) ) )
+            return celdas[1, 1].Estado();
+
+
+        return VACIA;
+    }
+
+
 }
 
 
