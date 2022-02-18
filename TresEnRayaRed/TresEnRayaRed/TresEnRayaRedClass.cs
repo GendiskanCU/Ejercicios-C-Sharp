@@ -99,6 +99,12 @@ public class TresEnRayaRed
     public void IniciaPartida()
     {
         DibujaTablero();
+
+        PonFicha(jugador1, 0, 2);
+        PonFicha(jugador1, 1, 1);
+        PonFicha(jugador1, 2, 0);
+
+        Console.Write(CompruebaVictoria());
     }
 
 
@@ -192,6 +198,24 @@ public class TresEnRayaRed
 
 
         return VACIA;
+    }
+
+    private void PonFicha(Jugador jugador, int fila, int columna)
+    {
+        if(jugador.nombre == jugador1.nombre)
+        {
+            celdas[fila, columna].EstableceEstado(FJUG1);
+        }
+        else
+        {
+            celdas[fila, columna].EstableceEstado(FJUG2);
+        }
+
+        Console.SetCursorPosition(celdas[fila, columna].PosicionX(),
+            celdas[fila, columna].PosicionY());
+        Console.Write(jugador.ficha);
+
+        Console.SetCursorPosition(0, 18);
     }
 
 
