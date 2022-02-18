@@ -50,6 +50,12 @@ public class TresEnRayaRed
     
     Jugador jugador1, jugador2;
 
+    //Para controlar a qué jugador le toca tirar
+    bool turnoJugador2;
+
+    //Para controlar cuándo finaliza la partida
+    bool finPartida;
+
     const int VACIA = 0, FJUG1 = 1, FJUG2 = 2;
 
     //Constructor genérico
@@ -83,7 +89,7 @@ public class TresEnRayaRed
 
         //Se asigna el nombre a los jugadores
         jugador1.nombre = Jugador1;
-        jugador2.nombre = Jugador2;
+        jugador2.nombre = (Jugador1 == Jugador2) ? Jugador1 + "(bis)" : Jugador2;
 
         //Se asigna ficha a los jugadores
         jugador1.ficha = 'X';
@@ -100,11 +106,16 @@ public class TresEnRayaRed
     {
         DibujaTablero();
 
-        PonFicha(jugador1, 0, 2);
+        while(!finPartida)
+        {
+            ControlTiradas();
+        }
+
+        /*PonFicha(jugador1, 0, 2);
         PonFicha(jugador1, 1, 1);
         PonFicha(jugador1, 2, 0);
 
-        Console.Write(CompruebaVictoria());
+        Console.Write(CompruebaVictoria());*/
     }
 
 
@@ -168,6 +179,10 @@ public class TresEnRayaRed
     }
 
 
+    /// <summary>
+    /// Comprueba si hay tres fichas de un mismo jugador en línea
+    /// </summary>
+    /// <returns>VACÍA(0) si ningún jugador tiene tres fichas en línea. FJUG1(1) ó FJUG2(2) en caso contrario</returns>
     private int CompruebaVictoria()
     {
         //Recorre el tablero por filas
@@ -200,6 +215,12 @@ public class TresEnRayaRed
         return VACIA;
     }
 
+    /// <summary>
+    /// Coloca la ficha en la casilla elegida por el jugador
+    /// </summary>
+    /// <param name="jugador">Jugador al que le toca tirar</param>
+    /// <param name="fila">Fila de la casilla escogida</param>
+    /// <param name="columna">Columna de la casilla escogida</param>
     private void PonFicha(Jugador jugador, int fila, int columna)
     {
         if(jugador.nombre == jugador1.nombre)
@@ -215,8 +236,53 @@ public class TresEnRayaRed
             celdas[fila, columna].PosicionY());
         Console.Write(jugador.ficha);
 
-        Console.SetCursorPosition(0, 18);
+        //Console.SetCursorPosition(0, 18);
     }
+
+    /// <summary>
+    /// Cambia el jugador al que le toca tirar modificando la variable booleana turnoJugador2
+    /// </summary>
+    private void CambiaTurno()
+    {
+        turnoJugador2 = !turnoJugador2;
+    }
+
+
+    private void ControlTiradas()
+    {
+        Console.SetCursorPosition(0, 18);        
+        int filaTirada, columnaTirada;
+
+        if(!turnoJugador2)
+        {
+            Console.WriteLine("Turno para el jugador: {0}" + "                                              ",
+                jugador1.nombre);            
+        }
+        filaTirada = PideFilaColumna("fila");
+        columnaTirada = PideFilaColumna("columna");
+        //TODO: Controlar que la casilla elegida no está ya ocupada
+        //TODO: Terminar este método. Recordar cambiar la booleana finPartida
+    }
+
+    private int PideFilaColumna(string quePide)
+    {
+        bool datoCorrecto = false;
+        Console.SetCursorPosition(0, 20);
+        Console.WriteLine("Escribe la {0} donde quieres tirar (entre 0 y 2):                          ", quePide);
+        int introducida = Convert.ToInt32(Console.ReadLine());
+        while (!datoCorrecto)
+        {
+            if (introducida >= 0 && introducida <= 2)
+                datoCorrecto = true;
+            else
+            {
+                Console.SetCursorPosition(0, 20);
+                Console.WriteLine("Error. Escribe nuevamente la {0} donde quieres tirar (entre 0 y 2):", quePide);
+                introducida = Convert.ToInt32(Console.ReadLine());
+            }
+        }
+
+        return introducida;
 
 
 }
