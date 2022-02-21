@@ -56,7 +56,7 @@ public class TresEnRayaRed
     //Para controlar cuándo finaliza la partida
     bool finPartida;
 
-    const int VACIA = 0, FJUG1 = 1, FJUG2 = 2;
+    const int VACIA = 0, FJUG1 = 1, FJUG2 = 2, EMPATE = 4;
 
     //Constructor genérico
     public TresEnRayaRed()
@@ -211,8 +211,14 @@ public class TresEnRayaRed
             && celdas[1, 1].Estado() == celdas[2, 0].Estado()) ) )
             return celdas[1, 1].Estado();
 
+        //Si nadie ha vencido, comprueba si quedan casillas vacías
+        for(int fila = 0; fila < 3; fila++)
+            for(int columna = 0; columna < 3; columna++)
+                if(celdas[fila, columna].Estado() == VACIA)
+                    return VACIA;
 
-        return VACIA;
+        //Si ha llegado hasta aquí, todas las celdas están ocupadas y nadie ha vencido
+        return EMPATE;
     }
 
     /// <summary>
@@ -253,22 +259,70 @@ public class TresEnRayaRed
         Console.SetCursorPosition(0, 18);        
         int filaTirada, columnaTirada;
 
-        if(!turnoJugador2)
-        {
-            Console.WriteLine("Turno para el jugador: {0}" + "                                              ",
-                jugador1.nombre);            
-        }
+        //Muestra el nombre del jugador al que toca tirar
+        Console.WriteLine("Turno para el jugador: {0}" + "                                              ",
+                (!turnoJugador2 ? jugador1.nombre : jugador2.nombre));            
+        
+        //Pide al jugador las coordenadas de la celda a que quiere tirar
         filaTirada = PideFilaColumna("fila");
         columnaTirada = PideFilaColumna("columna");
-        //TODO: Controlar que la casilla elegida no está ya ocupada
-        //TODO: Terminar este método. Recordar cambiar la booleana finPartida
+
+        //Comprueba que la celda no esté ya ocupada
+        bool casillaOcupada = true;
+        while(casillaOcupada)
+        {
+            if(celdas[filaTirada, columnaTirada].Estado() == VACIA)
+            {
+                casillaOcupada = false;
+            }
+            else
+            {
+                Console.SetCursorPosition(0, 19);
+                Console.Write("La celda ({0}, {1}) ya está ocupada", filaTirada, columnaTirada);
+                filaTirada = PideFilaColumna("fila");
+                columnaTirada = PideFilaColumna("columna");
+            }                
+        }
+        Console.SetCursorPosition(0, 19);
+        Console.Write("                                                   ");
+
+        //Coloca la ficha del jugador en el tablero
+        PonFicha((!turnoJugador2 ? jugador1 : jugador2), filaTirada, columnaTirada);
+
+        //Comprueba el estado de victoria (o empate)
+        if(CompruebaVictoria()!=VACIA)
+        {
+            Console.SetCursorPosition(0, 22);
+            if (CompruebaVictoria() == EMPATE)
+            {
+                Console.WriteLine("SE HA PRODUCIDO UN EMPATE");
+            }
+            else
+            {
+                Console.WriteLine("VICTORIA DEL JUGADOR {0}",
+                    (CompruebaVictoria() == FJUG1 ? jugador1.nombre : jugador2.nombre));
+            }
+            finPartida = true;//Finaliza la partida
+        }
+        else//Si no hay victoria, ni tampoco un empate por estar el tablero lleno
+        //Cambia el turno del jugador al que toca tirar
+        CambiaTurno();        
     }
 
+
+    /// <summary>
+    /// Devuelve un número solicitado al usuario entre 0 y 2 para coordenadas del tablero de juego
+    /// </summary>
+    /// <param name="quePide">palabra que debe aparecer al usuario: fila/columna</param>
+    /// <returns></returns>
     private int PideFilaColumna(string quePide)
     {
         bool datoCorrecto = false;
         Console.SetCursorPosition(0, 20);
         Console.WriteLine("Escribe la {0} donde quieres tirar (entre 0 y 2):                          ", quePide);
+        Console.SetCursorPosition(0, 21);
+        Console.Write("                            ");
+        Console.SetCursorPosition(0, 21);
         int introducida = Convert.ToInt32(Console.ReadLine());
         while (!datoCorrecto)
         {
@@ -283,6 +337,7 @@ public class TresEnRayaRed
         }
 
         return introducida;
+    }
 
 
 }
@@ -307,6 +362,7 @@ public class Juego3Raya
 
         juego.IniciaPartida();
 
+        Console.WriteLine("Pulsa una tecla para salir");
         Console.ReadKey();
     }
 }
