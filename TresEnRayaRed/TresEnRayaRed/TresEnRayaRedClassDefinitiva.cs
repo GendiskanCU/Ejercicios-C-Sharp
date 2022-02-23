@@ -45,18 +45,20 @@ public class Jugador
         return ficha;
     }
 
-    public void EnviarDatos(string direccion, int puerto, int dato1, int dato2)
+    public void EnviarDatos(string direccion, int puerto, int fila, int columna)
     {
         TcpClient cliente = new TcpClient(direccion, puerto);
         NetworkStream conexion = cliente.GetStream();
-        string datosAEnviar = Convert.ToString(dato1) + ',' + Convert.ToString(dato2);
+        //Envía tanto la fila/columna de la tirada como la ficha del jugador que tira
+        string datosAEnviar = Convert.ToString(fila) + ',' + Convert.ToString(columna)
+            + ',' + Ficha();
         byte[] buffer = Encoding.ASCII.GetBytes(datosAEnviar);
         conexion.Write(buffer, 0, buffer.Length);
         conexion.Close();
         cliente.Close();
     }
 
-    public void RecibirDatos(string direccion, int puerto, out int dato1, out int dato2)
+    public void RecibirDatos(string direccion, int puerto, out int fila, out int columna, out char ficha)
     {
         //Trata de encontrar la primera IP que corresponda a la dirección recibida
         IPAddress direccionIP = Dns.GetHostEntry(direccion).AddressList[0];
@@ -73,8 +75,10 @@ public class Jugador
         listener.Stop();
 
         string[] datosSeparados = datosRecibidos.Split(',');
-        dato1 = Convert.ToInt32(datosSeparados[0]);
-        dato2 = Convert.ToInt32(datosSeparados[1]);
+        //Devuelve los datos recibidos
+        fila = Convert.ToInt32(datosSeparados[0]);
+        columna = Convert.ToInt32(datosSeparados[1]);
+        ficha = Convert.ToChar(datosSeparados[2]);        
     }
 }
 
@@ -292,41 +296,52 @@ public class TresEnRayaRed
     /// <param name="jugador">Jugador al que le toca tirar</param>
     /// <param name="fila">Fila de la casilla escogida</param>
     /// <param name="columna">Columna de la casilla escogida</param>
-    private void PonFicha(int fila, int columna)
+    /// /// <param name="fichaColocada">Ficha del jugador que ha jugado</param>
+    private void PonFicha(int fila, int columna, char fichaColocada)
     {
-        if(jugador.Nombre() == "Jugador1")
+        Console.SetCursorPosition(celdas[fila, columna].PosicionX(),
+            celdas[fila, columna].PosicionY());
+
+        if (jugador.Nombre() == "Jugador1")
         {
-            celdas[fila, columna].EstableceEstado(FJUG1);
+            if(jugador.Estado() == "EMISOR")
+                celdas[fila, columna].EstableceEstado(FJUG1);
+            else
+                celdas[fila, columna].EstableceEstado(FJUG2);
         }
         else
         {
-            celdas[fila, columna].EstableceEstado(FJUG2);
+            if (jugador.Estado() == "EMISOR")
+                celdas[fila, columna].EstableceEstado(FJUG2);
+            else
+                celdas[fila, columna].EstableceEstado(FJUG1);
         }
-
-        Console.SetCursorPosition(celdas[fila, columna].PosicionX(),
-            celdas[fila, columna].PosicionY());
-        Console.Write(jugador.Ficha());
+        
+        Console.Write(fichaColocada);
 
         //Console.SetCursorPosition(0, 18);
     }
 
 
-    //TODO: Este método hay que modificarlo con la funcionalidad de juego en red
+    
     private void ControlTiradas()
     {
         string direccion = "localhost";
         int puerto = 2112;
 
+        //Limpia la pantalla y coloca el cursor
+        Console.SetCursorPosition(0, 20);
+        Console.WriteLine("                                                                           ");
+        Console.SetCursorPosition(0, 21);
+        Console.WriteLine("                                                                           ");
         Console.SetCursorPosition(0, 18);        
-        int filaTirada, columnaTirada;
 
-        //Muestra el nombre del jugador al que toca tirar
-        Console.WriteLine("Turno para: {0}" + "                                              ",
-               jugador.Nombre());
+        int filaTirada, columnaTirada;        
 
 
         if (jugador.Estado() == "EMISOR")
         {
+            Console.WriteLine("Es tu turno, haz tu jugada........................");
             //Pide al jugador las coordenadas de la celda a que quiere tirar
             filaTirada = PideFilaColumna("fila");
             columnaTirada = PideFilaColumna("columna");
@@ -351,20 +366,21 @@ public class TresEnRayaRed
             Console.Write("                                                   ");
 
             //Coloca la ficha del jugador en el tablero
-            PonFicha(filaTirada, columnaTirada);
+            PonFicha(filaTirada, columnaTirada, jugador.Ficha());
 
             //Envía la tirada al otro jugador
             jugador.EnviarDatos(direccion, puerto, filaTirada, columnaTirada);            
         }
         else
         {
-            //Console.WriteLine("Le toca tirar al otro jugador");
-            //Console.WriteLine("Esperando su jugada...");
+            Console.WriteLine("Turno para el otro jugador. Esperando su jugada...");
+            
             int fila, columna;
-            jugador.RecibirDatos(direccion, puerto, out fila, out columna);
-            //Console.WriteLine("Tirada recibida: {0}, {1}. ", fila, columna);
+            char fichaOtroJugador;
+            jugador.RecibirDatos(direccion, puerto, out fila, out columna, out fichaOtroJugador);
+            
             //Coloca la ficha del jugador en el tablero
-            PonFicha(fila, columna);
+            PonFicha(fila, columna, fichaOtroJugador);
             
         }
 
