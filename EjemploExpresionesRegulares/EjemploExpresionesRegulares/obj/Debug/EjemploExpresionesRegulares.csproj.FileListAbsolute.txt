@@ -1,0 +1,8 @@
+D:\DATOS\Desktop\Pers\CSharp\Ejercicios C#\Ejercicios-C-Sharp\EjemploExpresionesRegulares\EjemploExpresionesRegulares\bin\Debug\EjemploExpresionesRegulares.exe.config
+D:\DATOS\Desktop\Pers\CSharp\Ejercicios C#\Ejercicios-C-Sharp\EjemploExpresionesRegulares\EjemploExpresionesRegulares\bin\Debug\EjemploExpresionesRegulares.exe
+D:\DATOS\Desktop\Pers\CSharp\Ejercicios C#\Ejercicios-C-Sharp\EjemploExpresionesRegulares\EjemploExpresionesRegulares\bin\Debug\EjemploExpresionesRegulares.pdb
+D:\DATOS\Desktop\Pers\CSharp\Ejercicios C#\Ejercicios-C-Sharp\EjemploExpresionesRegulares\EjemploExpresionesRegulares\obj\Debug\EjemploExpresionesRegulares.csproj.AssemblyReference.cache
+D:\DATOS\Desktop\Pers\CSharp\Ejercicios C#\Ejercicios-C-Sharp\EjemploExpresionesRegulares\EjemploExpresionesRegulares\obj\Debug\EjemploExpresionesRegulares.csproj.SuggestedBindingRedirects.cache
+D:\DATOS\Desktop\Pers\CSharp\Ejercicios C#\Ejercicios-C-Sharp\EjemploExpresionesRegulares\EjemploExpresionesRegulares\obj\Debug\EjemploExpresionesRegulares.csproj.CoreCompileInputs.cache
+D:\DATOS\Desktop\Pers\CSharp\Ejercicios C#\Ejercicios-C-Sharp\EjemploExpresionesRegulares\EjemploExpresionesRegulares\obj\Debug\EjemploExpresionesRegulares.exe
+D:\DATOS\Desktop\Pers\CSharp\Ejercicios C#\Ejercicios-C-Sharp\EjemploExpresionesRegulares\EjemploExpresionesRegulares\obj\Debug\EjemploExpresionesRegulares.pdb
