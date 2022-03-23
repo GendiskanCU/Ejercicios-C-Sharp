@@ -1,0 +1,5 @@
+Source File,Dest File,Processor Type,Content Type,Source File Size,Dest File Size,Build Seconds
+"E:/C Sharp/Ejercicios-C-Sharp/PruebaMonogame/Content/Comida.png","E:/C Sharp/Ejercicios-C-Sharp/PruebaMonogame/Content/bin/Windows/Comida.xnb","TextureProcessor","Texture2DContent",2817,6485,0,3194267
+"E:/C Sharp/Ejercicios-C-Sharp/PruebaMonogame/Content/Cuerpo.png","E:/C Sharp/Ejercicios-C-Sharp/PruebaMonogame/Content/bin/Windows/Cuerpo.xnb","TextureProcessor","Texture2DContent",2105,6485,0,0022691
+"E:/C Sharp/Ejercicios-C-Sharp/PruebaMonogame/Content/Pared.png","E:/C Sharp/Ejercicios-C-Sharp/PruebaMonogame/Content/bin/Windows/Pared.xnb","TextureProcessor","Texture2DContent",2134,6485,0,0027227
+"E:/C Sharp/Ejercicios-C-Sharp/PruebaMonogame/Content/Veneno.png","E:/C Sharp/Ejercicios-C-Sharp/PruebaMonogame/Content/bin/Windows/Veneno.xnb","TextureProcessor","Texture2DContent",3082,6485,0,002768
