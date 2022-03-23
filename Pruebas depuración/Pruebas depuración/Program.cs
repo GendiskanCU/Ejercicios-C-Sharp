@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Diagnostics;
 
 public class SegundoGrado
 {
@@ -38,36 +39,40 @@ public class PruebaSegundoGrado
 
         SegundoGrado ecuacion = new SegundoGrado();
 
-        Console.Write("Probando x2 - 1 = 0... ");
+        Console.Write("\nProbando x2 - 1 = 0... ");
         ecuacion.Resolver((float)1, (float)0, (float)-1,
             out solucion1, out solucion2);
-        if ((solucion1 == 1) && (solucion2 == -1))
+        /*if ((solucion1 == 1) && (solucion2 == -1))
             Console.WriteLine("Correcto");
         else
-            Console.WriteLine("Fallo");
+            Console.WriteLine("Fallo");*/
+        Debug.Assert(solucion1 == 1 && solucion2 == -1);
 
-        Console.Write("Probando x2 = 0... ");
+        Console.Write("\nProbando x2 = 0... ");
         ecuacion.Resolver((float)1, (float)0, (float)0,
             out solucion1, out solucion2);
-        if ((solucion1 == 0) && (solucion2 == -9999))
+        /*if ((solucion1 == 0) && (solucion2 == -9999))
             Console.WriteLine("Correcto");
         else
-            Console.WriteLine("Fallo");
+            Console.WriteLine("Fallo");*/
+        Debug.Assert(solucion1 == 0 && solucion2 == -9999);
 
-        Console.Write("Probando x2 - 3x = 0... ");
+        Console.Write("\nProbando x2 - 3x = 0... ");
         ecuacion.Resolver((float)1, (float)-3, (float)0,
             out solucion1, out solucion2);
-        if ((solucion1 == 3) && (solucion2 == 0))
+        /*if ((solucion1 == 3) && (solucion2 == 0))
             Console.WriteLine("Correcto");
         else
-            Console.WriteLine("Fallo");
+            Console.WriteLine("Fallo");*/
+        Debug.Assert(solucion1 == 3 && solucion2 == 0);
 
-        Console.Write("Probando 2x2 - 2 = 0... ");
+        Console.Write("\nProbando 2x2 - 2 = 0... ");
         ecuacion.Resolver((float)2, (float)0, (float)-2,
             out solucion1, out solucion2);
-        if ((solucion1 == 1) && (solucion2 == -1))
+        /*if ((solucion1 == 1) && (solucion2 == -1))
             Console.WriteLine("Correcto");
         else
-            Console.WriteLine("Fallo");
+            Console.WriteLine("Fallo");*/
+        Debug.Assert(solucion1 == 1 && solucion2 == -1);
     }
 }
