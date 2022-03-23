@@ -1,0 +1,14 @@
+D:\DATOS\Desktop\Pers\CSharp\Ejercicios C#\Ejercicios-C-Sharp\Pruebas depuración\Pruebas depuración\bin\Debug\netcoreapp3.1\Pruebas depuración.exe
+D:\DATOS\Desktop\Pers\CSharp\Ejercicios C#\Ejercicios-C-Sharp\Pruebas depuración\Pruebas depuración\bin\Debug\netcoreapp3.1\Pruebas depuración.deps.json
+D:\DATOS\Desktop\Pers\CSharp\Ejercicios C#\Ejercicios-C-Sharp\Pruebas depuración\Pruebas depuración\bin\Debug\netcoreapp3.1\Pruebas depuración.runtimeconfig.json
+D:\DATOS\Desktop\Pers\CSharp\Ejercicios C#\Ejercicios-C-Sharp\Pruebas depuración\Pruebas depuración\bin\Debug\netcoreapp3.1\Pruebas depuración.runtimeconfig.dev.json
+D:\DATOS\Desktop\Pers\CSharp\Ejercicios C#\Ejercicios-C-Sharp\Pruebas depuración\Pruebas depuración\bin\Debug\netcoreapp3.1\Pruebas depuración.dll
+D:\DATOS\Desktop\Pers\CSharp\Ejercicios C#\Ejercicios-C-Sharp\Pruebas depuración\Pruebas depuración\bin\Debug\netcoreapp3.1\Pruebas depuración.pdb
+D:\DATOS\Desktop\Pers\CSharp\Ejercicios C#\Ejercicios-C-Sharp\Pruebas depuración\Pruebas depuración\obj\Debug\netcoreapp3.1\Pruebas depuración.csproj.AssemblyReference.cache
+D:\DATOS\Desktop\Pers\CSharp\Ejercicios C#\Ejercicios-C-Sharp\Pruebas depuración\Pruebas depuración\obj\Debug\netcoreapp3.1\Pruebas depuración.GeneratedMSBuildEditorConfig.editorconfig
+D:\DATOS\Desktop\Pers\CSharp\Ejercicios C#\Ejercicios-C-Sharp\Pruebas depuración\Pruebas depuración\obj\Debug\netcoreapp3.1\Pruebas depuración.AssemblyInfoInputs.cache
+D:\DATOS\Desktop\Pers\CSharp\Ejercicios C#\Ejercicios-C-Sharp\Pruebas depuración\Pruebas depuración\obj\Debug\netcoreapp3.1\Pruebas depuración.AssemblyInfo.cs
+D:\DATOS\Desktop\Pers\CSharp\Ejercicios C#\Ejercicios-C-Sharp\Pruebas depuración\Pruebas depuración\obj\Debug\netcoreapp3.1\Pruebas depuración.csproj.CoreCompileInputs.cache
+D:\DATOS\Desktop\Pers\CSharp\Ejercicios C#\Ejercicios-C-Sharp\Pruebas depuración\Pruebas depuración\obj\Debug\netcoreapp3.1\Pruebas depuración.dll
+D:\DATOS\Desktop\Pers\CSharp\Ejercicios C#\Ejercicios-C-Sharp\Pruebas depuración\Pruebas depuración\obj\Debug\netcoreapp3.1\Pruebas depuración.pdb
+D:\DATOS\Desktop\Pers\CSharp\Ejercicios C#\Ejercicios-C-Sharp\Pruebas depuración\Pruebas depuración\obj\Debug\netcoreapp3.1\Pruebas depuración.genruntimeconfig.cache
