@@ -1,0 +1,16 @@
+D:\DATOS\Desktop\Pers\CSharp\Ejercicios C#\Ejercicios-C-Sharp\Ejercicios LINQ\Ejercicios LINQ\bin\Debug\net5.0\Ejercicios LINQ.exe
+D:\DATOS\Desktop\Pers\CSharp\Ejercicios C#\Ejercicios-C-Sharp\Ejercicios LINQ\Ejercicios LINQ\bin\Debug\net5.0\Ejercicios LINQ.deps.json
+D:\DATOS\Desktop\Pers\CSharp\Ejercicios C#\Ejercicios-C-Sharp\Ejercicios LINQ\Ejercicios LINQ\bin\Debug\net5.0\Ejercicios LINQ.runtimeconfig.json
+D:\DATOS\Desktop\Pers\CSharp\Ejercicios C#\Ejercicios-C-Sharp\Ejercicios LINQ\Ejercicios LINQ\bin\Debug\net5.0\Ejercicios LINQ.runtimeconfig.dev.json
+D:\DATOS\Desktop\Pers\CSharp\Ejercicios C#\Ejercicios-C-Sharp\Ejercicios LINQ\Ejercicios LINQ\bin\Debug\net5.0\Ejercicios LINQ.dll
+D:\DATOS\Desktop\Pers\CSharp\Ejercicios C#\Ejercicios-C-Sharp\Ejercicios LINQ\Ejercicios LINQ\bin\Debug\net5.0\ref\Ejercicios LINQ.dll
+D:\DATOS\Desktop\Pers\CSharp\Ejercicios C#\Ejercicios-C-Sharp\Ejercicios LINQ\Ejercicios LINQ\bin\Debug\net5.0\Ejercicios LINQ.pdb
+D:\DATOS\Desktop\Pers\CSharp\Ejercicios C#\Ejercicios-C-Sharp\Ejercicios LINQ\Ejercicios LINQ\obj\Debug\net5.0\Ejercicios LINQ.csproj.AssemblyReference.cache
+D:\DATOS\Desktop\Pers\CSharp\Ejercicios C#\Ejercicios-C-Sharp\Ejercicios LINQ\Ejercicios LINQ\obj\Debug\net5.0\Ejercicios LINQ.GeneratedMSBuildEditorConfig.editorconfig
+D:\DATOS\Desktop\Pers\CSharp\Ejercicios C#\Ejercicios-C-Sharp\Ejercicios LINQ\Ejercicios LINQ\obj\Debug\net5.0\Ejercicios LINQ.AssemblyInfoInputs.cache
+D:\DATOS\Desktop\Pers\CSharp\Ejercicios C#\Ejercicios-C-Sharp\Ejercicios LINQ\Ejercicios LINQ\obj\Debug\net5.0\Ejercicios LINQ.AssemblyInfo.cs
+D:\DATOS\Desktop\Pers\CSharp\Ejercicios C#\Ejercicios-C-Sharp\Ejercicios LINQ\Ejercicios LINQ\obj\Debug\net5.0\Ejercicios LINQ.csproj.CoreCompileInputs.cache
+D:\DATOS\Desktop\Pers\CSharp\Ejercicios C#\Ejercicios-C-Sharp\Ejercicios LINQ\Ejercicios LINQ\obj\Debug\net5.0\Ejercicios LINQ.dll
+D:\DATOS\Desktop\Pers\CSharp\Ejercicios C#\Ejercicios-C-Sharp\Ejercicios LINQ\Ejercicios LINQ\obj\Debug\net5.0\ref\Ejercicios LINQ.dll
+D:\DATOS\Desktop\Pers\CSharp\Ejercicios C#\Ejercicios-C-Sharp\Ejercicios LINQ\Ejercicios LINQ\obj\Debug\net5.0\Ejercicios LINQ.pdb
+D:\DATOS\Desktop\Pers\CSharp\Ejercicios C#\Ejercicios-C-Sharp\Ejercicios LINQ\Ejercicios LINQ\obj\Debug\net5.0\Ejercicios LINQ.genruntimeconfig.cache
