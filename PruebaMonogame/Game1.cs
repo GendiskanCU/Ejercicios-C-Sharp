@@ -15,8 +15,9 @@ namespace PruebaMonogame
         private Texture2D pared;
         private Texture2D comida;
 
-        //Coordenadas para situar a la serpiente
-        private double x, y;
+
+        //Lista con la posición (x, y) de cada segmento que compone la serpiente
+        List<Vector2> posicionSegmentos = new List<Vector2>();
 
         //Número de filas y columnas que tendrá el escenario
         private int filas, columnas;
@@ -49,7 +50,10 @@ namespace PruebaMonogame
                  };
 
         //Velocidad de movimiento de la serpiente (aprox. píxeles/segundo)
-        private int velocidad = 120;
+        private int velocidad = 40;
+
+        //Velocidad de movimiento en cada eje. Determinarán hacia dónde se mueve la serpiente en cada momento
+        private int velocidadX, velocidadY;
 
         //Lista de rectángulos que representará internamente todos los obstáculos presentes en el escenario
         private List<Rectangle> obstaculos = new List<Rectangle>();
@@ -59,6 +63,9 @@ namespace PruebaMonogame
 
         //El tipo de letra del marcador
         SpriteFont tipoLetra;
+
+        //Para fijar los fotogramas por segundo a los que se moverá el juego
+        int fotogramasPorSegundo = 3;
 
         public Game1()
         {
@@ -76,9 +83,12 @@ namespace PruebaMonogame
             filas = 720 / 40;
             columnas = 1280 / 40;
 
-            //Posición inicial de la serpiente
-            x = 300;
-            y = 200;
+            //Posición inicial de la serpiente (el primer segmento)
+            posicionSegmentos.Add(new Vector2(300, 200));
+
+            //Movimiento inicial de la serpiente: hacia la derecha
+            velocidadX = 40;
+            velocidadY = 0;
 
             //Rellena la lista de obstáculos en el escenario
             for (int fila = 0; fila < filas; fila++)
@@ -103,6 +113,10 @@ namespace PruebaMonogame
                     }
                 }
             }
+
+            //Fija la velocidad del juego (FPS) a la deseada por nosotros
+            IsFixedTimeStep = true;
+            TargetElapsedTime = System.TimeSpan.FromSeconds(1.0f / fotogramasPorSegundo);
         }        
 
         protected override void Initialize()
@@ -130,36 +144,81 @@ namespace PruebaMonogame
             if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed || Keyboard.GetState().IsKeyDown(Keys.Escape))
                 Exit();
 
-            //Si se pulsa alguna de las teclas de movimiento cambia las coordenadas x e y de la serpiente en consonancia
-            //realizando el ajuste correspondiente según el tiempo transcurrido desde el anterior frame
+            //Si se pulsa alguna de las teclas de movimiento cambia la dirección hacia la que se moverá la serpiente            
             if (Keyboard.GetState().IsKeyDown(Keys.Right))
-                x += velocidad * gameTime.ElapsedGameTime.TotalSeconds;
+            {
+                velocidadX = velocidad;
+                velocidadY = 0;
+            }
             if (Keyboard.GetState().IsKeyDown(Keys.Left))
-                x -= velocidad * gameTime.ElapsedGameTime.TotalSeconds;
+            {
+                velocidadX = -velocidad;
+                velocidadY = 0;
+            }
             if (Keyboard.GetState().IsKeyDown(Keys.Up))
-                y -= velocidad * gameTime.ElapsedGameTime.TotalSeconds;
+            {
+                velocidadX = 0;
+                velocidadY = -velocidad;
+            }
             if (Keyboard.GetState().IsKeyDown(Keys.Down))
-                y += velocidad * gameTime.ElapsedGameTime.TotalSeconds;
+            {
+                velocidadX = 0;
+                velocidadY = velocidad;
+            }
+
+            //Recorre los segmentos que tenga la serpiente, de forma que cada uno se desplace a la posición del anterior
+            //empezando desde el último. El primer segmento "va por libre", se moverá hacia la posición que corresponda
+            //en función de la dirección de movimiento actual
+            for(int i = posicionSegmentos.Count - 1; i >= 1; i--)
+            {
+                posicionSegmentos[i] = posicionSegmentos[i - 1];
+            }
+
+            //Mueve el primer segmento (la cabeza) de la serpiente desde la posición actual a la dirección establecida
+            posicionSegmentos[0] = new Vector2(
+               (float)(posicionSegmentos[0].X + velocidadX),
+               (float)(posicionSegmentos[0].Y + velocidadY));
 
 
-            //Comprueba si hay colisión entre la serpiente y algún obstáculo
+            //Comprueba si hay colisión entre la cabeza de la serpiente y algún obstáculo
             //(Los rectángulos de ambos intersectarán o se solaparán)
             foreach( Rectangle r in obstaculos)
             {
-                if (r.Intersects(new Rectangle((int)x, (int)y, 40, 40)))
-                    Exit();
+                if (r.Intersects(new Rectangle(
+                    (int) posicionSegmentos[0].X,
+                    (int) posicionSegmentos[0].Y,
+                    40, 40)))
+                        Exit();//Finaliza el juego
             }
 
-            //Comprueba si hay colisión entre la serpiente y algún alimento
+            //Comprueba si hay colisión entre la cabeza serpiente y algún alimento
             //(Los rectángulos de ambos intersectarán o se solaparán)
             for(int i = 0; i < alimentos.Count; i++)
             {
-                if (alimentos[i].Intersects(new Rectangle((int)x, (int)y, 40, 40)))
-                {
+                if (alimentos[i].Intersects(new Rectangle(
+                    (int)posicionSegmentos[0].X,
+                    (int)posicionSegmentos[0].Y,
+                    40, 40)))
+                {//Si la serpiente ha colisionado con algún alimento
                     puntuacion += 100;//Aumenta la puntuación
                     alimentos.RemoveAt(i);//Borra el alimento de la lista interna
+
+                    //La serpiente tiene que crecer en un segmento a partir de la posición del último que ya existe
+                    float posXUltimo = posicionSegmentos[posicionSegmentos.Count - 1].X;
+                    float posYUltimo = posicionSegmentos[posicionSegmentos.Count - 1].Y;
+
+                    //Obtenida esa posición, incrementamos el tamaño del nuevo segmento, en la dirección contraria al movimiento actual
+                    //(es decir, si el movimiento era positivo en un eje el incremento será negativo y viceversa)
+                    posXUltimo = posXUltimo - System.Math.Sign(velocidadX) * 40;
+                    posYUltimo = posYUltimo - System.Math.Sign(velocidadY) * 40;
+
+                    //Añade el nuevo segmento
+                    posicionSegmentos.Add(new Vector2(posXUltimo, posYUltimo));
                 }
             }
+
+            //Comprueba si la cabeza de la serpiente colisiona con alguno de los otros segmentos de sí misma
+            //TODO: implementar colisión de la cabeza de la serpiente con sus propios segmentos
 
             base.Update(gameTime);
         }
@@ -201,11 +260,13 @@ namespace PruebaMonogame
             _spriteBatch.DrawString(tipoLetra, "SCORE: " + puntuacion.ToString("0000"),
                 new Vector2(1000, 650), Color.Yellow);
 
-            //La serpiente
-            _spriteBatch.Draw(serpiente,
-                new Rectangle((int)x, (int)y, 40, 40),
-                Color.White);
-            
+            //La serpiente (todos sus fragmentos)
+            foreach(Vector2 fragmento in posicionSegmentos)
+            {
+                _spriteBatch.Draw(serpiente,
+                    new Rectangle((int)fragmento.X, (int)fragmento.Y, 40, 40),
+                    Color.White);
+            }            
 
             //Finaliza el proceso de lotes dibujado
             _spriteBatch.End();
