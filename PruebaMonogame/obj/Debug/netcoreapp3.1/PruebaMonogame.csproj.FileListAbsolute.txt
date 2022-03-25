@@ -39,3 +39,4 @@ E:\C Sharp\Ejercicios-C-Sharp\PruebaMonogame\bin\Debug\netcoreapp3.1\Content\Com
 E:\C Sharp\Ejercicios-C-Sharp\PruebaMonogame\bin\Debug\netcoreapp3.1\Content\Cuerpo.xnb
 E:\C Sharp\Ejercicios-C-Sharp\PruebaMonogame\bin\Debug\netcoreapp3.1\Content\Pared.xnb
 E:\C Sharp\Ejercicios-C-Sharp\PruebaMonogame\bin\Debug\netcoreapp3.1\Content\Veneno.xnb
+E:\C Sharp\Ejercicios-C-Sharp\PruebaMonogame\bin\Debug\netcoreapp3.1\Content\Arcade.xnb

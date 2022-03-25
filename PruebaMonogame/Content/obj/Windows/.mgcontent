@@ -4,12 +4,14 @@
   <Platform>Windows</Platform>
   <Config />
   <SourceFiles>
+    <File>E:/C Sharp/Ejercicios-C-Sharp/PruebaMonogame/Content/Arcade.spritefont</File>
     <File>E:/C Sharp/Ejercicios-C-Sharp/PruebaMonogame/Content/Comida.png</File>
     <File>E:/C Sharp/Ejercicios-C-Sharp/PruebaMonogame/Content/Cuerpo.png</File>
     <File>E:/C Sharp/Ejercicios-C-Sharp/PruebaMonogame/Content/Pared.png</File>
     <File>E:/C Sharp/Ejercicios-C-Sharp/PruebaMonogame/Content/Veneno.png</File>
   </SourceFiles>
   <DestFiles>
+    <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />

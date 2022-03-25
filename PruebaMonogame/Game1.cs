@@ -13,6 +13,7 @@ namespace PruebaMonogame
         //Declara las texturas a utilizar
         private Texture2D serpiente;
         private Texture2D pared;
+        private Texture2D comida;
 
         //Coordenadas para situar a la serpiente
         private double x, y;
@@ -20,26 +21,30 @@ namespace PruebaMonogame
         //Número de filas y columnas que tendrá el escenario
         private int filas, columnas;
 
+        //Puntuación
+        int puntuacion = 0;
+
         //Array que representará internamente el escenario (la X representa una pared)
+        //(La C representa comida)
         string[] escenario =
             {
                  "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
                  "X                              X",
-                 "X                              X",
-                 "X         X             X      X",
+                 "X    C                    C    X",
+                 "X         X     C       X      X",
                  "X         X                    X",
-                 "X                              X",
-                 "X              XXXX            X",
+                 "X                     C        X",
+                 "X    C         XXXX            X",
                  "X                              X",
                  "X                      XXXXX   X",
-                 "X     XXX                      X",
-                 "X       X                      X",
-                 "X       X                      X",
+                 "X     XXX               C      X",
+                 "X       X       C              X",
+                 "X  C    X                      X",
                  "X       X             X        X",
                  "X       XXXXXX        X        X",
                  "X                     X        X",
-                 "X                              X",
-                 "X                              X",
+                 "X    C                     C   X",
+                 "X              C               X",
                  "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
                  };
 
@@ -48,6 +53,12 @@ namespace PruebaMonogame
 
         //Lista de rectángulos que representará internamente todos los obstáculos presentes en el escenario
         private List<Rectangle> obstaculos = new List<Rectangle>();
+
+        //Lista de rectángulos que representará internamente todos los alimentos presentes en el escenario
+        private List<Rectangle> alimentos = new List<Rectangle>();
+
+        //El tipo de letra del marcador
+        SpriteFont tipoLetra;
 
         public Game1()
         {
@@ -80,6 +91,18 @@ namespace PruebaMonogame
                     }
                 }
             }
+
+            //Rellena la lista de alimentos en el escenario
+            for (int fila = 0; fila < filas; fila++)
+            {
+                for (int columna = 0; columna < columnas; columna++)
+                {
+                    if (escenario[fila][columna] == 'C')
+                    {
+                        alimentos.Add(new Rectangle(columna * 40, fila * 40, 40, 40));
+                    }
+                }
+            }
         }        
 
         protected override void Initialize()
@@ -96,6 +119,10 @@ namespace PruebaMonogame
             //Carga las texturas desde la carpeta Content
             serpiente = Content.Load<Texture2D>("Cuerpo");
             pared = Content.Load<Texture2D>("Pared");
+            comida = Content.Load<Texture2D>("Comida");
+
+            //Carga el tipo de letra
+            tipoLetra = Content.Load<SpriteFont>("Arcade");
         }
 
         protected override void Update(GameTime gameTime)
@@ -121,6 +148,17 @@ namespace PruebaMonogame
             {
                 if (r.Intersects(new Rectangle((int)x, (int)y, 40, 40)))
                     Exit();
+            }
+
+            //Comprueba si hay colisión entre la serpiente y algún alimento
+            //(Los rectángulos de ambos intersectarán o se solaparán)
+            for(int i = 0; i < alimentos.Count; i++)
+            {
+                if (alimentos[i].Intersects(new Rectangle((int)x, (int)y, 40, 40)))
+                {
+                    puntuacion += 100;//Aumenta la puntuación
+                    alimentos.RemoveAt(i);//Borra el alimento de la lista interna
+                }
             }
 
             base.Update(gameTime);
@@ -149,11 +187,25 @@ namespace PruebaMonogame
                 }
             }
 
+            //Los alimentos (para esto utilizaremos la lista de rectángulos que los representa internamente
+            //ya que esta lista se actualizará cada vez que el jugador coja un nuevo alimento)
+            foreach(Rectangle a in alimentos)
+            {
+                _spriteBatch.Draw(comida,
+                            a,
+                            Color.White);
+            }
+
+
+            //El texto marcador con el tipo de letra cargado
+            _spriteBatch.DrawString(tipoLetra, "SCORE: " + puntuacion.ToString("0000"),
+                new Vector2(1000, 650), Color.Yellow);
 
             //La serpiente
             _spriteBatch.Draw(serpiente,
                 new Rectangle((int)x, (int)y, 40, 40),
                 Color.White);
+            
 
             //Finaliza el proceso de lotes dibujado
             _spriteBatch.End();
