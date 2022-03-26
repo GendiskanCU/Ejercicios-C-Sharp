@@ -4,6 +4,7 @@ using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
 using Microsoft.Xna.Framework.Media;
 using System.Collections.Generic;
+using System.Threading;
 
 namespace PruebaMonogame
 {
@@ -201,10 +202,13 @@ namespace PruebaMonogame
             foreach( Rectangle r in obstaculos)
             {
                 if (r.Intersects(new Rectangle(
-                    (int) posicionSegmentos[0].X,
-                    (int) posicionSegmentos[0].Y,
+                    (int)posicionSegmentos[0].X,
+                    (int)posicionSegmentos[0].Y,
                     40, 40)))
-                        Exit();//Finaliza el juego
+                {
+                    Thread.Sleep(500);
+                    Exit();//Finaliza el juego
+                }
             }
 
             //Comprueba si hay colisión entre la cabeza serpiente y algún alimento

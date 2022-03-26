@@ -6,3 +6,10 @@ D:\DATOS\Desktop\Pers\CSharp\Ejercicios C#\Ejercicios-C-Sharp\EjerciciosMétodos
 D:\DATOS\Desktop\Pers\CSharp\Ejercicios C#\Ejercicios-C-Sharp\EjerciciosMétodosConsola\EjerciciosMétodosConsola\obj\Debug\EjerciciosMétodosConsola.csproj.CoreCompileInputs.cache
 D:\DATOS\Desktop\Pers\CSharp\Ejercicios C#\Ejercicios-C-Sharp\EjerciciosMétodosConsola\EjerciciosMétodosConsola\obj\Debug\EjerciciosMétodosConsola.exe
 D:\DATOS\Desktop\Pers\CSharp\Ejercicios C#\Ejercicios-C-Sharp\EjerciciosMétodosConsola\EjerciciosMétodosConsola\obj\Debug\EjerciciosMétodosConsola.pdb
+E:\C Sharp\Ejercicios-C-Sharp\EjerciciosMétodosConsola\EjerciciosMétodosConsola\bin\Debug\EjerciciosMétodosConsola.exe.config
+E:\C Sharp\Ejercicios-C-Sharp\EjerciciosMétodosConsola\EjerciciosMétodosConsola\bin\Debug\EjerciciosMétodosConsola.exe
+E:\C Sharp\Ejercicios-C-Sharp\EjerciciosMétodosConsola\EjerciciosMétodosConsola\bin\Debug\EjerciciosMétodosConsola.pdb
+E:\C Sharp\Ejercicios-C-Sharp\EjerciciosMétodosConsola\EjerciciosMétodosConsola\obj\Debug\EjerciciosMétodosConsola.csproj.AssemblyReference.cache
+E:\C Sharp\Ejercicios-C-Sharp\EjerciciosMétodosConsola\EjerciciosMétodosConsola\obj\Debug\EjerciciosMétodosConsola.csproj.CoreCompileInputs.cache
+E:\C Sharp\Ejercicios-C-Sharp\EjerciciosMétodosConsola\EjerciciosMétodosConsola\obj\Debug\EjerciciosMétodosConsola.exe
+E:\C Sharp\Ejercicios-C-Sharp\EjerciciosMétodosConsola\EjerciciosMétodosConsola\obj\Debug\EjerciciosMétodosConsola.pdb

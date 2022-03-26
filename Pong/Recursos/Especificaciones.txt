@@ -1,0 +1,7 @@
+Tamaño ventana: 1024 x 768 
+
+Tamaño marcador superior: 96
+
+Tamaño objetos: Anchura: 32 - Altura (pelota): 32 / (raqueta): 96 / (pared): 16
+
+Tamaño campo juego: 1024 x 672 == 32 x 21 columnas
