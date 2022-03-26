@@ -40,3 +40,6 @@ E:\C Sharp\Ejercicios-C-Sharp\PruebaMonogame\bin\Debug\netcoreapp3.1\Content\Cue
 E:\C Sharp\Ejercicios-C-Sharp\PruebaMonogame\bin\Debug\netcoreapp3.1\Content\Pared.xnb
 E:\C Sharp\Ejercicios-C-Sharp\PruebaMonogame\bin\Debug\netcoreapp3.1\Content\Veneno.xnb
 E:\C Sharp\Ejercicios-C-Sharp\PruebaMonogame\bin\Debug\netcoreapp3.1\Content\Arcade.xnb
+E:\C Sharp\Ejercicios-C-Sharp\PruebaMonogame\bin\Debug\netcoreapp3.1\Content\FondoMusical.wma
+E:\C Sharp\Ejercicios-C-Sharp\PruebaMonogame\bin\Debug\netcoreapp3.1\Content\FondoMusical.xnb
+E:\C Sharp\Ejercicios-C-Sharp\PruebaMonogame\bin\Debug\netcoreapp3.1\Content\SonidoComer.xnb

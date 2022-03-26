@@ -44,6 +44,12 @@
 /processorParam:TextureFormat=Color
 /build:Cuerpo.png
 
+#begin FondoMusical.mp3
+/importer:Mp3Importer
+/processor:SongProcessor
+/processorParam:Quality=Best
+/build:FondoMusical.mp3
+
 #begin Pared.png
 /importer:TextureImporter
 /processor:TextureProcessor
@@ -55,6 +61,12 @@
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
 /build:Pared.png
+
+#begin SonidoComer.mp3
+/importer:Mp3Importer
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:SonidoComer.mp3
 
 #begin Veneno.png
 /importer:TextureImporter

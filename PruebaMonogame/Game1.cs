@@ -1,6 +1,8 @@
 ﻿using Microsoft.Xna.Framework;
+using Microsoft.Xna.Framework.Audio;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
+using Microsoft.Xna.Framework.Media;
 using System.Collections.Generic;
 
 namespace PruebaMonogame
@@ -23,11 +25,11 @@ namespace PruebaMonogame
         private int filas, columnas;
 
         //Puntuación
-        int puntuacion = 0;
+        private int puntuacion = 0;
 
         //Array que representará internamente el escenario (la X representa una pared)
         //(La C representa comida)
-        string[] escenario =
+        private string[] escenario =
             {
                  "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
                  "X                              X",
@@ -66,6 +68,12 @@ namespace PruebaMonogame
 
         //Para fijar los fotogramas por segundo a los que se moverá el juego
         int fotogramasPorSegundo = 3;
+
+        //Música de fondo
+        private Song musicaDeFondo;
+        
+        //Efectos de sonido
+        private SoundEffect cogerComida;
 
         public Game1()
         {
@@ -116,7 +124,7 @@ namespace PruebaMonogame
 
             //Fija la velocidad del juego (FPS) a la deseada por nosotros
             IsFixedTimeStep = true;
-            TargetElapsedTime = System.TimeSpan.FromSeconds(1.0f / fotogramasPorSegundo);
+            TargetElapsedTime = System.TimeSpan.FromSeconds(1.0f / fotogramasPorSegundo);            
         }        
 
         protected override void Initialize()
@@ -137,6 +145,14 @@ namespace PruebaMonogame
 
             //Carga el tipo de letra
             tipoLetra = Content.Load<SpriteFont>("Arcade");
+
+            //Carga la música y los efectos de sonido
+            musicaDeFondo = Content.Load<Song>("FondoMusical");
+            cogerComida = Content.Load<SoundEffect>("SonidoComer");
+
+            //Reproduce la música de fondo en bucle
+            MediaPlayer.Play(musicaDeFondo);
+            MediaPlayer.IsRepeating = true;
         }
 
         protected override void Update(GameTime gameTime)
@@ -214,6 +230,10 @@ namespace PruebaMonogame
 
                     //Añade el nuevo segmento
                     posicionSegmentos.Add(new Vector2(posXUltimo, posYUltimo));
+
+                    //Crea una nueva instancia del efecto de sonido y lo reproduce
+                    //Se hace así, en vez de un Play directo, para evitar que se solapen los efectos si se reproducen a la vez
+                    cogerComida.CreateInstance().Play();
                 }
             }
 

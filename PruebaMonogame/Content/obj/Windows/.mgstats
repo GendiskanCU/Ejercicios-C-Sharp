@@ -1,2 +1,3 @@
 Source File,Dest File,Processor Type,Content Type,Source File Size,Dest File Size,Build Seconds
-"E:/C Sharp/Ejercicios-C-Sharp/PruebaMonogame/Content/Arcade.spritefont","E:/C Sharp/Ejercicios-C-Sharp/PruebaMonogame/Content/bin/Windows/Arcade.xnb","FontDescriptionProcessor","SpriteFontContent",2009,37922,0,3807203
+"E:/C Sharp/Ejercicios-C-Sharp/PruebaMonogame/Content/FondoMusical.mp3","E:/C Sharp/Ejercicios-C-Sharp/PruebaMonogame/Content/bin/Windows/FondoMusical.xnb","SongProcessor","SongContent",11406143,130,3,8217165
+"E:/C Sharp/Ejercicios-C-Sharp/PruebaMonogame/Content/SonidoComer.mp3","E:/C Sharp/Ejercicios-C-Sharp/PruebaMonogame/Content/bin/Windows/SonidoComer.xnb","SoundEffectProcessor","SoundEffectContent",4069,27941,1,5483952
