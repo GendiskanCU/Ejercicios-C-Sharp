@@ -1,5 +1,2 @@
 Source File,Dest File,Processor Type,Content Type,Source File Size,Dest File Size,Build Seconds
-"E:/C Sharp/Ejercicios-C-Sharp/Pong/Pong/Content/paredhorizontal.png","E:/C Sharp/Ejercicios-C-Sharp/Pong/Pong/Content/bin/Windows/paredhorizontal.xnb","TextureProcessor","Texture2DContent",148,2133,0,3453207
-"E:/C Sharp/Ejercicios-C-Sharp/Pong/Pong/Content/paredvertical.png","E:/C Sharp/Ejercicios-C-Sharp/Pong/Pong/Content/bin/Windows/paredvertical.xnb","TextureProcessor","Texture2DContent",148,2133,0,0021074
-"E:/C Sharp/Ejercicios-C-Sharp/Pong/Pong/Content/pelota.png","E:/C Sharp/Ejercicios-C-Sharp/Pong/Pong/Content/bin/Windows/pelota.xnb","TextureProcessor","Texture2DContent",151,4181,0,001896
-"E:/C Sharp/Ejercicios-C-Sharp/Pong/Pong/Content/raqueta.png","E:/C Sharp/Ejercicios-C-Sharp/Pong/Pong/Content/bin/Windows/raqueta.xnb","TextureProcessor","Texture2DContent",193,12373,0,005015
+"E:/C Sharp/Ejercicios-C-Sharp/Pong/Pong/Content/File.spritefont","E:/C Sharp/Ejercicios-C-Sharp/Pong/Pong/Content/bin/Windows/File.xnb","FontDescriptionProcessor","SpriteFontContent",2009,267298,0,3040699

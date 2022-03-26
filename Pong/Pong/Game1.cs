@@ -9,10 +9,13 @@ namespace Pong
         private GraphicsDeviceManager _graphics;
         private SpriteBatch _spriteBatch;
 
-        private Texture2D pelota, raqueta1, raqueta2, paredhorizontal, lineadivisoria;
+        private Texture2D pelota, raqueta1, raqueta2, pared, lineadivisora;
+        private SpriteFont tipoLetra;
 
-        //Posición de la pelota
+        //Posición de la pelota en cada momento
         private int pelotaX, pelotaY;
+        //Guarda la posición de salida de la pelota
+        private Vector2 posicionSalida = new Vector2(496, 384);
         
         //Posición de las raquetas
         private int raqueta1X, raqueta1Y, raqueta2X, raqueta2Y;
@@ -20,27 +23,27 @@ namespace Pong
         //Campo de juego
         private int filas = 21, columnas = 32;
         private string [] CampoJuego={
-            "VHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHV",
-            "V              DD              V",
-            "V                              V",
-            "V              DD              V",
-            "V                              V",
-            "V              DD              V",
-            "V                              V",
-            "V              DD              V",
-            "V                              V",
-            "V              DD              V",
-            "V                              V",
-            "V              DD              V",
-            "V                              V",
-            "V              DD              V",
-            "V                              V",
-            "V              DD              V",
-            "V                              V",
-            "V              DD              V",
-            "V                              V",
-            "V              DD              V",
-            "VHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHV"};
+            "PPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPP",
+            "P              D               P",
+            "P                              P",
+            "P              D               P",
+            "P                              P",
+            "P              D               P",
+            "P                              P",
+            "P              D               P",
+            "P                              P",
+            "P              D               P",
+            "P                              P",
+            "P              D               P",
+            "P                              P",
+            "P              D               P",
+            "P                              P",
+            "P              D               P",
+            "P                              P",
+            "P              D               P",
+            "P                              P",
+            "P              D               P",
+            "PPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPP"};
 
         public Game1()
         {
@@ -53,8 +56,8 @@ namespace Pong
             _graphics.PreferredBackBufferHeight = 768;
             
             //Posición inicial de la pelota
-            pelotaX = 481;
-            pelotaY = 417;
+            pelotaX = (int)posicionSalida.X;
+            pelotaY = (int)posicionSalida.Y;
         }
 
         protected override void Initialize()
@@ -69,11 +72,13 @@ namespace Pong
             _spriteBatch = new SpriteBatch(GraphicsDevice);
 
             //Carga las texturas que se van a utilizar
-            pelota = Content.Load<Texture2D>("pelota");
-            raqueta1 = Content.Load<Texture2D>("raqueta");
-            raqueta2 = Content.Load<Texture2D>("raqueta");
-            paredhorizontal = Content.Load<Texture2D>("paredhorizontal");
-            lineadivisoria = Content.Load<Texture2D>("paredvertical");
+            pelota = Content.Load<Texture2D>("pelotacolor");
+            raqueta1 = Content.Load<Texture2D>("raquetacolor");
+            raqueta2 = Content.Load<Texture2D>("raquetacolor");
+            pared = Content.Load<Texture2D>("paredcolor");
+            lineadivisora = Content.Load<Texture2D>("lineadivisoracolor");
+
+            tipoLetra = Content.Load<SpriteFont>("File");
         }
 
         protected override void Update(GameTime gameTime)
@@ -93,37 +98,35 @@ namespace Pong
 
             _spriteBatch.Begin();
             
-            
-            _spriteBatch.Draw(pelota,
-                new Rectangle(pelotaX, pelotaY, 32, 32),
-                Color.White);
+            _spriteBatch.DrawString(tipoLetra, "0 - 0",
+                new Vector2(400, 0), Color.Green);            
+           
 
             for (int fila = 0; fila < filas; fila++)
             {
                 for(int columna = 0; columna < columnas; columna++)
                 {
-                    if (CampoJuego[fila][columna] == 'H')
+                    if (CampoJuego[fila][columna] == 'P')
                     {
-                        _spriteBatch.Draw(paredhorizontal,
-                            new Rectangle(columna * 32, 96 + (fila * 32), 32, 32),
+                        _spriteBatch.Draw(pared,
+                            new Rectangle(columna * 32, 64 + (fila * 32), 32, 32),
                             Color.White);                        
                     }
 
-                    if (CampoJuego[fila][columna] == 'V')
-                    {
-                        _spriteBatch.Draw(lineadivisoria,
-                            new Rectangle(columna * 32, 96 + (fila * 32), 32, 32),
-                            Color.White);  
-                    }
-                    
                     if (CampoJuego[fila][columna] == 'D')
                     {
-                        _spriteBatch.Draw(lineadivisoria,
-                            new Rectangle(columna * 32, 96 + (fila * 32), 16, 16),
+                        _spriteBatch.Draw(lineadivisora,
+                            new Rectangle(24 + (columna * 32), 64 + (fila * 32), 16, 32),
                             Color.White);  
                     }
                 }
             }
+            
+            
+            
+            _spriteBatch.Draw(pelota,
+                new Rectangle(pelotaX, pelotaY, 32, 32),
+                Color.White);
             
             _spriteBatch.End();
             

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <SourceFile>E:/C Sharp/Ejercicios-C-Sharp/Pong/Pong/Content/pelota.png</SourceFile>
-  <SourceTime>2022-03-26T15:56:11.6528385+01:00</SourceTime>
+  <SourceTime>2022-03-26T20:16:55.5269988+01:00</SourceTime>
   <DestFile>E:/C Sharp/Ejercicios-C-Sharp/Pong/Pong/Content/bin/Windows/Content/pelota.xnb</DestFile>
-  <DestTime>2022-03-26T16:02:42.2815138+01:00</DestTime>
+  <DestTime>2022-03-26T20:25:57.7743352+01:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2020-08-10T18:17:54+02:00</ImporterTime>
   <Processor>TextureProcessor</Processor>

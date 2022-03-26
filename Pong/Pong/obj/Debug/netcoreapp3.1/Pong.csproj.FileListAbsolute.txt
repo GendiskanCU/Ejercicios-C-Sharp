@@ -39,3 +39,8 @@ E:\C Sharp\Ejercicios-C-Sharp\Pong\Pong\obj\Debug\netcoreapp3.1\Pong.csproj.Copy
 E:\C Sharp\Ejercicios-C-Sharp\Pong\Pong\obj\Debug\netcoreapp3.1\Pong.dll
 E:\C Sharp\Ejercicios-C-Sharp\Pong\Pong\obj\Debug\netcoreapp3.1\Pong.pdb
 E:\C Sharp\Ejercicios-C-Sharp\Pong\Pong\obj\Debug\netcoreapp3.1\Pong.genruntimeconfig.cache
+E:\C Sharp\Ejercicios-C-Sharp\Pong\Pong\bin\Debug\netcoreapp3.1\Content\pelotacolor.xnb
+E:\C Sharp\Ejercicios-C-Sharp\Pong\Pong\bin\Debug\netcoreapp3.1\Content\raquetacolor.xnb
+E:\C Sharp\Ejercicios-C-Sharp\Pong\Pong\bin\Debug\netcoreapp3.1\Content\paredcolor.xnb
+E:\C Sharp\Ejercicios-C-Sharp\Pong\Pong\bin\Debug\netcoreapp3.1\Content\lineadivisoracolor.xnb
+E:\C Sharp\Ejercicios-C-Sharp\Pong\Pong\bin\Debug\netcoreapp3.1\Content\File.xnb

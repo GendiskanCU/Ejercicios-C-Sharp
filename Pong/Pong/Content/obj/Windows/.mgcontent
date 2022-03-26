@@ -4,12 +4,22 @@
   <Platform>Windows</Platform>
   <Config />
   <SourceFiles>
+    <File>E:/C Sharp/Ejercicios-C-Sharp/Pong/Pong/Content/File.spritefont</File>
+    <File>E:/C Sharp/Ejercicios-C-Sharp/Pong/Pong/Content/lineadivisoracolor.png</File>
+    <File>E:/C Sharp/Ejercicios-C-Sharp/Pong/Pong/Content/paredcolor.png</File>
     <File>E:/C Sharp/Ejercicios-C-Sharp/Pong/Pong/Content/paredhorizontal.png</File>
     <File>E:/C Sharp/Ejercicios-C-Sharp/Pong/Pong/Content/paredvertical.png</File>
     <File>E:/C Sharp/Ejercicios-C-Sharp/Pong/Pong/Content/pelota.png</File>
+    <File>E:/C Sharp/Ejercicios-C-Sharp/Pong/Pong/Content/pelotacolor.png</File>
     <File>E:/C Sharp/Ejercicios-C-Sharp/Pong/Pong/Content/raqueta.png</File>
+    <File>E:/C Sharp/Ejercicios-C-Sharp/Pong/Pong/Content/raquetacolor.png</File>
   </SourceFiles>
   <DestFiles>
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />
