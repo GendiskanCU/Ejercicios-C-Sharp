@@ -4,29 +4,12 @@ using Microsoft.Xna.Framework.Input;
 using System.Collections.Generic;
 
 namespace Pong
-{
-    public enum EstadoMovimiento
-    {
-        mueveDerecha,
-        mueveIzquierda,
-        mueveArriba,
-        mueveAbajo,
-        mueveDerechaArriba,
-        mueveDerechaAbajo,
-        mueveIzquierdaArriba,
-        mueveIzquierdaAbajo,
-        mueveArribaDerecha,
-        mueveArribaIzquierda,
-        mueveAbajoDerecha,
-        mueveAbajoIzquierda    
-    }
-    
-    public class Game1 : Game
+{ public class Game1 : Game
     {
         private GraphicsDeviceManager _graphics;
         private SpriteBatch _spriteBatch;
 
-        private Texture2D pelota, raqueta1, raqueta2, pared, lineadivisora;
+        private Texture2D pelota, raqueta, pared, lineadivisora;
         private SpriteFont tipoLetra;
 
         //Velocidad de movimiento de la pelota
@@ -34,20 +17,21 @@ namespace Pong
         //Para aplicar la velocidad de la pelota en cada eje
         private int velocidadX, velocidadY;
 
-        //Para establecer hacia qué dirección se mueve la pelota
-        private EstadoMovimiento movimiento;
-        
         //Posición de la pelota en cada momento
         private double posicionPelotaX, posicionPelotaY;
         //Guarda la posición de salida de la pelota
         private Vector2 posicionSalida = new Vector2(496, 384);
         
-        //Posición de las raquetas
-        private int raqueta1X, raqueta1Y, raqueta2X, raqueta2Y;
+        //Posición de la porción inferior de cada raqueta con valores iniciales
+        private Vector2 posRaqueta1 = new Vector2(33, 384);
+        private Vector2 posRaqueta2 = new Vector2(959, 384);
+        //Límites en Y para la posición de la porción inferior de las raquetas
+        private float limiteSuperiorRaqueta = 161f, limiteInferiorRaqueta = 671f;
         
         //Puntuación de los jugadores
         private int puntuacion1 = 0, puntuacion2 = 0;
         
+        //Número de filas y columnas en que se divide internamente el campo de juego
         private int filas = 21, columnas = 32;
         
         //Campo de juego. Leyenda: U-Pared superior / D-Pared inferior
@@ -78,6 +62,10 @@ namespace Pong
         //Listas de rectángulos que representan internamente las paredes del campo de juego
         private List<Rectangle> paredesHorizontales = new List<Rectangle>();
         private List<Rectangle> paredesLaterales = new List<Rectangle>();
+        
+        //Arrays de rectángulos que representan internamente las tres partes de ambas raquetas
+        private Rectangle[] raquetaJug1 = new Rectangle[3];
+        private Rectangle[] raquetaJug2 = new Rectangle[3];
 
         public Game1()
         {
@@ -97,9 +85,17 @@ namespace Pong
             velocidadX = velocidad;
             velocidadY = velocidad;
             
-            //Dirección inicial de movimiento de la pelota
-            movimiento = EstadoMovimiento.mueveAbajoDerecha;
-            
+            //Posición inicial de las raquetas
+            for (int fragmento = 0; fragmento < 3; fragmento++)
+            {
+                raquetaJug1[fragmento] = new Rectangle((int)posRaqueta1.X,
+                    (int)(posRaqueta1.Y - (32 * fragmento )),
+                    32, 32);
+                raquetaJug2[fragmento] = new Rectangle((int)posRaqueta2.X,
+                    (int)(posRaqueta2.Y - (32 * fragmento)),
+                    32, 32);
+            }
+
             //Rellena las listas que representan internamente las paredes del campo de juego
             for (int fila = 0; fila < filas; fila++)
             {
@@ -137,8 +133,7 @@ namespace Pong
 
             //Carga las texturas que se van a utilizar
             pelota = Content.Load<Texture2D>("pelotacolor");
-            raqueta1 = Content.Load<Texture2D>("raquetacolor");
-            raqueta2 = Content.Load<Texture2D>("raquetacolor");
+            raqueta = Content.Load<Texture2D>("raquetaporcion");
             pared = Content.Load<Texture2D>("paredcolor");
             lineadivisora = Content.Load<Texture2D>("lineadivisoracolor");
 
@@ -173,7 +168,7 @@ namespace Pong
             _spriteBatch.DrawString(tipoLetra, marcador,
                 new Vector2(356, 0), Color.Green);            
            
-
+            //Dibuja el campo de juego
             for (int fila = 0; fila < filas; fila++)
             {
                 for(int columna = 0; columna < columnas; columna++)
@@ -195,8 +190,15 @@ namespace Pong
                 }
             }
             
-            
-            
+            //Dibuja las raquetas
+            for (int fragmento = 0; fragmento < 3; fragmento++)
+            {
+                _spriteBatch.Draw(raqueta, new Rectangle((int)posRaqueta1.X,
+                    (int)(posRaqueta1.Y - (32 * fragmento )), 32, 32), Color.White);
+                _spriteBatch.Draw(raqueta, new Rectangle((int)posRaqueta2.X,
+                    (int)(posRaqueta2.Y - (32 * fragmento )), 32, 32), Color.White);
+            }
+
             //Dibuja la pelota
             _spriteBatch.Draw(pelota,
                 new Rectangle((int)posicionPelotaX, (int)posicionPelotaY, 32, 32),

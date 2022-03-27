@@ -13,8 +13,10 @@
     <File>E:/C Sharp/Ejercicios-C-Sharp/Pong/Pong/Content/pelotacolor.png</File>
     <File>E:/C Sharp/Ejercicios-C-Sharp/Pong/Pong/Content/raqueta.png</File>
     <File>E:/C Sharp/Ejercicios-C-Sharp/Pong/Pong/Content/raquetacolor.png</File>
+    <File>E:/C Sharp/Ejercicios-C-Sharp/Pong/Pong/Content/raquetaporcion.png</File>
   </SourceFiles>
   <DestFiles>
+    <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />
