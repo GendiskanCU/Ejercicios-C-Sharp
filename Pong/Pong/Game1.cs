@@ -16,6 +16,9 @@ namespace Pong
         private int velocidad = 250;
         //Para aplicar la velocidad de la pelota en cada eje
         private int velocidadX, velocidadY;
+        
+        //Velocidad de movimiento de las raquetas
+        private int velocidadRaqueta = 300;
 
         //Posición de la pelota en cada momento
         private double posicionPelotaX, posicionPelotaY;
@@ -147,6 +150,7 @@ namespace Pong
                 Keyboard.GetState().IsKeyDown(Keys.Escape))
                 Exit();
             
+            MueveRaquetas(gameTime.ElapsedGameTime.TotalSeconds);
             CompruebaColisionPared();
 
             //Establece la nueva posición de la pelota
@@ -241,6 +245,38 @@ namespace Pong
                         contadorColisiones++;
                     }
                 }
+            }
+        }
+        
+        /// <summary>
+        /// Comprueba las pulsaciones de teclas y mueve las raquetas en consonancia
+        /// </summary>
+        /// <param name="_elapsedTime">Multiplicador de la velocidad raqueta</param>
+        private void MueveRaquetas(double _elapsedTime)
+        {            
+            if (Keyboard.GetState().IsKeyDown(Keys.W))
+            {
+                posRaqueta1.Y -= (float)(velocidadRaqueta * _elapsedTime);
+                if (posRaqueta1.Y < limiteSuperiorRaqueta)
+                    posRaqueta1.Y = limiteSuperiorRaqueta;
+            }
+            if (Keyboard.GetState().IsKeyDown(Keys.S))
+            {
+                posRaqueta1.Y += (float)(velocidadRaqueta * _elapsedTime);
+                if (posRaqueta1.Y > limiteInferiorRaqueta)
+                    posRaqueta1.Y = limiteInferiorRaqueta;
+            }
+            if (Keyboard.GetState().IsKeyDown(Keys.Up))
+            {
+                posRaqueta2.Y -= (float)(velocidadRaqueta * _elapsedTime);
+                if (posRaqueta2.Y < limiteSuperiorRaqueta)
+                    posRaqueta2.Y = limiteSuperiorRaqueta;
+            }
+            if (Keyboard.GetState().IsKeyDown(Keys.Down))
+            {
+                posRaqueta2.Y += (float)(velocidadRaqueta * _elapsedTime);
+                if (posRaqueta2.Y > limiteInferiorRaqueta)
+                    posRaqueta2.Y = limiteInferiorRaqueta;
             }
         }
     }
