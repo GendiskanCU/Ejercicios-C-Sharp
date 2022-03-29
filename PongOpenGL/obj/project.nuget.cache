@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "UKjp72vSWM/znjIfwA3wk16uImfU6svF88uw+muwfschhS1ShO9y/ErzEvUUfWJXDN4WRYEfijESL+ICSusp+Q==",
+  "success": true,
+  "projectFilePath": "D:\\DATOS\\Desktop\\Pers\\CSharp\\Ejercicios C#\\Ejercicios-C-Sharp\\PongOpenGL\\PongOpenGL.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\USUARIO 01\\.nuget\\packages\\monogame.content.builder.task\\3.8.0.1641\\monogame.content.builder.task.3.8.0.1641.nupkg.sha512",
+    "C:\\Users\\USUARIO 01\\.nuget\\packages\\monogame.framework.desktopgl\\3.8.0.1641\\monogame.framework.desktopgl.3.8.0.1641.nupkg.sha512"
+  ],
+  "logs": []
+}

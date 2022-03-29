@@ -1,0 +1,48 @@
+D:\DATOS\Desktop\PongOpenGL\PongOpenGL\bin\Debug\netcoreapp3.1\PongOpenGL.exe
+D:\DATOS\Desktop\PongOpenGL\PongOpenGL\bin\Debug\netcoreapp3.1\PongOpenGL.deps.json
+D:\DATOS\Desktop\PongOpenGL\PongOpenGL\bin\Debug\netcoreapp3.1\PongOpenGL.runtimeconfig.json
+D:\DATOS\Desktop\PongOpenGL\PongOpenGL\bin\Debug\netcoreapp3.1\PongOpenGL.runtimeconfig.dev.json
+D:\DATOS\Desktop\PongOpenGL\PongOpenGL\bin\Debug\netcoreapp3.1\PongOpenGL.dll
+D:\DATOS\Desktop\PongOpenGL\PongOpenGL\bin\Debug\netcoreapp3.1\PongOpenGL.pdb
+D:\DATOS\Desktop\PongOpenGL\PongOpenGL\bin\Debug\netcoreapp3.1\MonoGame.Framework.dll
+D:\DATOS\Desktop\PongOpenGL\PongOpenGL\bin\Debug\netcoreapp3.1\runtimes\linux-x64\native\libSDL2-2.0.so.0
+D:\DATOS\Desktop\PongOpenGL\PongOpenGL\bin\Debug\netcoreapp3.1\runtimes\linux-x64\native\libopenal.so.1
+D:\DATOS\Desktop\PongOpenGL\PongOpenGL\bin\Debug\netcoreapp3.1\runtimes\osx\native\libSDL2-2.0.0.dylib
+D:\DATOS\Desktop\PongOpenGL\PongOpenGL\bin\Debug\netcoreapp3.1\runtimes\osx\native\libopenal.1.dylib
+D:\DATOS\Desktop\PongOpenGL\PongOpenGL\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\SDL2.dll
+D:\DATOS\Desktop\PongOpenGL\PongOpenGL\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\soft_oal.dll
+D:\DATOS\Desktop\PongOpenGL\PongOpenGL\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\SDL2.dll
+D:\DATOS\Desktop\PongOpenGL\PongOpenGL\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\soft_oal.dll
+D:\DATOS\Desktop\PongOpenGL\PongOpenGL\obj\Debug\netcoreapp3.1\PongOpenGL.csproj.AssemblyReference.cache
+D:\DATOS\Desktop\PongOpenGL\PongOpenGL\obj\Debug\netcoreapp3.1\PongOpenGL.GeneratedMSBuildEditorConfig.editorconfig
+D:\DATOS\Desktop\PongOpenGL\PongOpenGL\obj\Debug\netcoreapp3.1\PongOpenGL.AssemblyInfoInputs.cache
+D:\DATOS\Desktop\PongOpenGL\PongOpenGL\obj\Debug\netcoreapp3.1\PongOpenGL.AssemblyInfo.cs
+D:\DATOS\Desktop\PongOpenGL\PongOpenGL\obj\Debug\netcoreapp3.1\PongOpenGL.csproj.CoreCompileInputs.cache
+D:\DATOS\Desktop\PongOpenGL\PongOpenGL\obj\Debug\netcoreapp3.1\PongOpenGL.csproj.CopyComplete
+D:\DATOS\Desktop\PongOpenGL\PongOpenGL\obj\Debug\netcoreapp3.1\PongOpenGL.dll
+D:\DATOS\Desktop\PongOpenGL\PongOpenGL\obj\Debug\netcoreapp3.1\PongOpenGL.pdb
+D:\DATOS\Desktop\PongOpenGL\PongOpenGL\obj\Debug\netcoreapp3.1\PongOpenGL.genruntimeconfig.cache
+D:\DATOS\Desktop\Pers\CSharp\Ejercicios C#\Ejercicios-C-Sharp\PongOpenGL\bin\Debug\netcoreapp3.1\PongOpenGL.exe
+D:\DATOS\Desktop\Pers\CSharp\Ejercicios C#\Ejercicios-C-Sharp\PongOpenGL\bin\Debug\netcoreapp3.1\PongOpenGL.deps.json
+D:\DATOS\Desktop\Pers\CSharp\Ejercicios C#\Ejercicios-C-Sharp\PongOpenGL\bin\Debug\netcoreapp3.1\PongOpenGL.runtimeconfig.json
+D:\DATOS\Desktop\Pers\CSharp\Ejercicios C#\Ejercicios-C-Sharp\PongOpenGL\bin\Debug\netcoreapp3.1\PongOpenGL.runtimeconfig.dev.json
+D:\DATOS\Desktop\Pers\CSharp\Ejercicios C#\Ejercicios-C-Sharp\PongOpenGL\bin\Debug\netcoreapp3.1\PongOpenGL.dll
+D:\DATOS\Desktop\Pers\CSharp\Ejercicios C#\Ejercicios-C-Sharp\PongOpenGL\bin\Debug\netcoreapp3.1\PongOpenGL.pdb
+D:\DATOS\Desktop\Pers\CSharp\Ejercicios C#\Ejercicios-C-Sharp\PongOpenGL\bin\Debug\netcoreapp3.1\MonoGame.Framework.dll
+D:\DATOS\Desktop\Pers\CSharp\Ejercicios C#\Ejercicios-C-Sharp\PongOpenGL\bin\Debug\netcoreapp3.1\runtimes\linux-x64\native\libSDL2-2.0.so.0
+D:\DATOS\Desktop\Pers\CSharp\Ejercicios C#\Ejercicios-C-Sharp\PongOpenGL\bin\Debug\netcoreapp3.1\runtimes\linux-x64\native\libopenal.so.1
+D:\DATOS\Desktop\Pers\CSharp\Ejercicios C#\Ejercicios-C-Sharp\PongOpenGL\bin\Debug\netcoreapp3.1\runtimes\osx\native\libSDL2-2.0.0.dylib
+D:\DATOS\Desktop\Pers\CSharp\Ejercicios C#\Ejercicios-C-Sharp\PongOpenGL\bin\Debug\netcoreapp3.1\runtimes\osx\native\libopenal.1.dylib
+D:\DATOS\Desktop\Pers\CSharp\Ejercicios C#\Ejercicios-C-Sharp\PongOpenGL\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\SDL2.dll
+D:\DATOS\Desktop\Pers\CSharp\Ejercicios C#\Ejercicios-C-Sharp\PongOpenGL\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\soft_oal.dll
+D:\DATOS\Desktop\Pers\CSharp\Ejercicios C#\Ejercicios-C-Sharp\PongOpenGL\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\SDL2.dll
+D:\DATOS\Desktop\Pers\CSharp\Ejercicios C#\Ejercicios-C-Sharp\PongOpenGL\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\soft_oal.dll
+D:\DATOS\Desktop\Pers\CSharp\Ejercicios C#\Ejercicios-C-Sharp\PongOpenGL\obj\Debug\netcoreapp3.1\PongOpenGL.csproj.AssemblyReference.cache
+D:\DATOS\Desktop\Pers\CSharp\Ejercicios C#\Ejercicios-C-Sharp\PongOpenGL\obj\Debug\netcoreapp3.1\PongOpenGL.GeneratedMSBuildEditorConfig.editorconfig
+D:\DATOS\Desktop\Pers\CSharp\Ejercicios C#\Ejercicios-C-Sharp\PongOpenGL\obj\Debug\netcoreapp3.1\PongOpenGL.AssemblyInfoInputs.cache
+D:\DATOS\Desktop\Pers\CSharp\Ejercicios C#\Ejercicios-C-Sharp\PongOpenGL\obj\Debug\netcoreapp3.1\PongOpenGL.AssemblyInfo.cs
+D:\DATOS\Desktop\Pers\CSharp\Ejercicios C#\Ejercicios-C-Sharp\PongOpenGL\obj\Debug\netcoreapp3.1\PongOpenGL.csproj.CoreCompileInputs.cache
+D:\DATOS\Desktop\Pers\CSharp\Ejercicios C#\Ejercicios-C-Sharp\PongOpenGL\obj\Debug\netcoreapp3.1\PongOpenGL.csproj.CopyComplete
+D:\DATOS\Desktop\Pers\CSharp\Ejercicios C#\Ejercicios-C-Sharp\PongOpenGL\obj\Debug\netcoreapp3.1\PongOpenGL.dll
+D:\DATOS\Desktop\Pers\CSharp\Ejercicios C#\Ejercicios-C-Sharp\PongOpenGL\obj\Debug\netcoreapp3.1\PongOpenGL.pdb
+D:\DATOS\Desktop\Pers\CSharp\Ejercicios C#\Ejercicios-C-Sharp\PongOpenGL\obj\Debug\netcoreapp3.1\PongOpenGL.genruntimeconfig.cache
