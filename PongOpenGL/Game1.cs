@@ -319,7 +319,7 @@ namespace PongOpenGL
                                 velocidadY = velocidad;
                                 break;
                             case 1:
-                                velocidadY = 1;
+                                velocidadY = 0;
                                 break;
                             case 2:
                                 velocidadY = -velocidad;

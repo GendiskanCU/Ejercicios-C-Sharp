@@ -41,25 +41,25 @@ namespace Pong
         //L-Pared izquierda / R-Pared derecha / V-Línea divisora
         private string [] CampoJuego={
             "UUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU",
-            "L              V               R",
-            "L                              R",
-            "L              V               R",
-            "L                              R",
-            "L              V               R",
-            "L                              R",
-            "L              V               R",
-            "L                              R",
-            "L              V               R",
-            "L                              R",
-            "L              V               R",
-            "L                              R",
-            "L              V               R",
-            "L                              R",
-            "L              V               R",
-            "L                              R",
-            "L              V               R",
-            "L                              R",
-            "L              V               R",
+            "1              V               2",
+            "1                              2",
+            "1              V               2",
+            "1                              2",
+            "1              V               2",
+            "1                              2",
+            "1              V               2",
+            "1                              2",
+            "1              V               2",
+            "1                              2",
+            "1              V               2",
+            "1                              2",
+            "1              V               2",
+            "1                              2",
+            "1              V               2",
+            "1                              2",
+            "1              V               2",
+            "1                              2",
+            "1              V               2",
             "DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD"};
         
         //Listas de rectángulos que representan internamente las paredes del campo de juego
@@ -69,6 +69,10 @@ namespace Pong
         //Arrays de rectángulos que representan internamente las tres partes de ambas raquetas
         private Rectangle[] raquetaJug1 = new Rectangle[3];
         private Rectangle[] raquetaJug2 = new Rectangle[3];
+        
+        //Listas de rectángulos que representan internamente las porterías
+        private List<Rectangle> puertaJug1 = new List<Rectangle>();
+        private List<Rectangle> puertaJug2 = new List<Rectangle>();
 
         public Game1()
         {
@@ -89,17 +93,10 @@ namespace Pong
             velocidadY = velocidad;
             
             //Posición inicial de las raquetas
-            for (int fragmento = 0; fragmento < 3; fragmento++)
-            {
-                raquetaJug1[fragmento] = new Rectangle((int)posRaqueta1.X,
-                    (int)(posRaqueta1.Y - (32 * fragmento )),
-                    32, 32);
-                raquetaJug2[fragmento] = new Rectangle((int)posRaqueta2.X,
-                    (int)(posRaqueta2.Y - (32 * fragmento)),
-                    32, 32);
-            }
+            ActualizaPosicionRaquetas();
 
             //Rellena las listas que representan internamente las paredes del campo de juego
+            //Y las porterías de ambos jugadores
             for (int fila = 0; fila < filas; fila++)
             {
                 for(int columna = 0; columna < columnas; columna++)
@@ -108,16 +105,17 @@ namespace Pong
                     {
                         paredesHorizontales.Add(new Rectangle(columna * 32, 64 + (fila * 32), 32, 32));
                     }
-                }
-            }
-            
-            for (int fila = 0; fila < filas; fila++)
-            {
-                for(int columna = 0; columna < columnas; columna++)
-                {
                     if (CampoJuego[fila][columna] == 'L' || CampoJuego[fila][columna] == 'R')
                     {
                         paredesLaterales.Add(new Rectangle(columna * 32, 64 + (fila * 32), 32, 32));
+                    }
+                    if (CampoJuego[fila][columna] == '1')
+                    {
+                        puertaJug1.Add(new Rectangle(columna * 32, 64 + (fila * 32), 32, 32));
+                    }
+                    if (CampoJuego[fila][columna] == '2')
+                    {
+                        puertaJug2.Add(new Rectangle(columna * 32, 64 + (fila * 32), 32, 32));
                     }
                 }
             }
@@ -151,7 +149,9 @@ namespace Pong
                 Exit();
             
             MueveRaquetas(gameTime.ElapsedGameTime.TotalSeconds);
+            CompruebaColisionRaquetas();
             CompruebaColisionPared();
+            CompruebaColisionPuertas();
 
             //Establece la nueva posición de la pelota
             posicionPelotaX += velocidadX * gameTime.ElapsedGameTime.TotalSeconds;
@@ -247,6 +247,51 @@ namespace Pong
                 }
             }
         }
+
+        private void CompruebaColisionPuertas()
+        {
+            int contadorColisiones = 0;
+            //Recorre cada una de la lista de porterías, y si la pelota ha colisionado en ella
+            //aumenta la puntuación del jugador contrario, y vuelve a sacar la pelota del centro
+            foreach (Rectangle p in puertaJug1)
+            {
+                if (p.Intersects(new Rectangle((int) posicionPelotaX, (int) posicionPelotaY, 32, 32)))
+                {
+                    contadorColisiones++;
+                    if (contadorColisiones == 1)
+                    {
+                        contadorColisiones++;
+                        puntuacion2++;
+                        SaqueDelCentro();
+                    }
+                }
+            }
+            foreach (Rectangle p in puertaJug2)
+            {
+                if (p.Intersects(new Rectangle((int) posicionPelotaX, (int) posicionPelotaY, 32, 32)))
+                {
+                    contadorColisiones++;
+                    if (contadorColisiones == 1)
+                    {
+                        contadorColisiones++;
+                        puntuacion1++;
+                        SaqueDelCentro();
+                    }
+                }
+            }
+        }
+
+        /// <summary>
+        /// Coloca la pelota en el centro de la pantalla y la dirige hacia el lado
+        /// contrario que tenía anteriormente
+        /// </summary>
+        private void SaqueDelCentro()
+        {
+            posicionPelotaX = posicionSalida.X;
+            posicionPelotaY = posicionSalida.Y;
+            velocidadX *= -1;
+            velocidadY = 0;
+        }
         
         /// <summary>
         /// Comprueba las pulsaciones de teclas y mueve las raquetas en consonancia
@@ -278,6 +323,64 @@ namespace Pong
                 if (posRaqueta2.Y > limiteInferiorRaqueta)
                     posRaqueta2.Y = limiteInferiorRaqueta;
             }
+            //Actualiza el array de rectángulos que representa a las raquetas
+            ActualizaPosicionRaquetas();
         }
+        
+        /// <summary>
+        /// Actualiza la posición de las raquetas en el array interno de rectángulos
+        /// que las representa
+        /// </summary>
+        private void ActualizaPosicionRaquetas()
+        {
+            for (int fragmento = 0; fragmento < 3; fragmento++)
+            {
+                raquetaJug1[fragmento] = new Rectangle((int)posRaqueta1.X,
+                    (int)(posRaqueta1.Y - (32 * fragmento)),
+                    32, 32);
+                raquetaJug2[fragmento] = new Rectangle((int)posRaqueta2.X,
+                    (int)(posRaqueta2.Y - (32 * fragmento)),
+                    32, 32);
+            }
+        }
+        
+        /// <summary>
+        /// Comprueba si la pelota colisiona con alguno de los fragmentos de las raquetas
+        /// y en caso afirmativo la hace rebotar en la dirección deseada
+        /// </summary>
+        private void CompruebaColisionRaquetas()
+        {
+            int contadorColisiones = 0;
+            for(int fragmento = 0; fragmento < 3; fragmento++)
+            {
+                if(raquetaJug1[fragmento].Intersects(
+                       new Rectangle((int)posicionPelotaX, (int)posicionPelotaY, 32, 32)) ||
+                   raquetaJug2[fragmento].Intersects(
+                       new Rectangle((int)posicionPelotaX, (int)posicionPelotaY, 32, 32)))
+                {                    
+                    contadorColisiones++;
+                    if (contadorColisiones == 1)
+                    {
+                        contadorColisiones++;
+                        //La pelota cambiará de dirección en el eje X
+                        velocidadX *= -1;
+                        switch(fragmento)//Según el fragmento donde colisione, la pelota
+                        {
+                            case 0://Fragmento inferior
+                                velocidadY = velocidad;//Se irá hacia abajo
+                                break;
+                            case 1://Fragmento central
+                                velocidadY = 0;//Se irá de frente
+                                break;
+                            case 2://Fragmento superior
+                                velocidadY = -velocidad;//Se irá hacia arriba
+                                break;
+                            default:
+                                break;
+                        }
+                    }
+                }                
+            }
+        }       
     }
 }
