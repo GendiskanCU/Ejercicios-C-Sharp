@@ -12,6 +12,12 @@ namespace Pong
         private Texture2D pelota, raqueta, pared, lineadivisora;
         private SpriteFont tipoLetra;
 
+        //Para controlar si el juego ya está en marcha
+        private bool juegoIniciado;
+
+        //Texto que aparecerá en el marcardor
+        private string marcador ="Pong";
+
         //Velocidad de movimiento de la pelota
         private int velocidad = 250;
         //Para aplicar la velocidad de la pelota en cada eje
@@ -89,8 +95,8 @@ namespace Pong
             posicionPelotaY = (int)posicionSalida.Y;
             
             //Movimiento inicial de la pelota
-            velocidadX = velocidad;
-            velocidadY = velocidad;
+            velocidadX = 0;
+            velocidadY = 0;
             
             //Posición inicial de las raquetas
             ActualizaPosicionRaquetas();
@@ -124,7 +130,6 @@ namespace Pong
         protected override void Initialize()
         {
             // TODO: Add your initialization logic here
-
             base.Initialize();
         }
 
@@ -147,15 +152,23 @@ namespace Pong
             if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed ||
                 Keyboard.GetState().IsKeyDown(Keys.Escape))
                 Exit();
-            
-            MueveRaquetas(gameTime.ElapsedGameTime.TotalSeconds);
-            CompruebaColisionRaquetas();
-            CompruebaColisionPared();
-            CompruebaColisionPuertas();
 
-            //Establece la nueva posición de la pelota
-            posicionPelotaX += velocidadX * gameTime.ElapsedGameTime.TotalSeconds;
-            posicionPelotaY += velocidadY * gameTime.ElapsedGameTime.TotalSeconds;
+            if (juegoIniciado)
+            {
+                MueveRaquetas(gameTime.ElapsedGameTime.TotalSeconds);
+                CompruebaColisionRaquetas();
+                CompruebaColisionPared();
+                CompruebaColisionPuertas();
+                marcador = puntuacion1.ToString("00") + " - " + puntuacion2.ToString("00");
+
+                //Establece la nueva posición de la pelota
+                posicionPelotaX += velocidadX * gameTime.ElapsedGameTime.TotalSeconds;
+                posicionPelotaY += velocidadY * gameTime.ElapsedGameTime.TotalSeconds;
+            }
+            else
+            {
+                InicioJuego();
+            }
 
 
             base.Update(gameTime);
@@ -168,10 +181,18 @@ namespace Pong
             _spriteBatch.Begin();
             
             //Dibuja el marcador
-            string marcador = puntuacion1.ToString("00") + " - " + puntuacion2.ToString("00");
+            Vector2 posicionMarcador = new Vector2(356f, 0f);;
+            if (juegoIniciado)
+            {
+                posicionMarcador = new Vector2(356f, 0f);
+            }
+            else
+            {
+                posicionMarcador = new Vector2(10f, 0f);
+            }
             _spriteBatch.DrawString(tipoLetra, marcador,
-                new Vector2(356, 0), Color.Green);            
-           
+                posicionMarcador, Color.Green);
+            
             //Dibuja el campo de juego
             for (int fila = 0; fila < filas; fila++)
             {
@@ -202,7 +223,7 @@ namespace Pong
                 _spriteBatch.Draw(raqueta, new Rectangle((int)posRaqueta2.X,
                     (int)(posRaqueta2.Y - (32 * fragmento )), 32, 32), Color.White);
             }
-
+            
             //Dibuja la pelota
             _spriteBatch.Draw(pelota,
                 new Rectangle((int)posicionPelotaX, (int)posicionPelotaY, 32, 32),
@@ -211,6 +232,24 @@ namespace Pong
             _spriteBatch.End();
             
             base.Draw(gameTime);
+        }
+
+        /// <summary>
+        /// Espera la pulsación de una determinada tecla e inicia el juego
+        /// </summary>
+        private void InicioJuego()
+        {
+            marcador = "Press 1 or 2 to begin..";
+            if (Keyboard.GetState().IsKeyDown(Keys.D1))//Saca el jugador1
+            {
+                velocidadX = velocidad;
+                juegoIniciado = true;
+            }
+            if (Keyboard.GetState().IsKeyDown(Keys.D2))//Saca el jugador2
+            {
+                velocidadX = -velocidad;
+                juegoIniciado = true;
+            }
         }
 
         /// <summary>
