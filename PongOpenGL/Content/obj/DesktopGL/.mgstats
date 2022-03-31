@@ -1,1 +1,11 @@
 Source File,Dest File,Processor Type,Content Type,Source File Size,Dest File Size,Build Seconds
+"E:/C Sharp/Ejercicios-C-Sharp/PongOpenGL/Content/ChocaMuro.wav","E:/C Sharp/Ejercicios-C-Sharp/PongOpenGL/Content/bin/DesktopGL/ChocaMuro.xnb","SoundEffectProcessor","SoundEffectContent",5806,5785,1,8339798
+"E:/C Sharp/Ejercicios-C-Sharp/PongOpenGL/Content/ChocaRaqueta.wav","E:/C Sharp/Ejercicios-C-Sharp/PongOpenGL/Content/bin/DesktopGL/ChocaRaqueta.xnb","SoundEffectProcessor","SoundEffectContent",3198,3177,1,4753894
+"E:/C Sharp/Ejercicios-C-Sharp/PongOpenGL/Content/File.spritefont","E:/C Sharp/Ejercicios-C-Sharp/PongOpenGL/Content/bin/DesktopGL/File.xnb","FontDescriptionProcessor","SpriteFontContent",2069,267298,0,2190811
+"E:/C Sharp/Ejercicios-C-Sharp/PongOpenGL/Content/Gol.wav","E:/C Sharp/Ejercicios-C-Sharp/PongOpenGL/Content/bin/DesktopGL/Gol.xnb","SoundEffectProcessor","SoundEffectContent",13268,13329,1,5014162
+"E:/C Sharp/Ejercicios-C-Sharp/PongOpenGL/Content/Inicio.wav","E:/C Sharp/Ejercicios-C-Sharp/PongOpenGL/Content/bin/DesktopGL/Inicio.xnb","SoundEffectProcessor","SoundEffectContent",194586,194561,1,5256834
+"E:/C Sharp/Ejercicios-C-Sharp/PongOpenGL/Content/lineadivisoracolor.png","E:/C Sharp/Ejercicios-C-Sharp/PongOpenGL/Content/bin/DesktopGL/lineadivisoracolor.xnb","TextureProcessor","Texture2DContent",153,2133,0,1685192
+"E:/C Sharp/Ejercicios-C-Sharp/PongOpenGL/Content/paredcolor.png","E:/C Sharp/Ejercicios-C-Sharp/PongOpenGL/Content/bin/DesktopGL/paredcolor.xnb","TextureProcessor","Texture2DContent",147,2133,0,0039044
+"E:/C Sharp/Ejercicios-C-Sharp/PongOpenGL/Content/pelotacolor.png","E:/C Sharp/Ejercicios-C-Sharp/PongOpenGL/Content/bin/DesktopGL/pelotacolor.xnb","TextureProcessor","Texture2DContent",161,4181,0,0041525
+"E:/C Sharp/Ejercicios-C-Sharp/PongOpenGL/Content/raquetaporcion.png","E:/C Sharp/Ejercicios-C-Sharp/PongOpenGL/Content/bin/DesktopGL/raquetaporcion.xnb","TextureProcessor","Texture2DContent",162,4181,0,0041254
+"E:/C Sharp/Ejercicios-C-Sharp/PongOpenGL/Content/Victoria.wav","E:/C Sharp/Ejercicios-C-Sharp/PongOpenGL/Content/bin/DesktopGL/Victoria.xnb","SoundEffectProcessor","SoundEffectContent",15084,15145,1,5528213

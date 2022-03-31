@@ -1,4 +1,5 @@
 ﻿using Microsoft.Xna.Framework;
+using Microsoft.Xna.Framework.Audio;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
 using System.Collections.Generic;
@@ -12,6 +13,8 @@ namespace PongOpenGL
 
         private Texture2D pelota, raqueta, pared, lineadivisora;
         private SpriteFont tipoLetra;
+
+        SoundEffect sonidoMuro, sonidoRaqueta, sonidoGol, sonidoVictoria, sonidoInicio;
 
         //Para controlar si el juego ya está en marcha
         private bool juegoIniciado;
@@ -150,6 +153,15 @@ namespace PongOpenGL
 
             //Carga el tipo de letra para el marcador
             tipoLetra = Content.Load<SpriteFont>("File");
+
+            //Carga los efectos de sonido
+            sonidoInicio = Content.Load<SoundEffect>("Inicio");
+            sonidoMuro = Content.Load<SoundEffect>("ChocaMuro");
+            sonidoRaqueta = Content.Load<SoundEffect>("ChocaRaqueta");
+            sonidoVictoria = Content.Load<SoundEffect>("Victoria");
+            sonidoGol = Content.Load<SoundEffect>("Gol");
+
+            sonidoInicio.Play();
         }
 
         protected override void Update(GameTime gameTime)
@@ -263,7 +275,7 @@ namespace PongOpenGL
             posRaqueta1 = new Vector2(33, 384);
             posRaqueta2 = new Vector2(959, 384);
 
-        marcador = " PRESS 1/2 TO START";            
+            marcador = " PRESS 1/2 TO START";            
 
             if (Keyboard.GetState().IsKeyDown(Keys.D1))//Saca el jugador1
             {
@@ -292,9 +304,11 @@ namespace PongOpenGL
             {
                 if (p.Intersects(new Rectangle((int)posicionPelotaX, (int)posicionPelotaY, 32, 32)))
                 {
-                    contadorColisiones++;
+                    contadorColisiones++;                    
+
                     if (contadorColisiones == 1)
                     {
+                        sonidoMuro.Play();
                         velocidadY *= -1;
                         contadorColisiones++;
                     }
@@ -305,9 +319,11 @@ namespace PongOpenGL
             {
                 if (pared.Intersects(new Rectangle((int)posicionPelotaX, (int)posicionPelotaY, 32, 32)))
                 {
-                    contadorColisiones++;
+                    contadorColisiones++;                    
+
                     if (contadorColisiones == 1)
                     {
+                        sonidoMuro.Play();
                         velocidadX *= -1;
                         contadorColisiones++;
                     }
@@ -328,8 +344,10 @@ namespace PongOpenGL
                 if (p.Intersects(new Rectangle((int)posicionPelotaX, (int)posicionPelotaY, 32, 32)))
                 {
                     contadorColisiones++;
+
                     if (contadorColisiones == 1)
                     {
+                        sonidoGol.Play();
                         contadorColisiones++;
                         puntuacion2++;
                         SaqueDelCentro();
@@ -343,6 +361,7 @@ namespace PongOpenGL
                     contadorColisiones++;
                     if (contadorColisiones == 1)
                     {
+                        sonidoGol.Play();
                         contadorColisiones++;
                         puntuacion1++;
                         SaqueDelCentro();
@@ -432,6 +451,9 @@ namespace PongOpenGL
                     if (contadorColisiones == 1)
                     {
                         contadorColisiones++;
+
+                        sonidoRaqueta.Play();
+
                         velocidadX *= -1;
                         switch(fragmento)
                         {
@@ -459,7 +481,8 @@ namespace PongOpenGL
         private void CompruebaVictoria()
         {
             if(puntuacion1 == puntuacionVictoria || puntuacion2 == puntuacionVictoria)
-            {                
+            {
+                sonidoVictoria.Play();
                 tiempoPausa = 0f;
                 juegoIniciado = false;                
             }

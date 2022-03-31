@@ -4,13 +4,23 @@
   <Platform>DesktopGL</Platform>
   <Config />
   <SourceFiles>
-    <File>D:/DATOS/Desktop/PongOpenGL/PongOpenGL/Content/File.spritefont</File>
-    <File>D:/DATOS/Desktop/PongOpenGL/PongOpenGL/Content/lineadivisoracolor.png</File>
-    <File>D:/DATOS/Desktop/PongOpenGL/PongOpenGL/Content/paredcolor.png</File>
-    <File>D:/DATOS/Desktop/PongOpenGL/PongOpenGL/Content/pelotacolor.png</File>
-    <File>D:/DATOS/Desktop/PongOpenGL/PongOpenGL/Content/raquetaporcion.png</File>
+    <File>E:/C Sharp/Ejercicios-C-Sharp/PongOpenGL/Content/ChocaMuro.wav</File>
+    <File>E:/C Sharp/Ejercicios-C-Sharp/PongOpenGL/Content/ChocaRaqueta.wav</File>
+    <File>E:/C Sharp/Ejercicios-C-Sharp/PongOpenGL/Content/File.spritefont</File>
+    <File>E:/C Sharp/Ejercicios-C-Sharp/PongOpenGL/Content/Gol.wav</File>
+    <File>E:/C Sharp/Ejercicios-C-Sharp/PongOpenGL/Content/Inicio.wav</File>
+    <File>E:/C Sharp/Ejercicios-C-Sharp/PongOpenGL/Content/lineadivisoracolor.png</File>
+    <File>E:/C Sharp/Ejercicios-C-Sharp/PongOpenGL/Content/paredcolor.png</File>
+    <File>E:/C Sharp/Ejercicios-C-Sharp/PongOpenGL/Content/pelotacolor.png</File>
+    <File>E:/C Sharp/Ejercicios-C-Sharp/PongOpenGL/Content/raquetaporcion.png</File>
+    <File>E:/C Sharp/Ejercicios-C-Sharp/PongOpenGL/Content/Victoria.wav</File>
   </SourceFiles>
   <DestFiles>
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />

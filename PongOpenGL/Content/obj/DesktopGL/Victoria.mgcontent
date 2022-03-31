@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PipelineBuildEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <SourceFile>E:/C Sharp/Ejercicios-C-Sharp/PongOpenGL/Content/Victoria.wav</SourceFile>
+  <SourceTime>2022-03-30T23:00:40.9978417+02:00</SourceTime>
+  <DestFile>E:/C Sharp/Ejercicios-C-Sharp/PongOpenGL/Content/bin/DesktopGL/Victoria.xnb</DestFile>
+  <DestTime>2022-03-31T22:55:18.8660365+02:00</DestTime>
+  <Importer>WavImporter</Importer>
+  <ImporterTime>2020-08-10T18:17:54+02:00</ImporterTime>
+  <Processor>SoundEffectProcessor</Processor>
+  <ProcessorTime>2020-08-10T18:17:54+02:00</ProcessorTime>
+  <Parameters>
+    <Key>Quality</Key>
+    <Value>Best</Value>
+  </Parameters>
+  <Dependencies />
+  <BuildAsset />
+  <BuildOutput />
+</PipelineBuildEvent>
