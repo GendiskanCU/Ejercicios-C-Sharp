@@ -1,0 +1,16 @@
+D:\DATOS\Desktop\Pers\CSharp\Ejercicios C#\Ejercicios-C-Sharp\SumaDosNumeros\bin\Debug\netcoreapp3.1\SumaDosNumeros.exe
+D:\DATOS\Desktop\Pers\CSharp\Ejercicios C#\Ejercicios-C-Sharp\SumaDosNumeros\bin\Debug\netcoreapp3.1\SumaDosNumeros.deps.json
+D:\DATOS\Desktop\Pers\CSharp\Ejercicios C#\Ejercicios-C-Sharp\SumaDosNumeros\bin\Debug\netcoreapp3.1\SumaDosNumeros.runtimeconfig.json
+D:\DATOS\Desktop\Pers\CSharp\Ejercicios C#\Ejercicios-C-Sharp\SumaDosNumeros\bin\Debug\netcoreapp3.1\SumaDosNumeros.runtimeconfig.dev.json
+D:\DATOS\Desktop\Pers\CSharp\Ejercicios C#\Ejercicios-C-Sharp\SumaDosNumeros\bin\Debug\netcoreapp3.1\SumaDosNumeros.dll
+D:\DATOS\Desktop\Pers\CSharp\Ejercicios C#\Ejercicios-C-Sharp\SumaDosNumeros\bin\Debug\netcoreapp3.1\SumaDosNumeros.pdb
+D:\DATOS\Desktop\Pers\CSharp\Ejercicios C#\Ejercicios-C-Sharp\SumaDosNumeros\obj\Debug\netcoreapp3.1\SumaDosNumeros.csproj.AssemblyReference.cache
+D:\DATOS\Desktop\Pers\CSharp\Ejercicios C#\Ejercicios-C-Sharp\SumaDosNumeros\obj\Debug\netcoreapp3.1\SumaDosNumeros.frmSumador.resources
+D:\DATOS\Desktop\Pers\CSharp\Ejercicios C#\Ejercicios-C-Sharp\SumaDosNumeros\obj\Debug\netcoreapp3.1\SumaDosNumeros.csproj.GenerateResource.cache
+D:\DATOS\Desktop\Pers\CSharp\Ejercicios C#\Ejercicios-C-Sharp\SumaDosNumeros\obj\Debug\netcoreapp3.1\SumaDosNumeros.GeneratedMSBuildEditorConfig.editorconfig
+D:\DATOS\Desktop\Pers\CSharp\Ejercicios C#\Ejercicios-C-Sharp\SumaDosNumeros\obj\Debug\netcoreapp3.1\SumaDosNumeros.AssemblyInfoInputs.cache
+D:\DATOS\Desktop\Pers\CSharp\Ejercicios C#\Ejercicios-C-Sharp\SumaDosNumeros\obj\Debug\netcoreapp3.1\SumaDosNumeros.AssemblyInfo.cs
+D:\DATOS\Desktop\Pers\CSharp\Ejercicios C#\Ejercicios-C-Sharp\SumaDosNumeros\obj\Debug\netcoreapp3.1\SumaDosNumeros.csproj.CoreCompileInputs.cache
+D:\DATOS\Desktop\Pers\CSharp\Ejercicios C#\Ejercicios-C-Sharp\SumaDosNumeros\obj\Debug\netcoreapp3.1\SumaDosNumeros.dll
+D:\DATOS\Desktop\Pers\CSharp\Ejercicios C#\Ejercicios-C-Sharp\SumaDosNumeros\obj\Debug\netcoreapp3.1\SumaDosNumeros.pdb
+D:\DATOS\Desktop\Pers\CSharp\Ejercicios C#\Ejercicios-C-Sharp\SumaDosNumeros\obj\Debug\netcoreapp3.1\SumaDosNumeros.genruntimeconfig.cache
