@@ -35,6 +35,7 @@ namespace SumaDosNumeros
             this.lblNumero2 = new System.Windows.Forms.Label();
             this.btCalcular = new System.Windows.Forms.Button();
             this.tbResultado = new System.Windows.Forms.TextBox();
+            this.lbMensajes = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // lblNumero1
@@ -52,6 +53,8 @@ namespace SumaDosNumeros
             this.tbNumero1.Name = "tbNumero1";
             this.tbNumero1.Size = new System.Drawing.Size(125, 27);
             this.tbNumero1.TabIndex = 1;
+            this.tbNumero1.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.tbNumero1.TextChanged += new System.EventHandler(this.tbNumero1_TextChanged);
             // 
             // tbNumero2
             // 
@@ -59,6 +62,8 @@ namespace SumaDosNumeros
             this.tbNumero2.Name = "tbNumero2";
             this.tbNumero2.Size = new System.Drawing.Size(125, 27);
             this.tbNumero2.TabIndex = 2;
+            this.tbNumero2.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.tbNumero2.TextChanged += new System.EventHandler(this.tbNumero2_TextChanged);
             // 
             // lblNumero2
             // 
@@ -87,12 +92,21 @@ namespace SumaDosNumeros
             this.tbResultado.ReadOnly = true;
             this.tbResultado.Size = new System.Drawing.Size(125, 27);
             this.tbResultado.TabIndex = 5;
+            this.tbResultado.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            // 
+            // lbMensajes
+            // 
+            this.lbMensajes.Location = new System.Drawing.Point(392, 70);
+            this.lbMensajes.Name = "lbMensajes";
+            this.lbMensajes.Size = new System.Drawing.Size(375, 127);
+            this.lbMensajes.TabIndex = 6;
             // 
             // frmSumador
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.lbMensajes);
             this.Controls.Add(this.tbResultado);
             this.Controls.Add(this.btCalcular);
             this.Controls.Add(this.lblNumero2);
@@ -114,6 +128,7 @@ namespace SumaDosNumeros
         private System.Windows.Forms.Label lblNumero2;
         private System.Windows.Forms.Button btCalcular;
         private System.Windows.Forms.TextBox tbResultado;
+        private System.Windows.Forms.Label lbMensajes;
     }
 }
 

@@ -19,8 +19,40 @@ namespace SumaDosNumeros
 
         private void btCalcular_Click(object sender, EventArgs e)
         {
-            int resultado = Convert.ToInt32(tbNumero1.Text) + Convert.ToInt32(tbNumero2.Text);
-            tbResultado.Text = Convert.ToString(resultado);
+            try
+            {
+                double resultado = Convert.ToDouble(tbNumero1.Text) + Convert.ToDouble(tbNumero2.Text);
+                tbResultado.Text = Convert.ToString(resultado);
+            }
+            catch(Exception error)
+            {
+                tbResultado.Text = "#Error#";
+            }
+        }
+
+        private void tbNumero1_TextChanged(object sender, EventArgs e)
+        {
+            CompruebaDatosIntroducidos();
+        }
+
+        private void tbNumero2_TextChanged(object sender, EventArgs e)
+        {
+            CompruebaDatosIntroducidos();
+        }
+
+        private void CompruebaDatosIntroducidos()
+        {
+            double cadenaEscrita;
+            if (!double.TryParse(tbNumero1.Text, out cadenaEscrita) ||
+                !double.TryParse(tbNumero2.Text, out cadenaEscrita))
+            {
+                lbMensajes.Text = "¡Se han introducido datos que no son números válidos!";
+                    
+            }
+            else
+            {
+                lbMensajes.Text = "";
+            }
         }
     }
 }
