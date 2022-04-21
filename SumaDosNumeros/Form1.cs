@@ -26,7 +26,8 @@ namespace SumaDosNumeros
             }
             catch(Exception error)
             {
-                tbResultado.Text = "#Error#";
+                MessageBox.Show("Error. Los datos introducidos no son correctos", "Error de datos",
+                    MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
 
@@ -46,7 +47,7 @@ namespace SumaDosNumeros
             if (!double.TryParse(tbNumero1.Text, out cadenaEscrita) ||
                 !double.TryParse(tbNumero2.Text, out cadenaEscrita))
             {
-                lbMensajes.Text = "¡Se han introducido datos que no son números válidos!";
+                lbMensajes.Text = "¡Se están introduciendo datos que no son números válidos!";
                     
             }
             else
