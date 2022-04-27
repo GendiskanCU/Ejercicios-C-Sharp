@@ -5,7 +5,6 @@ D:\DATOS\Desktop\Pers\CSharp\Ejercicios C#\Ejercicios-C-Sharp\Ahorcado\bin\Debug
 D:\DATOS\Desktop\Pers\CSharp\Ejercicios C#\Ejercicios-C-Sharp\Ahorcado\bin\Debug\netcoreapp3.1\Ahorcado.dll
 D:\DATOS\Desktop\Pers\CSharp\Ejercicios C#\Ejercicios-C-Sharp\Ahorcado\bin\Debug\netcoreapp3.1\Ahorcado.pdb
 D:\DATOS\Desktop\Pers\CSharp\Ejercicios C#\Ejercicios-C-Sharp\Ahorcado\obj\Debug\netcoreapp3.1\Ahorcado.csproj.AssemblyReference.cache
-D:\DATOS\Desktop\Pers\CSharp\Ejercicios C#\Ejercicios-C-Sharp\Ahorcado\obj\Debug\netcoreapp3.1\Ahorcado.Form1.resources
 D:\DATOS\Desktop\Pers\CSharp\Ejercicios C#\Ejercicios-C-Sharp\Ahorcado\obj\Debug\netcoreapp3.1\Ahorcado.csproj.GenerateResource.cache
 D:\DATOS\Desktop\Pers\CSharp\Ejercicios C#\Ejercicios-C-Sharp\Ahorcado\obj\Debug\netcoreapp3.1\Ahorcado.GeneratedMSBuildEditorConfig.editorconfig
 D:\DATOS\Desktop\Pers\CSharp\Ejercicios C#\Ejercicios-C-Sharp\Ahorcado\obj\Debug\netcoreapp3.1\Ahorcado.AssemblyInfoInputs.cache
@@ -14,3 +13,4 @@ D:\DATOS\Desktop\Pers\CSharp\Ejercicios C#\Ejercicios-C-Sharp\Ahorcado\obj\Debug
 D:\DATOS\Desktop\Pers\CSharp\Ejercicios C#\Ejercicios-C-Sharp\Ahorcado\obj\Debug\netcoreapp3.1\Ahorcado.dll
 D:\DATOS\Desktop\Pers\CSharp\Ejercicios C#\Ejercicios-C-Sharp\Ahorcado\obj\Debug\netcoreapp3.1\Ahorcado.pdb
 D:\DATOS\Desktop\Pers\CSharp\Ejercicios C#\Ejercicios-C-Sharp\Ahorcado\obj\Debug\netcoreapp3.1\Ahorcado.genruntimeconfig.cache
+D:\DATOS\Desktop\Pers\CSharp\Ejercicios C#\Ejercicios-C-Sharp\Ahorcado\obj\Debug\netcoreapp3.1\Ahorcado.Ahorcado.resources
