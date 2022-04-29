@@ -8,24 +8,19 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\USUARIO 01\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\USUARIO 01\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\DATOS\\Desktop\\Pers\\CSharp\\PruebasFicheros\\PruebasFicheros\\PruebasFicheros.csproj",
+      "projectUniqueName": "D:\\DATOS\\Desktop\\Pers\\CSharp\\Ejercicios C#\\Ejercicios-C-Sharp\\PruebasFicheros\\PruebasFicheros\\PruebasFicheros.csproj",
       "projectName": "PruebasFicheros",
-      "projectPath": "D:\\DATOS\\Desktop\\Pers\\CSharp\\PruebasFicheros\\PruebasFicheros\\PruebasFicheros.csproj",
+      "projectPath": "D:\\DATOS\\Desktop\\Pers\\CSharp\\Ejercicios C#\\Ejercicios-C-Sharp\\PruebasFicheros\\PruebasFicheros\\PruebasFicheros.csproj",
       "packagesPath": "C:\\Users\\USUARIO 01\\.nuget\\packages\\",
-      "outputPath": "D:\\DATOS\\Desktop\\Pers\\CSharp\\PruebasFicheros\\PruebasFicheros\\obj\\",
+      "outputPath": "D:\\DATOS\\Desktop\\Pers\\CSharp\\Ejercicios C#\\Ejercicios-C-Sharp\\PruebasFicheros\\PruebasFicheros\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
         "C:\\Users\\USUARIO 01\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -65,7 +60,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.406\\RuntimeIdentifierGraph.json"
       }
     }
   }

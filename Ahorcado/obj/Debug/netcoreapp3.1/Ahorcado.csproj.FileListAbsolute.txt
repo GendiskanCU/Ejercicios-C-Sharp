@@ -14,3 +14,4 @@ D:\DATOS\Desktop\Pers\CSharp\Ejercicios C#\Ejercicios-C-Sharp\Ahorcado\obj\Debug
 D:\DATOS\Desktop\Pers\CSharp\Ejercicios C#\Ejercicios-C-Sharp\Ahorcado\obj\Debug\netcoreapp3.1\Ahorcado.pdb
 D:\DATOS\Desktop\Pers\CSharp\Ejercicios C#\Ejercicios-C-Sharp\Ahorcado\obj\Debug\netcoreapp3.1\Ahorcado.genruntimeconfig.cache
 D:\DATOS\Desktop\Pers\CSharp\Ejercicios C#\Ejercicios-C-Sharp\Ahorcado\obj\Debug\netcoreapp3.1\Ahorcado.Ahorcado.resources
+D:\DATOS\Desktop\Pers\CSharp\Ejercicios C#\Ejercicios-C-Sharp\Ahorcado\obj\Debug\netcoreapp3.1\Ahorcado.csproj.CopyComplete

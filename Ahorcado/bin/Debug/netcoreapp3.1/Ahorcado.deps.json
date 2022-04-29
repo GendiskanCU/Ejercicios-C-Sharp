@@ -7,8 +7,19 @@
   "targets": {
     ".NETCoreApp,Version=v3.1": {
       "Ahorcado/1.0.0": {
+        "dependencies": {
+          "System.Data.SQLite": "1.0.60.0"
+        },
         "runtime": {
           "Ahorcado.dll": {}
+        }
+      },
+      "System.Data.SQLite/1.0.60.0": {
+        "runtime": {
+          "System.Data.SQLite.dll": {
+            "assemblyVersion": "1.0.60.0",
+            "fileVersion": "1.0.60.0"
+          }
         }
       }
     }
@@ -16,6 +27,11 @@
   "libraries": {
     "Ahorcado/1.0.0": {
       "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "System.Data.SQLite/1.0.60.0": {
+      "type": "reference",
       "serviceable": false,
       "sha512": ""
     }
