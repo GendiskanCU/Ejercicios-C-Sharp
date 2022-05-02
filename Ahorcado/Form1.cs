@@ -30,9 +30,7 @@ namespace Ahorcado
              * con el fin de crear la base de datos de palabras a partir de un
              * fichero de texto*/
             //CargaPalabrasDelFichero();
-            //CreaLaBaseDeDatos();
-
-            CuentaNumeroPalabras();            
+            //CreaLaBaseDeDatos();          
 
 
             //CargaPalabrasDeBaseDatos();
@@ -40,6 +38,9 @@ namespace Ahorcado
 
         private void btComenzar_Click(object sender, EventArgs e)
         {
+            //Obtiene el número de palabras que hay en la BD
+            CuentaNumeroPalabras();
+
             palabraAdivinar = ObtienePalabraAleatoria();
             if (palabraAdivinar != "")
                 MessageBox.Show("La palabra a adivinar es: " + palabraAdivinar);
@@ -127,8 +128,7 @@ namespace Ahorcado
 
                     ficheroListaPalabras.Close();
 
-                    lbPalabra.Text = "Número de palabras cargadas: " + listaPalabras.Count;
-                    listaPalabras.Clear();
+                    lbPalabra.Text = "Número de palabras cargadas: " + listaPalabras.Count;                    
                 }
                 else
                 {
@@ -183,7 +183,11 @@ namespace Ahorcado
             SQLiteCommand comando = new SQLiteCommand(comandoCreacion, conexion);
             comando.ExecuteNonQuery();
 
-            //Inserta las palabras de la lista en la base de datos
+            //Establece el valor máximo de la barra de progreso
+            int numeroRegistros = listaPalabras.Count;
+            pbBarra1.Maximum = numeroRegistros;
+
+            //Inserta las palabras de la lista en la base de datos y va mostrando el progreso
             int numeroPalabra = 1;            
 
             foreach(string pal in listaPalabras)
@@ -194,11 +198,21 @@ namespace Ahorcado
                 comando = new SQLiteCommand(insercion, conexion);
                 comando.ExecuteNonQuery();
 
+                pbBarra1.Value = numeroPalabra;
                 numeroPalabra++;
             }
 
             //Cierra la conexión a la base de datos
             conexion.Close();
+
+            //Limpia la lista de palabras para liberar memoria
+            listaPalabras.Clear();
+        }
+
+        private void btCrearBD_Click(object sender, EventArgs e)
+        {
+            CargaPalabrasDelFichero();
+            CreaLaBaseDeDatos();         
         }
     }
 }

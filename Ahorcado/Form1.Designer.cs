@@ -32,6 +32,8 @@ namespace Ahorcado
             this.lbTitulo = new System.Windows.Forms.Label();
             this.lbPalabra = new System.Windows.Forms.Label();
             this.btComenzar = new System.Windows.Forms.Button();
+            this.btCrearBD = new System.Windows.Forms.Button();
+            this.pbBarra1 = new System.Windows.Forms.ProgressBar();
             this.SuspendLayout();
             // 
             // lbTitulo
@@ -54,13 +56,30 @@ namespace Ahorcado
             // 
             // btComenzar
             // 
-            this.btComenzar.Location = new System.Drawing.Point(504, 341);
+            this.btComenzar.Location = new System.Drawing.Point(170, 370);
             this.btComenzar.Name = "btComenzar";
-            this.btComenzar.Size = new System.Drawing.Size(94, 29);
+            this.btComenzar.Size = new System.Drawing.Size(129, 41);
             this.btComenzar.TabIndex = 2;
             this.btComenzar.Text = "Comenzar";
             this.btComenzar.UseVisualStyleBackColor = true;
             this.btComenzar.Click += new System.EventHandler(this.btComenzar_Click);
+            // 
+            // btCrearBD
+            // 
+            this.btCrearBD.Location = new System.Drawing.Point(33, 370);
+            this.btCrearBD.Name = "btCrearBD";
+            this.btCrearBD.Size = new System.Drawing.Size(131, 41);
+            this.btCrearBD.TabIndex = 3;
+            this.btCrearBD.Text = "Crear BD";
+            this.btCrearBD.UseVisualStyleBackColor = true;
+            this.btCrearBD.Click += new System.EventHandler(this.btCrearBD_Click);
+            // 
+            // pbBarra1
+            // 
+            this.pbBarra1.Location = new System.Drawing.Point(33, 417);
+            this.pbBarra1.Name = "pbBarra1";
+            this.pbBarra1.Size = new System.Drawing.Size(740, 29);
+            this.pbBarra1.TabIndex = 4;
             // 
             // Ahorcado
             // 
@@ -68,6 +87,8 @@ namespace Ahorcado
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.pbBarra1);
+            this.Controls.Add(this.btCrearBD);
             this.Controls.Add(this.btComenzar);
             this.Controls.Add(this.lbPalabra);
             this.Controls.Add(this.lbTitulo);
@@ -84,6 +105,8 @@ namespace Ahorcado
         private System.Windows.Forms.Label lbTitulo;
         private System.Windows.Forms.Label lbPalabra;
         private System.Windows.Forms.Button btComenzar;
+        private System.Windows.Forms.Button btCrearBD;
+        private System.Windows.Forms.ProgressBar pbBarra1;
     }
 }
 
