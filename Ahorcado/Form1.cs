@@ -30,10 +30,16 @@ namespace Ahorcado
              * con el fin de crear la base de datos de palabras a partir de un
              * fichero de texto*/
             //CargaPalabrasDelFichero();
-            //CreaLaBaseDeDatos();          
+            //CreaLaBaseDeDatos();
 
-
+            //Método desechado finalmente, pues solo se cargará una palabra en cada momento
             //CargaPalabrasDeBaseDatos();
+
+            //Si la BD ya existe, desactivamos el botón de crearla
+            if(File.Exists("palabras.sqlite"))
+            {
+                btCrearBD.Enabled = false;
+            }
         }
 
         private void btComenzar_Click(object sender, EventArgs e)
@@ -188,7 +194,9 @@ namespace Ahorcado
             pbBarra1.Maximum = numeroRegistros;
 
             //Inserta las palabras de la lista en la base de datos y va mostrando el progreso
-            int numeroPalabra = 1;            
+            int numeroPalabra = 1;
+
+            pbBarra1.Visible = true;
 
             foreach(string pal in listaPalabras)
             {
@@ -207,12 +215,20 @@ namespace Ahorcado
 
             //Limpia la lista de palabras para liberar memoria
             listaPalabras.Clear();
+
+            pbBarra1.Visible = false;
+            btCrearBD.Enabled = false;
         }
 
         private void btCrearBD_Click(object sender, EventArgs e)
         {
             CargaPalabrasDelFichero();
             CreaLaBaseDeDatos();         
+        }
+
+        private void lbPalabra_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
