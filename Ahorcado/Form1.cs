@@ -21,6 +21,8 @@ namespace Ahorcado
 
         private int numeroPalabras;//Número de palabras en la base de datos
         private string palabraAdivinar;//Para almacenar la palabra que el jugador debe adivinar
+        private string palabraParcial;//Para almacenar la palabra que se irá mostrando parcialmente
+        private int numeroCaracteresAdivinar;//Número de caracteres que tiene la palabra a adivinar
 
         public Ahorcado()
         {
@@ -35,11 +37,7 @@ namespace Ahorcado
             //Método desechado finalmente, pues solo se cargará una palabra en cada momento
             //CargaPalabrasDeBaseDatos();
 
-            //Si la BD ya existe, desactivamos el botón de crearla
-            if(File.Exists("palabras.sqlite"))
-            {
-                btCrearBD.Enabled = false;
-            }
+            
         }
 
         private void btComenzar_Click(object sender, EventArgs e)
@@ -47,13 +45,31 @@ namespace Ahorcado
             //Obtiene el número de palabras que hay en la BD
             CuentaNumeroPalabras();
 
+            palabraParcial = "";
             palabraAdivinar = ObtienePalabraAleatoria();
+
             if (palabraAdivinar != "")
-                MessageBox.Show("La palabra a adivinar es: " + palabraAdivinar);
+            {                
+                //Actualiza el número de caracteres que tiene la palabra a adivinar
+                numeroCaracteresAdivinar = palabraAdivinar.Length;
+                for(int i = 1; i <= numeroCaracteresAdivinar; i++)
+                {
+                    palabraParcial = palabraParcial + "_";
+                }
+                MuestraPalabraParcial();
+            }
             else
-                MessageBox.Show("No es posible cargar ninguna nueva palabra");
+                MessageBox.Show("No es posible cargar una nueva palabra");
         }
 
+
+        //Actualiza la palabra que se va mostrando parcialmente
+        private void MuestraPalabraParcial()
+        {
+            
+            lbPalabra.Text = palabraParcial;
+            lbCaracteresRestantes.Text = "Caracteres por adivinar: " + numeroCaracteresAdivinar.ToString("00");
+        }
 
         //Obtiene el número de registros en la base de datos y lo almacena en la variable global
         private void CuentaNumeroPalabras()
@@ -229,6 +245,25 @@ namespace Ahorcado
         private void lbPalabra_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void Ahorcado_Load(object sender, EventArgs e)
+        {
+            //Si la BD ya existe, desactivamos el botón de crearla
+            if (File.Exists("palabras.sqlite"))
+            {
+                btCrearBD.Visible = false;
+                btCrearBD.Enabled = false;
+            }
+        }
+
+        private void Ahorcado_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            if(MessageBox.Show("¿Seguro que deseas salir?", "Salir del juego", MessageBoxButtons.YesNo,
+                MessageBoxIcon.Question,MessageBoxDefaultButton.Button2) == DialogResult.No )
+            {
+                e.Cancel = true;
+            }                       
         }
     }
 }
