@@ -156,11 +156,11 @@ namespace Ahorcado
             // 
             this.lbLetrasUtilizadas.AutoSize = true;
             this.lbLetrasUtilizadas.BackColor = System.Drawing.Color.Transparent;
-            this.lbLetrasUtilizadas.Font = new System.Drawing.Font("Bernard MT Condensed", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lbLetrasUtilizadas.Font = new System.Drawing.Font("Bernard MT Condensed", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.lbLetrasUtilizadas.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.lbLetrasUtilizadas.Location = new System.Drawing.Point(3, 111);
+            this.lbLetrasUtilizadas.Location = new System.Drawing.Point(3, 95);
             this.lbLetrasUtilizadas.Name = "lbLetrasUtilizadas";
-            this.lbLetrasUtilizadas.Size = new System.Drawing.Size(47, 20);
+            this.lbLetrasUtilizadas.Size = new System.Drawing.Size(57, 24);
             this.lbLetrasUtilizadas.TabIndex = 10;
             this.lbLetrasUtilizadas.Text = "label1";
             // 

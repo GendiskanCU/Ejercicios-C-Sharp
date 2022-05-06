@@ -308,7 +308,7 @@ namespace Ahorcado
 
                 //Añade la letra introducida a las que ya han sido utilizadas
                 letrasUtilizadas.Add(letraJugador);
-                lbLetrasUtilizadas.Text = lbLetrasUtilizadas.Text + letraJugador.ToString() + "-";
+                MuestraLetrasUtilizadas();
 
                 int totalLetras = palabraAdivinar.Length;
 
@@ -362,6 +362,22 @@ namespace Ahorcado
             }
 
             return false;
+        }
+
+        //Muestra en pantalla las letras que el jugador ha utilizado, ordenadas alfabéticamente
+        private void MuestraLetrasUtilizadas()
+        {
+            string utilizadas = "";
+            letrasUtilizadas.Sort();
+            lbLetrasUtilizadas.Visible = false;
+            foreach (char c in letrasUtilizadas)
+            {
+                utilizadas += c;
+                utilizadas += '-';
+            }
+
+            lbLetrasUtilizadas.Text =  utilizadas;
+            lbLetrasUtilizadas.Visible = true;
         }
         
         //Actualiza y muestra la palabra parcial

@@ -8,19 +8,24 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\USUARIO 01\\.nuget\\packages\\": {}
+    "C:\\Users\\Gendiskan\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\DATOS\\Desktop\\Pers\\CSharp\\Ejercicios C#\\Ejercicios-C-Sharp\\Ahorcado\\Ahorcado.csproj",
+      "projectUniqueName": "E:\\C Sharp\\Ejercicios-C-Sharp\\Ahorcado\\Ahorcado.csproj",
       "projectName": "Ahorcado",
-      "projectPath": "D:\\DATOS\\Desktop\\Pers\\CSharp\\Ejercicios C#\\Ejercicios-C-Sharp\\Ahorcado\\Ahorcado.csproj",
-      "packagesPath": "C:\\Users\\USUARIO 01\\.nuget\\packages\\",
-      "outputPath": "D:\\DATOS\\Desktop\\Pers\\CSharp\\Ejercicios C#\\Ejercicios-C-Sharp\\Ahorcado\\obj\\",
+      "projectPath": "E:\\C Sharp\\Ejercicios-C-Sharp\\Ahorcado\\Ahorcado.csproj",
+      "packagesPath": "C:\\Users\\Gendiskan\\.nuget\\packages\\",
+      "outputPath": "E:\\C Sharp\\Ejercicios-C-Sharp\\Ahorcado\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\USUARIO 01\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Gendiskan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
