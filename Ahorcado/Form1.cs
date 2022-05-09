@@ -74,7 +74,11 @@ namespace Ahorcado
             lbInformacion.Text = "Introduce una letra y pulsa sobre el botón para comprobar si está en la palabra";
             panelJuegoActivo.Visible = true;
 
-            DibujaAhorcado();
+            //DibujaAhorcado();
+
+            //Limpia la imagen del ahorcado y vuelve a poner el fondo
+            ventanaGrafica.Clear(Color.Transparent);
+            this.BackgroundImage = new Bitmap("muro2.png");
 
             tbLetraJugador.Focus();
         }
@@ -452,10 +456,10 @@ namespace Ahorcado
                 default:
                     imagenAhorcado = new Bitmap("imagen_vacia.png");
                     break;
-            }
+            }            
 
             if(imagenAhorcado != null)
-                ventanaGrafica.DrawImage(imagenAhorcado, 595, 70, 80, 180);
+                ventanaGrafica.DrawImage(imagenAhorcado, 595, 70, 80, 180);                            
         }
     }
 }
